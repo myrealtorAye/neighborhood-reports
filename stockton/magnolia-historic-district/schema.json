@@ -1,0 +1,426 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Magnolia Historic District, Stockton CA Market Report and Buyer Guide, October 2026",
+    "description": "Magnolia Historic District in Stockton, California. Typical home value $422,451, up 0.10 percent month over month and down 1.7 percent year over year. Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
+    "datePublished": "2026-10-17",
+    "dateModified": "2026-10-17",
+    "inLanguage": "en-US",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://myrealtoraye.github.io/neighborhood-reports/stockton/magnolia-historic-district/"
+    },
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/stockton/magnolia-historic-district/",
+    "author": {
+      "@type": "RealEstateAgent",
+      "name": "Alex Bradeis",
+      "jobTitle": "Real estate agent",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "eXp Realty"
+      },
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "CA DRE License",
+        "value": "02244910"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Alameda County, California"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Contra Costa County, California"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "San Joaquin County, California"
+        }
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "eXp Realty"
+    },
+    "about": {
+      "@type": "Place",
+      "name": "Magnolia Historic District",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockton",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      },
+      "containedInPlace": {
+        "@type": "City",
+        "name": "Stockton",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "San Joaquin County, California"
+        }
+      }
+    },
+    "spatialCoverage": {
+      "@type": "Place",
+      "name": "Magnolia Historic District",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockton",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      },
+      "containedInPlace": {
+        "@type": "City",
+        "name": "Stockton",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "San Joaquin County, California"
+        }
+      }
+    },
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Stockton Neighborhood Market Reports"
+    },
+    "citation": [
+      {
+        "@type": "CreativeWork",
+        "name": "Zillow Home Value Index",
+        "url": "https://www.zillow.com/research/data/"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Realtor.com Residential Listings Database",
+        "url": "https://www.realtor.com/research/data/"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Freddie Mac Primary Mortgage Market Survey",
+        "url": "https://www.freddiemac.com/pmms"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Federal Housing Finance Agency conforming loan limits",
+        "url": "https://www.fhfa.gov/"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "California Department of Education school directory",
+        "url": "https://www.cde.ca.gov/SchoolDirectory/"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Magnolia Historic District, Stockton CA housing data, 2026-10",
+    "description": "Monthly housing market measurements for Magnolia Historic District, Stockton, California.",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/stockton/magnolia-historic-district/",
+    "creator": {
+      "@type": "RealEstateAgent",
+      "name": "Alex Bradeis",
+      "jobTitle": "Real estate agent",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "eXp Realty"
+      },
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "CA DRE License",
+        "value": "02244910"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Alameda County, California"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Contra Costa County, California"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "San Joaquin County, California"
+        }
+      ]
+    },
+    "temporalCoverage": "2026-10",
+    "spatialCoverage": {
+      "@type": "Place",
+      "name": "Magnolia Historic District",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stockton",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      },
+      "containedInPlace": {
+        "@type": "City",
+        "name": "Stockton",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "San Joaquin County, California"
+        }
+      }
+    },
+    "variableMeasured": [
+      {
+        "@type": "Observation",
+        "measuredProperty": "Typical home value (Zillow ZHVI)",
+        "value": 422451,
+        "unitText": "USD",
+        "observationDate": "2026-09-30",
+        "observationAbout": {
+          "@type": "Place",
+          "name": "Magnolia Historic District, Stockton, CA"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Month over month change in typical home value",
+        "value": 0.1,
+        "unitText": "PERCENT",
+        "observationDate": "2026-09-30",
+        "observationAbout": {
+          "@type": "Place",
+          "name": "Magnolia Historic District, Stockton, CA"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Year over year change in typical home value",
+        "value": -1.69,
+        "unitText": "PERCENT",
+        "observationDate": "2026-09-30",
+        "observationAbout": {
+          "@type": "Place",
+          "name": "Magnolia Historic District, Stockton, CA"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Median listing price",
+        "value": 423750,
+        "unitText": "USD",
+        "observationDate": "2026-09",
+        "observationAbout": {
+          "@type": "Place",
+          "name": "Magnolia Historic District, Stockton, CA"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Active listings",
+        "value": 557,
+        "unitText": "count",
+        "observationDate": "2026-09",
+        "observationAbout": {
+          "@type": "Place",
+          "name": "Magnolia Historic District, Stockton, CA"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Median days on market",
+        "value": 59,
+        "unitText": "days",
+        "observationDate": "2026-09",
+        "observationAbout": {
+          "@type": "Place",
+          "name": "Magnolia Historic District, Stockton, CA"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Median listing price per square foot",
+        "value": 279,
+        "unitText": "USD",
+        "observationDate": "2026-09",
+        "observationAbout": {
+          "@type": "Place",
+          "name": "Magnolia Historic District, Stockton, CA"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "30 year fixed mortgage rate average",
+        "value": 7.4,
+        "unitText": "PERCENT",
+        "observationDate": "2026-10-15",
+        "observationAbout": {
+          "@type": "Place",
+          "name": "Magnolia Historic District, Stockton, CA"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Conforming and FHA one unit loan limit",
+        "value": 832750,
+        "unitText": "USD",
+        "observationDate": "2026",
+        "observationAbout": {
+          "@type": "Place",
+          "name": "Magnolia Historic District, Stockton, CA"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Effective property tax rate",
+        "value": 1.27,
+        "unitText": "PERCENT",
+        "observationDate": "2026-10-16",
+        "observationAbout": {
+          "@type": "Place",
+          "name": "Magnolia Historic District, Stockton, CA"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Monthly cost of owning the typical home",
+        "value": 4459,
+        "unitText": "USD",
+        "observationDate": "2026-10",
+        "observationAbout": {
+          "@type": "Place",
+          "name": "Magnolia Historic District, Stockton, CA"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much is a home in Magnolia Historic District?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The typical home value in Magnolia Historic District is $422,451 as of 2026-09-30, up 0.10 percent from the month before and down 1.7 percent over the year. That is the Zillow Home Value Index, which estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Stockton is $423,750. Those two numbers measure different populations and they do not have to agree. If you want the number for one specific house rather than the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the Magnolia Historic District ZIP code?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Magnolia Historic District sits inside Stockton, which covers 11 ZIP codes: 95202, 95203, 95204, 95205, 95206, 95207, 95209, 95210, 95212, 95215, 95219."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Magnolia Historic District expensive?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Against the rest of Stockton, yes. Magnolia Historic District ranks null of 37 neighborhoods by typical value, and at $422,451 it sits 0 percent above the citywide typical value of $422,451. The monthly number is the one I would focus on: owning the typical home here runs about $4,459 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of n/a. The full breakdown is in the cost of holding section above."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are property taxes in Stockton?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I use 1.27 percent in this report, the Stockton effective rate. On a home at $422,451 that is roughly $447 a month, $5,365 a year. Proposition 13 sets the base at 1 percent of assessed value and caps growth in that assessed value at 2 percent a year while one owner holds the property, and voter-approved bonds sit on top, which is why the real rate runs above 1 percent. The part that catches buyers is that a purchase resets assessed value to the price paid. Any figure you read that was built from median taxes actually paid is averaging in decades of protected assessments and will understate what a new buyer owes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the transfer tax in Stockton?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "This is the cost people forget to budget for, and it varies more by city line than anything else in a California transaction. Stockton is a chartered city, so the rate here is $1.10 per $1,000 of value. On a home at $422,451 that is $465. For scale, the identical sale price would carry $465 in Escalon and $465 in Tracy, both in this same county. Who pays is set by the contract and by local custom rather than by statute, and it is negotiable. Escrow is the authority on the exact figure for a specific sale."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the FHA loan limit in Stockton?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For 2026 the one-unit limit in San Joaquin County is $832,750, and that figure is both the conforming conventional ceiling and the FHA ceiling. At the typical value of $422,451 here, a minimum-down loan of $407,666 fits inside the ceiling, so FHA and conforming conventional are both genuinely available. That is not true in every neighborhood in this county."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What first-time buyer help is available in Stockton?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CalHFA runs the statewide programs and they layer on top of a first mortgage rather than replacing it. MyHome is a deferred-payment junior loan toward the down payment and closing costs, open year round. ZIP covers closing costs on a CalHFA conventional first. Dream For All is the shared-appreciation program, limited to first-generation buyers, and it runs in announced windows rather than continuously. GSFA Platinum is a separate option, and Stockton and San Joaquin County run their own programs with their own funding cycles, which are the ones most people never hear about. The constraint that actually binds in a neighborhood at $422,451 is almost never income. It is the program's own purchase price cap, which is often set below the county loan limit. I would establish the price a program allows first, then shop inside it. Doing it the other way around is how people fall for a house the assistance cannot reach."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I build an ADU in Stockton?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Almost certainly yes, in some form. State law requires local agencies to allow accessory dwelling units on residential lots with ministerial approval and a decision deadline, so the real question is what size and configuration the local ordinance permits, not whether you are allowed. Owner-occupancy requirements on new ADUs have been removed, so the main house and the ADU can both be rented. Selling one separately is a different question. Assembly Bill 1033 lets a city allow an ADU to be sold as its own condominium unit, but it is permissive rather than mandatory, relatively few cities have adopted an enabling ordinance, and without one there is no right to do it. That is a question for the Stockton planning department and the municipal code, not something the state law answers on its own."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is the Stockton housing market slowing down?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Magnolia Historic District is up 0.10 percent month over month and down 1.7 percent year over year. Meanwhile in Stockton, the median asking price is n/a year over year, price per square foot is n/a, active listings are n/a month over month, and median days on market is n/a. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is rent like in Magnolia Historic District?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Rent is not published separately for this area this month."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many homes are for sale in Magnolia Historic District?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In Stockton as of 2026-09 there were 557 active listings, n/a from the prior month and n/a from a year earlier, with 218 new that month and 251 pending. Median days on market was 59."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much is home insurance in Stockton?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I use $215 a month, $2,580 a year, which is the California statewide average. A real quote on a specific house moves with the structure, the roof, the replacement cost and the wildfire risk rating on the parcel, so treat the average as a placeholder until you have a quote. One thing worth flagging: a vacant home is a different and more expensive class of policy. That catches sellers who move out before closing, and it catches estates almost every time."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is it like living in Magnolia Historic District?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $422,451, the monthly carry is around $4,459, and rent runs n/a. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity rather than whenever the page happened to be written."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "San Joaquin County neighborhood reports",
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Stockton",
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/stockton/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Magnolia Historic District",
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/stockton/magnolia-historic-district/"
+      }
+    ]
+  }
+]
