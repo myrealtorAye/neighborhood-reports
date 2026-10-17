@@ -9,9 +9,9 @@
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://alexbradeis.github.io/neighborhood-reports/walnut-creek/northgate/"
+      "@id": "https://myrealtoraye.github.io/neighborhood-reports/walnut-creek/northgate/"
     },
-    "url": "https://alexbradeis.github.io/neighborhood-reports/walnut-creek/northgate/",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/walnut-creek/northgate/",
     "author": {
       "@type": "RealEstateAgent",
       "name": "Alex Bradeis",
@@ -117,7 +117,7 @@
     "@type": "Dataset",
     "name": "Northgate, Walnut Creek CA housing data, 2026-10",
     "description": "Monthly housing market measurements for Northgate, Walnut Creek, California.",
-    "url": "https://alexbradeis.github.io/neighborhood-reports/walnut-creek/northgate/",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/walnut-creek/northgate/",
     "creator": {
       "@type": "RealEstateAgent",
       "name": "Alex Bradeis",
@@ -407,19 +407,19 @@
         "@type": "ListItem",
         "position": 1,
         "name": "Contra Costa County neighborhood reports",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Walnut Creek",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/walnut-creek/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/walnut-creek/"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Northgate",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/walnut-creek/northgate/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/walnut-creek/northgate/"
       }
     ]
   }

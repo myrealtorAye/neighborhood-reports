@@ -1,199 +1,439 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/loan-programs-guide/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/loan-programs-guide/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/property-tax-guide/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/property-tax-guide/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/adu-guide/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/adu-guide/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/divorce-guide/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/divorce-guide/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/probate-guide/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/probate-guide/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/buying-and-selling-questions/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/method/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/method/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/alameda/bronze-coast/</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/alameda/fernside/</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/alameda/gold-coast/</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/antioch/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/alameda/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/antioch/mira-vista-hills/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/alameda/bronze-coast/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/antioch/rivertown/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/alameda/east-end/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/antioch/sunset/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/alameda/fernside/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/danville/old-town-danville/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/alameda/gold-coast/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/fremont/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/alameda/west-end/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/antioch/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/fremont/brookvale/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/antioch/lone-tree/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/fremont/cabrillo/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/antioch/mira-vista-hills/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/fremont/glenmoor/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/antioch/rivertown/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/hayward/fairview-hills/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/antioch/sunset/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/hayward/glen-eden/</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/hayward/hayward-highland/</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/oakland/rockridge/</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/san-leandro/downtown/</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/tracy/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/berkeley/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/tracy/downtown-tracy/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/berkeley/berkeley-hills/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/tracy/edgewood/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/berkeley/downtown-berkeley/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/tracy/sunrise/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/berkeley/elmwood/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/walnut-creek/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/berkeley/north-berkeley/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/berkeley/westbrae/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/concord/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/walnut-creek/northgate/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/concord/dana-estates/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/walnut-creek/parkmead/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/concord/monument-corridor/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alexbradeis.github.io/neighborhood-reports/walnut-creek/walnut-heights/</loc>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/concord/ygnacio-valley/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/danville/old-town-danville/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/fremont/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/fremont/ardenwood/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/fremont/brookvale/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/fremont/cabrillo/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/fremont/centerville/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/fremont/glenmoor/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/fremont/irvington/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/fremont/niles/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/fremont/warm-springs/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/hayward/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/hayward/burbank/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/hayward/downtown-hayward/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/hayward/fairview-hills/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/hayward/glen-eden/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/hayward/hayward-highland/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/hayward/jackson-triangle/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/hayward/longwood-winton-grove/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/hayward/santa-clara/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/lodi/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/lodi/downtown-lodi/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/lodi/lawrence-park/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/lodi/lodi-lake-area/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/oakland/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/oakland/chinatown/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/oakland/lake-merritt/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/oakland/rockridge/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/oakland/temescal/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/pleasanton/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/pleasanton/downtown-pleasanton/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/san-leandro/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/san-leandro/broadmoor/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/san-leandro/downtown/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/tracy/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/tracy/downtown-tracy/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/tracy/edgewood/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/tracy/sunrise/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/walnut-creek/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/walnut-creek/downtown/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/walnut-creek/northgate/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/walnut-creek/parkmead/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/walnut-creek/rossmoor/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/walnut-creek/walnut-heights/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/walnut-creek/woodlands/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

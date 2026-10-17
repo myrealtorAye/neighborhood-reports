@@ -9,9 +9,9 @@
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://alexbradeis.github.io/neighborhood-reports/antioch/rivertown/"
+      "@id": "https://myrealtoraye.github.io/neighborhood-reports/antioch/rivertown/"
     },
-    "url": "https://alexbradeis.github.io/neighborhood-reports/antioch/rivertown/",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/antioch/rivertown/",
     "author": {
       "@type": "RealEstateAgent",
       "name": "Alex Bradeis",
@@ -117,7 +117,7 @@
     "@type": "Dataset",
     "name": "Rivertown, Antioch CA housing data, 2026-10",
     "description": "Monthly housing market measurements for Rivertown, Antioch, California.",
-    "url": "https://alexbradeis.github.io/neighborhood-reports/antioch/rivertown/",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/antioch/rivertown/",
     "creator": {
       "@type": "RealEstateAgent",
       "name": "Alex Bradeis",
@@ -407,19 +407,19 @@
         "@type": "ListItem",
         "position": 1,
         "name": "Contra Costa County neighborhood reports",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Antioch",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/antioch/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/antioch/"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Rivertown",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/antioch/rivertown/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/antioch/rivertown/"
       }
     ]
   }

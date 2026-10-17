@@ -9,9 +9,9 @@
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://alexbradeis.github.io/neighborhood-reports/fremont/brookvale/"
+      "@id": "https://myrealtoraye.github.io/neighborhood-reports/fremont/brookvale/"
     },
-    "url": "https://alexbradeis.github.io/neighborhood-reports/fremont/brookvale/",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/fremont/brookvale/",
     "author": {
       "@type": "RealEstateAgent",
       "name": "Alex Bradeis",
@@ -117,7 +117,7 @@
     "@type": "Dataset",
     "name": "Brookvale, Fremont CA housing data, 2026-10",
     "description": "Monthly housing market measurements for Brookvale, Fremont, California.",
-    "url": "https://alexbradeis.github.io/neighborhood-reports/fremont/brookvale/",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/fremont/brookvale/",
     "creator": {
       "@type": "RealEstateAgent",
       "name": "Alex Bradeis",
@@ -407,19 +407,19 @@
         "@type": "ListItem",
         "position": 1,
         "name": "Alameda County neighborhood reports",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Fremont",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/fremont/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/fremont/"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Brookvale",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/fremont/brookvale/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/fremont/brookvale/"
       }
     ]
   }

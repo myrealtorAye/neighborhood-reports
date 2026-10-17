@@ -3,15 +3,15 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Walnut Creek, CA Housing Market Report and Neighborhood Guide, October 2026",
-    "description": "Walnut Creek, California housing market. Typical home value $990,472, up 0.32 percent month over month and up 1.3 percent year over year. Every neighborhood in Walnut Creek, plus Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
+    "description": "Walnut Creek, California housing market. Typical home value $990,472, up 0.32 percent month over month and up 1.3 percent year over year. Every neighborhood in Walnut Creek, plus current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
     "datePublished": "2026-10-17",
     "dateModified": "2026-10-17",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://alexbradeis.github.io/neighborhood-reports/walnut-creek/"
+      "@id": "https://myrealtoraye.github.io/neighborhood-reports/walnut-creek/"
     },
-    "url": "https://alexbradeis.github.io/neighborhood-reports/walnut-creek/",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/walnut-creek/",
     "author": {
       "@type": "RealEstateAgent",
       "name": "Alex Bradeis",
@@ -117,7 +117,7 @@
     "@type": "Dataset",
     "name": "Walnut Creek, Walnut Creek CA housing data, 2026-10",
     "description": "Monthly housing market measurements for Walnut Creek, Walnut Creek, California.",
-    "url": "https://alexbradeis.github.io/neighborhood-reports/walnut-creek/",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/walnut-creek/",
     "creator": {
       "@type": "RealEstateAgent",
       "name": "Alex Bradeis",
@@ -418,13 +418,13 @@
         "@type": "ListItem",
         "position": 1,
         "name": "Contra Costa County neighborhood reports",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Walnut Creek",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/walnut-creek/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/walnut-creek/"
       }
     ]
   }

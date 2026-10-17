@@ -9,9 +9,9 @@
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://alexbradeis.github.io/neighborhood-reports/alameda/bronze-coast/"
+      "@id": "https://myrealtoraye.github.io/neighborhood-reports/alameda/bronze-coast/"
     },
-    "url": "https://alexbradeis.github.io/neighborhood-reports/alameda/bronze-coast/",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/alameda/bronze-coast/",
     "author": {
       "@type": "RealEstateAgent",
       "name": "Alex Bradeis",
@@ -117,7 +117,7 @@
     "@type": "Dataset",
     "name": "Bronze Coast, Alameda CA housing data, 2026-10",
     "description": "Monthly housing market measurements for Bronze Coast, Alameda, California.",
-    "url": "https://alexbradeis.github.io/neighborhood-reports/alameda/bronze-coast/",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/alameda/bronze-coast/",
     "creator": {
       "@type": "RealEstateAgent",
       "name": "Alex Bradeis",
@@ -407,19 +407,19 @@
         "@type": "ListItem",
         "position": 1,
         "name": "Alameda County neighborhood reports",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Alameda",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/alameda/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/alameda/"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Bronze Coast",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/alameda/bronze-coast/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/alameda/bronze-coast/"
       }
     ]
   }

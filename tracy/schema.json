@@ -3,15 +3,15 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Tracy, CA Housing Market Report and Neighborhood Guide, October 2026",
-    "description": "Tracy, California housing market. Typical home value $668,130, down 0.28 percent month over month and down 4.1 percent year over year. Every neighborhood in Tracy, plus Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
+    "description": "Tracy, California housing market. Typical home value $668,130, down 0.28 percent month over month and down 4.1 percent year over year. Every neighborhood in Tracy, plus current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
     "datePublished": "2026-10-17",
     "dateModified": "2026-10-17",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://alexbradeis.github.io/neighborhood-reports/tracy/"
+      "@id": "https://myrealtoraye.github.io/neighborhood-reports/tracy/"
     },
-    "url": "https://alexbradeis.github.io/neighborhood-reports/tracy/",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/tracy/",
     "author": {
       "@type": "RealEstateAgent",
       "name": "Alex Bradeis",
@@ -117,7 +117,7 @@
     "@type": "Dataset",
     "name": "Tracy, Tracy CA housing data, 2026-10",
     "description": "Monthly housing market measurements for Tracy, Tracy, California.",
-    "url": "https://alexbradeis.github.io/neighborhood-reports/tracy/",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/tracy/",
     "creator": {
       "@type": "RealEstateAgent",
       "name": "Alex Bradeis",
@@ -418,13 +418,13 @@
         "@type": "ListItem",
         "position": 1,
         "name": "San Joaquin County neighborhood reports",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Tracy",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/tracy/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/tracy/"
       }
     ]
   }

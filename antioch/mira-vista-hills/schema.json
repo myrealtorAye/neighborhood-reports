@@ -9,9 +9,9 @@
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://alexbradeis.github.io/neighborhood-reports/antioch/mira-vista-hills/"
+      "@id": "https://myrealtoraye.github.io/neighborhood-reports/antioch/mira-vista-hills/"
     },
-    "url": "https://alexbradeis.github.io/neighborhood-reports/antioch/mira-vista-hills/",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/antioch/mira-vista-hills/",
     "author": {
       "@type": "RealEstateAgent",
       "name": "Alex Bradeis",
@@ -117,7 +117,7 @@
     "@type": "Dataset",
     "name": "Mira Vista Hills, Antioch CA housing data, 2026-10",
     "description": "Monthly housing market measurements for Mira Vista Hills, Antioch, California.",
-    "url": "https://alexbradeis.github.io/neighborhood-reports/antioch/mira-vista-hills/",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/antioch/mira-vista-hills/",
     "creator": {
       "@type": "RealEstateAgent",
       "name": "Alex Bradeis",
@@ -407,19 +407,19 @@
         "@type": "ListItem",
         "position": 1,
         "name": "Contra Costa County neighborhood reports",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Antioch",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/antioch/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/antioch/"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Mira Vista Hills",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/antioch/mira-vista-hills/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/antioch/mira-vista-hills/"
       }
     ]
   }

@@ -9,9 +9,9 @@
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://alexbradeis.github.io/neighborhood-reports/hayward/glen-eden/"
+      "@id": "https://myrealtoraye.github.io/neighborhood-reports/hayward/glen-eden/"
     },
-    "url": "https://alexbradeis.github.io/neighborhood-reports/hayward/glen-eden/",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/hayward/glen-eden/",
     "author": {
       "@type": "RealEstateAgent",
       "name": "Alex Bradeis",
@@ -117,7 +117,7 @@
     "@type": "Dataset",
     "name": "Glen Eden, Hayward CA housing data, 2026-10",
     "description": "Monthly housing market measurements for Glen Eden, Hayward, California.",
-    "url": "https://alexbradeis.github.io/neighborhood-reports/hayward/glen-eden/",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/hayward/glen-eden/",
     "creator": {
       "@type": "RealEstateAgent",
       "name": "Alex Bradeis",
@@ -407,19 +407,19 @@
         "@type": "ListItem",
         "position": 1,
         "name": "Alameda County neighborhood reports",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Hayward",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/hayward/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/hayward/"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Glen Eden",
-        "item": "https://alexbradeis.github.io/neighborhood-reports/hayward/glen-eden/"
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/hayward/glen-eden/"
       }
     ]
   }
