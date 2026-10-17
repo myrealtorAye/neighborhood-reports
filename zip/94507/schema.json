@@ -1,0 +1,378 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "94507 Housing Market Report, Alamo CA, October 2026",
+    "description": "Homes for sale and home values in ZIP 94507, Alamo, California. Typical home value $2,532,469, up 0.95 percent month over month and up 5.2 percent year over year, measured for this ZIP rather than citywide. Listing activity, how 94507 ranks against every other ZIP in Contra Costa County, mortgage rates, loan limits, property and transfer tax math, cost of waiting and cost of holding, schools, housing stock, and the questions people actually search.",
+    "datePublished": "2026-10-17",
+    "dateModified": "2026-10-17",
+    "inLanguage": "en-US",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://myrealtoraye.github.io/neighborhood-reports/zip/94507/"
+    },
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/zip/94507/",
+    "author": {
+      "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "eXp Realty"
+    },
+    "about": {
+      "@type": "PostalCodeArea",
+      "name": "ZIP 94507, Alamo, California",
+      "postalCode": "94507",
+      "addressCountry": "US",
+      "alternateName": [
+        "94507",
+        "94507 Alamo",
+        "Alamo 94507"
+      ],
+      "containedInPlace": {
+        "@type": "AdministrativeArea",
+        "name": "Contra Costa County, California"
+      }
+    },
+    "spatialCoverage": {
+      "@type": "PostalCodeArea",
+      "name": "ZIP 94507, Alamo, California",
+      "postalCode": "94507",
+      "addressCountry": "US",
+      "alternateName": [
+        "94507",
+        "94507 Alamo",
+        "Alamo 94507"
+      ],
+      "containedInPlace": {
+        "@type": "AdministrativeArea",
+        "name": "Contra Costa County, California"
+      }
+    },
+    "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Contra Costa County ZIP Code Market Reports"
+    },
+    "citation": [
+      {
+        "@type": "CreativeWork",
+        "name": "Zillow Home Value Index",
+        "url": "https://www.zillow.com/research/data/"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Realtor.com Residential Listings Database",
+        "url": "https://www.realtor.com/research/data/"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Freddie Mac Primary Mortgage Market Survey",
+        "url": "https://www.freddiemac.com/pmms"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Federal Housing Finance Agency conforming loan limits",
+        "url": "https://www.fhfa.gov/"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "California Department of Education school directory",
+        "url": "https://www.cde.ca.gov/SchoolDirectory/"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "ZIP 94507, Alamo CA housing data, 2026-10",
+    "description": "Monthly housing market measurements for ZIP code 94507, Contra Costa County, California.",
+    "url": "https://myrealtoraye.github.io/neighborhood-reports/zip/94507/",
+    "creator": {
+      "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
+    },
+    "temporalCoverage": "2026-10",
+    "spatialCoverage": {
+      "@type": "PostalCodeArea",
+      "name": "ZIP 94507, Alamo, California",
+      "postalCode": "94507",
+      "addressCountry": "US",
+      "alternateName": [
+        "94507",
+        "94507 Alamo",
+        "Alamo 94507"
+      ],
+      "containedInPlace": {
+        "@type": "AdministrativeArea",
+        "name": "Contra Costa County, California"
+      }
+    },
+    "variableMeasured": [
+      {
+        "@type": "Observation",
+        "measuredProperty": "Typical home value (Zillow ZHVI)",
+        "value": 2532469,
+        "unitText": "USD",
+        "observationDate": "2026-09-30",
+        "observationAbout": {
+          "@type": "PostalCodeArea",
+          "name": "ZIP 94507",
+          "postalCode": "94507"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Month over month change in typical home value",
+        "value": 0.95,
+        "unitText": "PERCENT",
+        "observationDate": "2026-09-30",
+        "observationAbout": {
+          "@type": "PostalCodeArea",
+          "name": "ZIP 94507",
+          "postalCode": "94507"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Year over year change in typical home value",
+        "value": 5.25,
+        "unitText": "PERCENT",
+        "observationDate": "2026-09-30",
+        "observationAbout": {
+          "@type": "PostalCodeArea",
+          "name": "ZIP 94507",
+          "postalCode": "94507"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Median listing price",
+        "value": 3093750,
+        "unitText": "USD",
+        "observationDate": "2026-09",
+        "observationAbout": {
+          "@type": "PostalCodeArea",
+          "name": "ZIP 94507",
+          "postalCode": "94507"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Active listings",
+        "value": 27,
+        "unitText": "count",
+        "observationDate": "2026-09",
+        "observationAbout": {
+          "@type": "PostalCodeArea",
+          "name": "ZIP 94507",
+          "postalCode": "94507"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Median days on market",
+        "value": 31,
+        "unitText": "days",
+        "observationDate": "2026-09",
+        "observationAbout": {
+          "@type": "PostalCodeArea",
+          "name": "ZIP 94507",
+          "postalCode": "94507"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Median listing price per square foot",
+        "value": 874,
+        "unitText": "USD",
+        "observationDate": "2026-09",
+        "observationAbout": {
+          "@type": "PostalCodeArea",
+          "name": "ZIP 94507",
+          "postalCode": "94507"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "30 year fixed mortgage rate average",
+        "value": 7.4,
+        "unitText": "PERCENT",
+        "observationDate": "2026-10-15",
+        "observationAbout": {
+          "@type": "PostalCodeArea",
+          "name": "ZIP 94507",
+          "postalCode": "94507"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Conforming and FHA one unit loan limit",
+        "value": 1249125,
+        "unitText": "USD",
+        "observationDate": "2026",
+        "observationAbout": {
+          "@type": "PostalCodeArea",
+          "name": "ZIP 94507",
+          "postalCode": "94507"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Effective property tax rate",
+        "value": 1.31,
+        "unitText": "PERCENT",
+        "observationDate": "2026-10-16",
+        "observationAbout": {
+          "@type": "PostalCodeArea",
+          "name": "ZIP 94507",
+          "postalCode": "94507"
+        }
+      },
+      {
+        "@type": "Observation",
+        "measuredProperty": "Monthly cost of owning the typical home",
+        "value": 22633,
+        "unitText": "USD",
+        "observationDate": "2026-10",
+        "observationAbout": {
+          "@type": "PostalCodeArea",
+          "name": "ZIP 94507",
+          "postalCode": "94507"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much is a home in 94507?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The typical home value in 94507 is $2,532,469 as of 2026-09-30, up 0.95 percent from the month before and up 5.2 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in ZIP 94507 is $3,093,750. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the 94507 ZIP code?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "94507 is in ZIP 94507, Alamo, Contra Costa County, California."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is 94507 expensive?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Against the rest of Alamo, yes. 94507 ranks 2 of 39 neighborhoods by typical value, and at $2,532,469 it sits 0 percent above the citywide typical value of $2,529,452. The monthly number is the one I would focus on: owning the typical home here runs about $22,633 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of n/a. The full breakdown is in the cost of holding section above."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are property taxes in Alamo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I use 1.31 percent in this report, the Contra Costa County effective rate. On a home at $2,532,469 that is roughly $2,765 a month, $33,175 a year. Proposition 13 sets the base at 1 percent of assessed value and caps growth in that assessed value at 2 percent a year while one owner holds the property, and voter-approved bonds sit on top. The real rate runs above 1 percent. The part that catches buyers is that a purchase resets assessed value to the price paid. Any figure you read that was built from median taxes actually paid is averaging in decades of protected assessments and will understate what a new buyer owes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the transfer tax in Alamo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "This is the cost people forget to budget for, and it varies more by city line than anything else in a California transaction. Alamo is a general law city, so the rate here is $1.10 per $1,000 of value. On a home at $2,532,469 that is $2,786. For scale, the identical sale price would carry $2,786 in Antioch and $34,188 in Richmond, both in this same county. Who pays is set by the contract and by local custom rather than by statute, and it is negotiable. Escrow is the authority on the exact figure for a specific sale."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the FHA loan limit in Alamo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For 2026 the one-unit limit in Contra Costa County is $1,249,125, and that figure is both the conforming conventional ceiling and the FHA ceiling. Here is why that matters in 94507. At the typical value of $2,532,469, a minimum-down loan would be $2,443,832. That is $1,194,707 over the ceiling. To get inside it you would need $1,283,344 down, about 51 percent. The most expensive home a 3.5 percent down FHA loan reaches in this county is around $1,294,430. This is the single most common thing I see people find out too late."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What first-time buyer help is available in Alamo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CalHFA runs the statewide programs and they layer on top of a first mortgage rather than replacing it. MyHome is a deferred-payment junior loan toward the down payment and closing costs, open year round. ZIP covers closing costs on a CalHFA conventional first. Dream For All is the shared-appreciation program, limited to first-generation buyers, and it runs in announced windows rather than continuously. GSFA Platinum is a separate option, and Alamo and Contra Costa County run their own programs on their own funding cycles. Those are the ones most people never hear about. The constraint that actually binds in a neighborhood at $2,532,469 is almost never income. It is the program's own purchase price cap, often set below the county loan limit. I would establish the price a program allows first, then shop inside it. Doing it the other way around is how people fall for a house the assistance cannot reach."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I build an ADU in Alamo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Almost certainly yes, in some form. State law requires local agencies to allow accessory dwelling units on residential lots with ministerial approval and a decision deadline, so the real question is what size and configuration the local ordinance permits, not whether you are allowed. Owner-occupancy requirements on new ADUs have been removed, so the main house and the ADU can both be rented. Selling one separately is a different question. Assembly Bill 1033 lets a city allow an ADU to be sold as its own condominium unit, but it is permissive rather than mandatory, relatively few cities have adopted an enabling ordinance, and without one there is no right to do it. That is a question for the Alamo planning department and the municipal code, not something the state law answers on its own."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is the Alamo housing market slowing down?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in 94507 is up 0.95 percent month over month and up 5.2 percent year over year. Meanwhile in ZIP 94507, the median asking price is up 21.5 percent year over year, price per square foot is up 5.3 percent, active listings are up 15.2 percent month over month, and median days on market is down 3.1 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is rent like in 94507?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Rent is not published separately for this area this month."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many homes are for sale in 94507?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In ZIP 94507 as of 2026-09 there were 27 active listings, up 15.2 percent from the prior month and down 11.7 percent from a year earlier, with 12 new that month and 9 pending. Median days on market was 31."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much is home insurance in Alamo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I use $215 a month, $2,580 a year, the California statewide average. A real quote on a specific house moves with the structure, the roof, the replacement cost and the wildfire risk rating on the parcel, so treat the average as a placeholder until you have a quote. One thing worth flagging: a vacant home is a different and more expensive class of policy. That catches sellers who move out before closing, and it catches estates almost every time."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is it like living in 94507?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $2,532,469, the monthly carry is around $22,633, and rent runs n/a. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity rather than whenever the page happened to be written."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Contra Costa County neighborhood reports",
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "ZIP code reports",
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/zip/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "ZIP 94507",
+        "item": "https://myrealtoraye.github.io/neighborhood-reports/zip/94507/"
+      }
+    ]
+  }
+]
