@@ -13,32 +13,7 @@
     },
     "url": "https://myrealtoraye.github.io/neighborhood-reports/hayward/mt-eden/",
     "author": {
-      "@type": "RealEstateAgent",
-      "name": "Alex Bradeis",
-      "jobTitle": "Real estate agent",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "eXp Realty"
-      },
-      "identifier": {
-        "@type": "PropertyValue",
-        "name": "CA DRE License",
-        "value": "02244910"
-      },
-      "areaServed": [
-        {
-          "@type": "AdministrativeArea",
-          "name": "Alameda County, California"
-        },
-        {
-          "@type": "AdministrativeArea",
-          "name": "Contra Costa County, California"
-        },
-        {
-          "@type": "AdministrativeArea",
-          "name": "San Joaquin County, California"
-        }
-      ]
+      "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
     "publisher": {
       "@type": "Organization",
@@ -119,32 +94,7 @@
     "description": "Monthly housing market measurements for Mt Eden, Hayward, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/hayward/mt-eden/",
     "creator": {
-      "@type": "RealEstateAgent",
-      "name": "Alex Bradeis",
-      "jobTitle": "Real estate agent",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "eXp Realty"
-      },
-      "identifier": {
-        "@type": "PropertyValue",
-        "name": "CA DRE License",
-        "value": "02244910"
-      },
-      "areaServed": [
-        {
-          "@type": "AdministrativeArea",
-          "name": "Alameda County, California"
-        },
-        {
-          "@type": "AdministrativeArea",
-          "name": "Contra Costa County, California"
-        },
-        {
-          "@type": "AdministrativeArea",
-          "name": "San Joaquin County, California"
-        }
-      ]
+      "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
     "temporalCoverage": "2026-10",
     "spatialCoverage": {
@@ -298,7 +248,7 @@
         "name": "How much is a home in Mt Eden?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Mt Eden is $940,793 as of 2026-09-30, down 0.25 percent from the month before and down 5.6 percent over the year. That is the Zillow Home Value Index, which estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Hayward is $829,716. Those two numbers measure different populations and they do not have to agree. If you want the number for one specific house rather than the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Mt Eden is $940,793 as of 2026-09-30, down 0.25 percent from the month before and down 5.6 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Hayward is $829,716. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -306,7 +256,7 @@
         "name": "What is the Mt Eden ZIP code?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Mt Eden sits inside Hayward, which covers 4 ZIP codes: 94541, 94542, 94544, 94545."
+          "text": "Mt Eden sits inside Hayward. The city covers 4 ZIP codes: 94541, 94542, 94544, 94545."
         }
       },
       {
@@ -322,7 +272,7 @@
         "name": "What are property taxes in Hayward?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I use 1.42 percent in this report, the Alameda County effective rate. On a home at $940,793 that is roughly $1,113 a month, $13,359 a year. Proposition 13 sets the base at 1 percent of assessed value and caps growth in that assessed value at 2 percent a year while one owner holds the property, and voter-approved bonds sit on top, which is why the real rate runs above 1 percent. The part that catches buyers is that a purchase resets assessed value to the price paid. Any figure you read that was built from median taxes actually paid is averaging in decades of protected assessments and will understate what a new buyer owes."
+          "text": "I use 1.42 percent in this report, the Alameda County effective rate. On a home at $940,793 that is roughly $1,113 a month, $13,359 a year. Proposition 13 sets the base at 1 percent of assessed value and caps growth in that assessed value at 2 percent a year while one owner holds the property, and voter-approved bonds sit on top. The real rate runs above 1 percent. The part that catches buyers is that a purchase resets assessed value to the price paid. Any figure you read that was built from median taxes actually paid is averaging in decades of protected assessments and will understate what a new buyer owes."
         }
       },
       {
@@ -346,7 +296,7 @@
         "name": "What first-time buyer help is available in Hayward?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "CalHFA runs the statewide programs and they layer on top of a first mortgage rather than replacing it. MyHome is a deferred-payment junior loan toward the down payment and closing costs, open year round. ZIP covers closing costs on a CalHFA conventional first. Dream For All is the shared-appreciation program, limited to first-generation buyers, and it runs in announced windows rather than continuously. GSFA Platinum is a separate option, and Hayward and Alameda County run their own programs with their own funding cycles, which are the ones most people never hear about. The constraint that actually binds in a neighborhood at $940,793 is almost never income. It is the program's own purchase price cap, which is often set below the county loan limit. I would establish the price a program allows first, then shop inside it. Doing it the other way around is how people fall for a house the assistance cannot reach."
+          "text": "CalHFA runs the statewide programs and they layer on top of a first mortgage rather than replacing it. MyHome is a deferred-payment junior loan toward the down payment and closing costs, open year round. ZIP covers closing costs on a CalHFA conventional first. Dream For All is the shared-appreciation program, limited to first-generation buyers, and it runs in announced windows rather than continuously. GSFA Platinum is a separate option, and Hayward and Alameda County run their own programs on their own funding cycles. Those are the ones most people never hear about. The constraint that actually binds in a neighborhood at $940,793 is almost never income. It is the program's own purchase price cap, often set below the county loan limit. I would establish the price a program allows first, then shop inside it. Doing it the other way around is how people fall for a house the assistance cannot reach."
         }
       },
       {
@@ -386,7 +336,7 @@
         "name": "How much is home insurance in Hayward?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I use $215 a month, $2,580 a year, which is the California statewide average. A real quote on a specific house moves with the structure, the roof, the replacement cost and the wildfire risk rating on the parcel, so treat the average as a placeholder until you have a quote. One thing worth flagging: a vacant home is a different and more expensive class of policy. That catches sellers who move out before closing, and it catches estates almost every time."
+          "text": "I use $215 a month, $2,580 a year, the California statewide average. A real quote on a specific house moves with the structure, the roof, the replacement cost and the wildfire risk rating on the parcel, so treat the average as a placeholder until you have a quote. One thing worth flagging: a vacant home is a different and more expensive class of policy. That catches sellers who move out before closing, and it catches estates almost every time."
         }
       },
       {

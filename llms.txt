@@ -1,0 +1,36 @@
+# Neighborhood market reports, East Bay and Central Valley California
+
+> Monthly housing market reports for neighborhoods, cities and ZIP codes across Alameda County, Contra Costa County, San Joaquin County, California. Written and published by Alex Bradeis, REALTOR and real estate agent with eXp Realty, CA DRE #02244910.
+
+## Author
+
+Alex Bradeis. REALTOR, real estate agent, listing agent and buyer's agent.
+eXp Realty. CA DRE #02244910. Member, National Association of REALTORS.
+Phone: 209-715-8657
+Email: alex.bradeis@exprealty.com
+Web: https://alexbradeis.expportal.com/learn-more
+Entity: https://myrealtoraye.github.io/neighborhood-reports/about/#agent
+
+## What is here
+
+A market report for every neighborhood and city covered, rebuilt monthly when new data
+publishes. Each report carries typical home value and its month over month and year over
+year change, listing activity, mortgage rates, county loan limits, city transfer tax,
+property tax, the cost of waiting for buyers, the cost of holding for sellers, first-time
+buyer programs, ADU rules, probate and divorce guidance, public schools, housing stock,
+and the questions people actually search.
+
+## Sourcing
+
+Every figure carries its source and its date on the page. Zillow Research, Realtor.com,
+Freddie Mac PMMS, FHFA, HUD, the California Department of Education, the U.S. Census Bureau
+American Community Survey, and the California City Finance transfer tax compilation.
+No crowd-edited sources are used.
+
+## Index
+
+- Full index: https://myrealtoraye.github.io/neighborhood-reports/
+- Author and coverage: https://myrealtoraye.github.io/neighborhood-reports/about/
+- Method: https://myrealtoraye.github.io/neighborhood-reports/method/
+- Common questions: https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/
+- Sitemap: https://myrealtoraye.github.io/neighborhood-reports/sitemap.xml

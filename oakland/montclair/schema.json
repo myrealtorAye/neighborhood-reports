@@ -13,32 +13,7 @@
     },
     "url": "https://myrealtoraye.github.io/neighborhood-reports/oakland/montclair/",
     "author": {
-      "@type": "RealEstateAgent",
-      "name": "Alex Bradeis",
-      "jobTitle": "Real estate agent",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "eXp Realty"
-      },
-      "identifier": {
-        "@type": "PropertyValue",
-        "name": "CA DRE License",
-        "value": "02244910"
-      },
-      "areaServed": [
-        {
-          "@type": "AdministrativeArea",
-          "name": "Alameda County, California"
-        },
-        {
-          "@type": "AdministrativeArea",
-          "name": "Contra Costa County, California"
-        },
-        {
-          "@type": "AdministrativeArea",
-          "name": "San Joaquin County, California"
-        }
-      ]
+      "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
     "publisher": {
       "@type": "Organization",
@@ -121,32 +96,7 @@
     "description": "Monthly housing market measurements for Montclair, Oakland, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/oakland/montclair/",
     "creator": {
-      "@type": "RealEstateAgent",
-      "name": "Alex Bradeis",
-      "jobTitle": "Real estate agent",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "eXp Realty"
-      },
-      "identifier": {
-        "@type": "PropertyValue",
-        "name": "CA DRE License",
-        "value": "02244910"
-      },
-      "areaServed": [
-        {
-          "@type": "AdministrativeArea",
-          "name": "Alameda County, California"
-        },
-        {
-          "@type": "AdministrativeArea",
-          "name": "Contra Costa County, California"
-        },
-        {
-          "@type": "AdministrativeArea",
-          "name": "San Joaquin County, California"
-        }
-      ]
+      "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
     "temporalCoverage": "2026-10",
     "spatialCoverage": {
@@ -312,7 +262,7 @@
         "name": "How much is a home in Montclair?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Montclair is $1,455,795 as of 2026-09-30, up 1.08 percent from the month before and up 5.7 percent over the year. That is the Zillow Home Value Index, which estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in ZIP 94611 is $1,089,750. Those two numbers measure different populations and they do not have to agree. If you want the number for one specific house rather than the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Montclair is $1,455,795 as of 2026-09-30, up 1.08 percent from the month before and up 5.7 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in ZIP 94611 is $1,089,750. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -336,7 +286,7 @@
         "name": "What are property taxes in Oakland?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I use 1.71 percent in this report, the Oakland effective rate. On a home at $1,455,795 that is roughly $2,075 a month, $24,894 a year. Proposition 13 sets the base at 1 percent of assessed value and caps growth in that assessed value at 2 percent a year while one owner holds the property, and voter-approved bonds sit on top, which is why the real rate runs above 1 percent. The part that catches buyers is that a purchase resets assessed value to the price paid. Any figure you read that was built from median taxes actually paid is averaging in decades of protected assessments and will understate what a new buyer owes."
+          "text": "I use 1.71 percent in this report, the Oakland effective rate. On a home at $1,455,795 that is roughly $2,075 a month, $24,894 a year. Proposition 13 sets the base at 1 percent of assessed value and caps growth in that assessed value at 2 percent a year while one owner holds the property, and voter-approved bonds sit on top. The real rate runs above 1 percent. The part that catches buyers is that a purchase resets assessed value to the price paid. Any figure you read that was built from median taxes actually paid is averaging in decades of protected assessments and will understate what a new buyer owes."
         }
       },
       {
@@ -344,7 +294,7 @@
         "name": "What is the transfer tax in Oakland?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "This is the cost people forget to budget for, and it varies more by city line than anything else in a California transaction. Oakland is a chartered city, so the rate here is $16.10 per $1,000 of value. On a home at $1,455,795 that is $23,438. For scale, the identical sale price would carry $1,601 in Dublin and $23,438 in Oakland, both in this same county. There is also a cliff worth knowing about. The rate applies to the whole value, not just the portion above a threshold, so crossing $2,000,000 reprices the entire sale. At exactly $2,000,000 the tax is $32,200. One dollar higher it is $37,200. That is $5,000 for one dollar of price. The typical home here is $544,205 below that line, which makes it a live pricing question rather than a theoretical one. Who pays is set by the contract and by local custom rather than by statute, and it is negotiable. Escrow is the authority on the exact figure for a specific sale."
+          "text": "This is the cost people forget to budget for, and it varies more by city line than anything else in a California transaction. Oakland is a chartered city, so the rate here is $16.10 per $1,000 of value. On a home at $1,455,795 that is $23,438. For scale, the identical sale price would carry $1,601 in Dublin and $23,438 in Oakland, both in this same county. There is also a cliff worth knowing about. The rate applies to the whole value, not just the portion above a threshold, so crossing $2,000,000 reprices the entire sale. At exactly $2,000,000 the tax is $32,200. One dollar higher it is $37,200. That is $5,000 for one dollar of price. The typical home here is $544,205 below that line. That makes it a live pricing question and not a theoretical one. Who pays is set by the contract and by local custom rather than by statute, and it is negotiable. Escrow is the authority on the exact figure for a specific sale."
         }
       },
       {
@@ -352,7 +302,7 @@
         "name": "What is the FHA loan limit in Oakland?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "For 2026 the one-unit limit in Alameda County is $1,249,125, and that figure is both the conforming conventional ceiling and the FHA ceiling. Here is why that matters in Montclair. At the typical value of $1,455,795, a minimum-down loan would be $1,404,842, which is $155,717 over the ceiling. To get inside it you would need $206,670 down, about 14 percent. The most expensive home a 3.5 percent down FHA loan reaches in this county is around $1,294,430. This is the single most common thing I see people find out too late."
+          "text": "For 2026 the one-unit limit in Alameda County is $1,249,125, and that figure is both the conforming conventional ceiling and the FHA ceiling. Here is why that matters in Montclair. At the typical value of $1,455,795, a minimum-down loan would be $1,404,842. That is $155,717 over the ceiling. To get inside it you would need $206,670 down, about 14 percent. The most expensive home a 3.5 percent down FHA loan reaches in this county is around $1,294,430. This is the single most common thing I see people find out too late."
         }
       },
       {
@@ -360,7 +310,7 @@
         "name": "What first-time buyer help is available in Oakland?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "CalHFA runs the statewide programs and they layer on top of a first mortgage rather than replacing it. MyHome is a deferred-payment junior loan toward the down payment and closing costs, open year round. ZIP covers closing costs on a CalHFA conventional first. Dream For All is the shared-appreciation program, limited to first-generation buyers, and it runs in announced windows rather than continuously. GSFA Platinum is a separate option, and Oakland and Alameda County run their own programs with their own funding cycles, which are the ones most people never hear about. The constraint that actually binds in a neighborhood at $1,455,795 is almost never income. It is the program's own purchase price cap, which is often set below the county loan limit. I would establish the price a program allows first, then shop inside it. Doing it the other way around is how people fall for a house the assistance cannot reach."
+          "text": "CalHFA runs the statewide programs and they layer on top of a first mortgage rather than replacing it. MyHome is a deferred-payment junior loan toward the down payment and closing costs, open year round. ZIP covers closing costs on a CalHFA conventional first. Dream For All is the shared-appreciation program, limited to first-generation buyers, and it runs in announced windows rather than continuously. GSFA Platinum is a separate option, and Oakland and Alameda County run their own programs on their own funding cycles. Those are the ones most people never hear about. The constraint that actually binds in a neighborhood at $1,455,795 is almost never income. It is the program's own purchase price cap, often set below the county loan limit. I would establish the price a program allows first, then shop inside it. Doing it the other way around is how people fall for a house the assistance cannot reach."
         }
       },
       {
@@ -400,7 +350,7 @@
         "name": "How much is home insurance in Oakland?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I use $215 a month, $2,580 a year, which is the California statewide average. A real quote on a specific house moves with the structure, the roof, the replacement cost and the wildfire risk rating on the parcel, so treat the average as a placeholder until you have a quote. One thing worth flagging: a vacant home is a different and more expensive class of policy. That catches sellers who move out before closing, and it catches estates almost every time."
+          "text": "I use $215 a month, $2,580 a year, the California statewide average. A real quote on a specific house moves with the structure, the roof, the replacement cost and the wildfire risk rating on the parcel, so treat the average as a placeholder until you have a quote. One thing worth flagging: a vacant home is a different and more expensive class of policy. That catches sellers who move out before closing, and it catches estates almost every time."
         }
       },
       {
