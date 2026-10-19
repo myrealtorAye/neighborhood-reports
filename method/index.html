@@ -18,8 +18,8 @@
   "@type": "Article",
   "headline": "How these reports are built",
   "description": "The sources, the formulas and the rules behind every neighborhood report in this series.",
-  "datePublished": "2026-10-18",
-  "dateModified": "2026-10-18",
+  "datePublished": "2026-10-19",
+  "dateModified": "2026-10-19",
   "inLanguage": "en-US",
   "url": "https://myrealtoraye.github.io/neighborhood-reports/method/",
   "mainEntityOfPage": {
@@ -37,41 +37,55 @@
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Titan+One&family=Graduate&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
 <style>:root{
-  --bone:#F2EBE3; --ink:#121216; --orange:#F26E22; --pine:#2D4A2B;
-  --crimson:#AA0000; --blue:#1D428A; --gold:#B58938;
-  --line:#D8CEC1; --muted:#4A4438; --panel:#FBF8F4; --zebra:#E9E1D7;
+  /* Orca Sunset, locked 18 October 2026. No blue anywhere. No green text anywhere. */
+  --bone:#F2EBE3; --orange:#FD792E; --ink:#090102;
+  /* five band sunset stack, top to bottom, always in this order */
+  --oxblood:#860B01; --crimson:#BC1307; --orangered:#F54926; --gold:#FDC935;
+  /* chart only */
+  --tan:#C6BAA8; --cream:#FAE7CD;
   color-scheme: light;
 }
 *{box-sizing:border-box}
 html{background:var(--bone)}
 body{margin:0;background:var(--bone);color:var(--ink);font:400 17px/1.68 'DM Sans',system-ui,-apple-system,sans-serif}
 main{max-width:760px;margin:0 auto;padding:48px 20px 96px;background:var(--bone)}
-h1,h2,h3{font-family:'Playfair Display',Georgia,serif;letter-spacing:-.01em}
-h1{font-size:2.3rem;font-weight:900;line-height:1.14;margin:0 0 .55em;color:var(--orange);
-   padding-bottom:.2em;border-bottom:2px solid var(--crimson)}
-h2{font-size:1.5rem;font-weight:900;margin:2.4em 0 .5em;padding-top:.55em;
-   border-top:2px solid var(--pine);color:var(--pine)}
-h3{font-size:1.12rem;font-weight:700;margin:1.9em 0 .35em;color:var(--pine)}
+h1,h2,h3{font-family:'Fredoka',system-ui,sans-serif;letter-spacing:-.01em}
+h1{font-size:2.3rem;font-weight:700;line-height:1.14;margin:0 0 .15em;color:var(--orange)}
+/* the five band sunset stack sits under the title */
+h1:after{content:'';display:block;height:10px;margin:.3em 0 .9em;
+   background:linear-gradient(to bottom,
+     var(--oxblood) 0 20%, var(--crimson) 20% 40%, var(--orangered) 40% 60%,
+     var(--orange) 60% 80%, var(--gold) 80% 100%)}
+h2{font-size:1.5rem;font-weight:600;margin:2.4em 0 .5em;padding-top:.55em;
+   border-top:3px solid var(--oxblood);color:var(--ink)}
+/* interior accent bars rotate between Deep Oxblood and Sunburst Orange only */
+h2:nth-of-type(even){border-top-color:var(--orange)}
+h3{font-size:1.12rem;font-weight:600;margin:1.9em 0 .35em;color:var(--ink)}
 h4{font-family:'DM Sans',system-ui,sans-serif;font-size:1rem;font-weight:700;margin:1.5em 0 .3em;color:var(--ink)}
 p{margin:0 0 1.15em}
-a{color:var(--pine);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:2px}
+a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:2px}
 a:hover{color:var(--orange);text-decoration-color:var(--orange)}
 ul{margin:0 0 1.2em;padding-left:1.25em;list-style:none}
 li{margin:.32em 0;position:relative}
-li:before{content:'▸';position:absolute;left:-1.1em;color:var(--gold);font-size:.95em}
+li:before{content:'▸';position:absolute;left:-1.1em;color:var(--orange);font-size:.95em}
 strong{font-weight:700}
-hr{border:0;border-top:1px solid var(--pine);opacity:.35;margin:2.5em 0}
+hr{border:0;border-top:1px solid var(--tan);margin:2.5em 0}
 code{font-family:'DM Mono',ui-monospace,monospace;background:#E6DCD0;padding:.1em .35em;border-radius:3px;font-size:.9em}
-.tablewrap{overflow-x:auto;margin:0 0 1.6em;border:1px solid var(--line);border-radius:4px;background:var(--panel)}
-table{border-collapse:collapse;width:100%;font:400 14px/1.45 'DM Sans',system-ui,sans-serif;background:var(--panel)}
-th{font-family:'DM Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.03em;text-transform:uppercase;
-   text-align:left;background:var(--pine);color:var(--bone);padding:10px 11px;font-weight:500;white-space:nowrap}
-td{padding:9px 11px;border-top:1px solid var(--line);vertical-align:top;color:var(--ink)}
-tbody tr:nth-child(even){background:var(--zebra)}
-em{color:var(--muted);font-style:italic}
-.dre,main > p:last-of-type{font-size:1rem;line-height:1.5;color:var(--pine)}
+.tablewrap{overflow-x:auto;margin:0 0 1.6em;border:1px solid var(--tan);border-radius:4px;background:var(--bone)}
+table{border-collapse:collapse;width:100%;font:400 14px/1.45 'Graduate',Georgia,serif;background:var(--bone)}
+th{font-family:'Graduate',Georgia,serif;font-size:12px;letter-spacing:.03em;text-transform:uppercase;
+   text-align:left;background:var(--bone);color:var(--ink);padding:10px 11px;font-weight:400;
+   white-space:nowrap;border-bottom:2px solid var(--ink)}
+td{padding:9px 11px;border-top:1px solid var(--tan);vertical-align:top;color:var(--ink)}
+/* numbers are always Near-Black Titan One, never coloured, except a change value */
+td .num{font-family:'Titan One',system-ui,sans-serif;font-weight:400;letter-spacing:.01em}
+td .neg{color:var(--crimson)}
+/* an overall or summary row takes the pale cream fill and an orange outline */
+tbody tr.overall{background:var(--cream);outline:4px solid var(--orange);outline-offset:-4px}
+em{font-style:italic}
+.dre,main > p:last-of-type{font-size:1rem;line-height:1.5;color:var(--ink)}
 @media (max-width:640px){main{padding:28px 16px 72px}h1{font-size:1.7rem}h2{font-size:1.3rem}}</style>
 </head>
 <body>
@@ -90,7 +104,7 @@ em{color:var(--muted);font-style:italic}
 <h2 id="corrections">Corrections</h2>
 <p>If a figure here looks wrong, it is worth telling me, because the sources update and the compilations occasionally disagree with each other. Where two sources disagree, the reports say so rather than picking the flattering one.</p>
 <hr>
-<p>Updated 2026-10-18.</p>
+<p>Updated 2026-10-19.</p>
 <p>Alex Bradeis | eXp Realty | CA DRE #02244910</p>
 </main>
 </body>

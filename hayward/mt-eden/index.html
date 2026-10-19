@@ -396,41 +396,55 @@
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Titan+One&family=Graduate&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
 <style>:root{
-  --bone:#F2EBE3; --ink:#121216; --orange:#F26E22; --pine:#2D4A2B;
-  --crimson:#AA0000; --blue:#1D428A; --gold:#B58938;
-  --line:#D8CEC1; --muted:#4A4438; --panel:#FBF8F4; --zebra:#E9E1D7;
+  /* Orca Sunset, locked 18 October 2026. No blue anywhere. No green text anywhere. */
+  --bone:#F2EBE3; --orange:#FD792E; --ink:#090102;
+  /* five band sunset stack, top to bottom, always in this order */
+  --oxblood:#860B01; --crimson:#BC1307; --orangered:#F54926; --gold:#FDC935;
+  /* chart only */
+  --tan:#C6BAA8; --cream:#FAE7CD;
   color-scheme: light;
 }
 *{box-sizing:border-box}
 html{background:var(--bone)}
 body{margin:0;background:var(--bone);color:var(--ink);font:400 17px/1.68 'DM Sans',system-ui,-apple-system,sans-serif}
 main{max-width:760px;margin:0 auto;padding:48px 20px 96px;background:var(--bone)}
-h1,h2,h3{font-family:'Playfair Display',Georgia,serif;letter-spacing:-.01em}
-h1{font-size:2.3rem;font-weight:900;line-height:1.14;margin:0 0 .55em;color:var(--orange);
-   padding-bottom:.2em;border-bottom:2px solid var(--crimson)}
-h2{font-size:1.5rem;font-weight:900;margin:2.4em 0 .5em;padding-top:.55em;
-   border-top:2px solid var(--pine);color:var(--pine)}
-h3{font-size:1.12rem;font-weight:700;margin:1.9em 0 .35em;color:var(--pine)}
+h1,h2,h3{font-family:'Fredoka',system-ui,sans-serif;letter-spacing:-.01em}
+h1{font-size:2.3rem;font-weight:700;line-height:1.14;margin:0 0 .15em;color:var(--orange)}
+/* the five band sunset stack sits under the title */
+h1:after{content:'';display:block;height:10px;margin:.3em 0 .9em;
+   background:linear-gradient(to bottom,
+     var(--oxblood) 0 20%, var(--crimson) 20% 40%, var(--orangered) 40% 60%,
+     var(--orange) 60% 80%, var(--gold) 80% 100%)}
+h2{font-size:1.5rem;font-weight:600;margin:2.4em 0 .5em;padding-top:.55em;
+   border-top:3px solid var(--oxblood);color:var(--ink)}
+/* interior accent bars rotate between Deep Oxblood and Sunburst Orange only */
+h2:nth-of-type(even){border-top-color:var(--orange)}
+h3{font-size:1.12rem;font-weight:600;margin:1.9em 0 .35em;color:var(--ink)}
 h4{font-family:'DM Sans',system-ui,sans-serif;font-size:1rem;font-weight:700;margin:1.5em 0 .3em;color:var(--ink)}
 p{margin:0 0 1.15em}
-a{color:var(--pine);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:2px}
+a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:2px}
 a:hover{color:var(--orange);text-decoration-color:var(--orange)}
 ul{margin:0 0 1.2em;padding-left:1.25em;list-style:none}
 li{margin:.32em 0;position:relative}
-li:before{content:'▸';position:absolute;left:-1.1em;color:var(--gold);font-size:.95em}
+li:before{content:'▸';position:absolute;left:-1.1em;color:var(--orange);font-size:.95em}
 strong{font-weight:700}
-hr{border:0;border-top:1px solid var(--pine);opacity:.35;margin:2.5em 0}
+hr{border:0;border-top:1px solid var(--tan);margin:2.5em 0}
 code{font-family:'DM Mono',ui-monospace,monospace;background:#E6DCD0;padding:.1em .35em;border-radius:3px;font-size:.9em}
-.tablewrap{overflow-x:auto;margin:0 0 1.6em;border:1px solid var(--line);border-radius:4px;background:var(--panel)}
-table{border-collapse:collapse;width:100%;font:400 14px/1.45 'DM Sans',system-ui,sans-serif;background:var(--panel)}
-th{font-family:'DM Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.03em;text-transform:uppercase;
-   text-align:left;background:var(--pine);color:var(--bone);padding:10px 11px;font-weight:500;white-space:nowrap}
-td{padding:9px 11px;border-top:1px solid var(--line);vertical-align:top;color:var(--ink)}
-tbody tr:nth-child(even){background:var(--zebra)}
-em{color:var(--muted);font-style:italic}
-.dre,main > p:last-of-type{font-size:1rem;line-height:1.5;color:var(--pine)}
+.tablewrap{overflow-x:auto;margin:0 0 1.6em;border:1px solid var(--tan);border-radius:4px;background:var(--bone)}
+table{border-collapse:collapse;width:100%;font:400 14px/1.45 'Graduate',Georgia,serif;background:var(--bone)}
+th{font-family:'Graduate',Georgia,serif;font-size:12px;letter-spacing:.03em;text-transform:uppercase;
+   text-align:left;background:var(--bone);color:var(--ink);padding:10px 11px;font-weight:400;
+   white-space:nowrap;border-bottom:2px solid var(--ink)}
+td{padding:9px 11px;border-top:1px solid var(--tan);vertical-align:top;color:var(--ink)}
+/* numbers are always Near-Black Titan One, never coloured, except a change value */
+td .num{font-family:'Titan One',system-ui,sans-serif;font-weight:400;letter-spacing:.01em}
+td .neg{color:var(--crimson)}
+/* an overall or summary row takes the pale cream fill and an orange outline */
+tbody tr.overall{background:var(--cream);outline:4px solid var(--orange);outline-offset:-4px}
+em{font-style:italic}
+.dre,main > p:last-of-type{font-size:1rem;line-height:1.5;color:var(--ink)}
 @media (max-width:640px){main{padding:28px 16px 72px}h1{font-size:1.7rem}h2{font-size:1.3rem}}</style>
 </head>
 <body>
@@ -461,9 +475,9 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Typical home value (Zillow ZHVI)</td>
-<td>$940,793</td>
-<td>-0.25%</td>
-<td>-5.6%</td>
+<td><span class="num">$940,793</span></td>
+<td><span class="num neg">-0.25%</span></td>
+<td><span class="num neg">-5.6%</span></td>
 </tr>
 <tr>
 <td>Rank in Hayward by value</td>
@@ -479,7 +493,7 @@ em{color:var(--muted);font-style:italic}
 </tr>
 <tr>
 <td>As of</td>
-<td>2026-09-30</td>
+<td><span class="num">2026-09-30</span></td>
 <td></td>
 <td></td>
 </tr>
@@ -497,88 +511,88 @@ em{color:var(--muted);font-style:italic}
 <th>YoY</th>
 </tr></thead><tbody>
 <tr>
-<td>1</td>
+<td><span class="num">1</span></td>
 <td>Hayward Highland</td>
-<td>$1,165,687</td>
-<td>+0.07%</td>
-<td>+0.7%</td>
+<td><span class="num">$1,165,687</span></td>
+<td><span class="num">+0.07%</span></td>
+<td><span class="num">+0.7%</span></td>
 </tr>
 <tr>
-<td>2</td>
+<td><span class="num">2</span></td>
 <td>Fairview</td>
-<td>$960,805</td>
-<td>+0.31%</td>
-<td>-1.2%</td>
+<td><span class="num">$960,805</span></td>
+<td><span class="num">+0.31%</span></td>
+<td><span class="num neg">-1.2%</span></td>
 </tr>
 <tr>
-<td>3</td>
+<td><span class="num">3</span></td>
 <td><strong>Mt Eden</strong>  &lt;-- this report</td>
-<td>$940,793</td>
-<td>-0.25%</td>
-<td>-5.6%</td>
+<td><span class="num">$940,793</span></td>
+<td><span class="num neg">-0.25%</span></td>
+<td><span class="num neg">-5.6%</span></td>
 </tr>
 <tr>
-<td>4</td>
+<td><span class="num">4</span></td>
 <td>Fairway Park</td>
-<td>$917,321</td>
-<td>+0.26%</td>
-<td>-0.6%</td>
+<td><span class="num">$917,321</span></td>
+<td><span class="num">+0.26%</span></td>
+<td><span class="num neg">-0.6%</span></td>
 </tr>
 <tr>
-<td>5</td>
+<td><span class="num">5</span></td>
 <td>Southgate</td>
-<td>$847,209</td>
-<td>-0.02%</td>
-<td>-1.8%</td>
+<td><span class="num">$847,209</span></td>
+<td><span class="num neg">-0.02%</span></td>
+<td><span class="num neg">-1.8%</span></td>
 </tr>
 <tr>
-<td>6</td>
+<td><span class="num">6</span></td>
 <td>Glen Eden</td>
-<td>$832,781</td>
-<td>+0.34%</td>
-<td>-1.7%</td>
+<td><span class="num">$832,781</span></td>
+<td><span class="num">+0.34%</span></td>
+<td><span class="num neg">-1.7%</span></td>
 </tr>
 <tr>
-<td>7</td>
+<td><span class="num">7</span></td>
 <td>Tennyson-Alquire</td>
-<td>$813,806</td>
-<td>+0.15%</td>
-<td>-2.8%</td>
+<td><span class="num">$813,806</span></td>
+<td><span class="num">+0.15%</span></td>
+<td><span class="num neg">-2.8%</span></td>
 </tr>
 <tr>
-<td>8</td>
+<td><span class="num">8</span></td>
 <td>Whitman-Mocine</td>
-<td>$811,614</td>
-<td>+0.30%</td>
-<td>-3.9%</td>
+<td><span class="num">$811,614</span></td>
+<td><span class="num">+0.30%</span></td>
+<td><span class="num neg">-3.9%</span></td>
 </tr>
 <tr>
-<td>9</td>
+<td><span class="num">9</span></td>
 <td>Longwood-Winton Grove</td>
-<td>$776,751</td>
-<td>-0.06%</td>
-<td>-0.8%</td>
+<td><span class="num">$776,751</span></td>
+<td><span class="num neg">-0.06%</span></td>
+<td><span class="num neg">-0.8%</span></td>
 </tr>
 <tr>
-<td>10</td>
+<td><span class="num">10</span></td>
 <td>Mission-Foothill</td>
-<td>$773,291</td>
-<td>+0.21%</td>
-<td>-2.7%</td>
+<td><span class="num">$773,291</span></td>
+<td><span class="num">+0.21%</span></td>
+<td><span class="num neg">-2.7%</span></td>
 </tr>
 <tr>
-<td>11</td>
+<td><span class="num">11</span></td>
 <td>Burbank</td>
-<td>$772,756</td>
-<td>-0.27%</td>
-<td>-3.3%</td>
+<td><span class="num">$772,756</span></td>
+<td><span class="num neg">-0.27%</span></td>
+<td><span class="num neg">-3.3%</span></td>
 </tr>
 <tr>
-<td>12</td>
+<td><span class="num">12</span></td>
 <td>Harder-Tennyson</td>
-<td>$765,000</td>
-<td>-0.04%</td>
-<td>-5.0%</td>
+<td><span class="num">$765,000</span></td>
+<td><span class="num neg">-0.04%</span></td>
+<td><span class="num neg">-5.0%</span></td>
 </tr>
 <tr>
 <td></td>
@@ -588,25 +602,25 @@ em{color:var(--muted);font-style:italic}
 <td></td>
 </tr>
 <tr>
-<td>16</td>
+<td><span class="num">16</span></td>
 <td>Cherryland</td>
-<td>$696,304</td>
-<td>+0.60%</td>
-<td>+0.9%</td>
+<td><span class="num">$696,304</span></td>
+<td><span class="num">+0.60%</span></td>
+<td><span class="num">+0.9%</span></td>
 </tr>
 <tr>
-<td>17</td>
+<td><span class="num">17</span></td>
 <td>Upper B Street</td>
-<td>$684,611</td>
-<td>-0.44%</td>
-<td>-4.9%</td>
+<td><span class="num">$684,611</span></td>
+<td><span class="num neg">-0.44%</span></td>
+<td><span class="num neg">-4.9%</span></td>
 </tr>
 <tr>
-<td>18</td>
+<td><span class="num">18</span></td>
 <td>North Hayward</td>
-<td>$562,341</td>
-<td>-0.09%</td>
-<td>-6.4%</td>
+<td><span class="num">$562,341</span></td>
+<td><span class="num neg">-0.09%</span></td>
+<td><span class="num neg">-6.4%</span></td>
 </tr>
 </tbody></table></div>
 <p><em>Showing the top 12, the rows around Mt Eden, and the bottom 3, out of 18 neighborhoods Zillow tracks in Hayward.</em></p>
@@ -626,37 +640,37 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Active listings</td>
-<td>194</td>
+<td><span class="num">194</span></td>
 <td>n/a</td>
 <td>n/a</td>
 </tr>
 <tr>
 <td>New listings</td>
-<td>96</td>
+<td><span class="num">96</span></td>
 <td>n/a</td>
 <td>n/a</td>
 </tr>
 <tr>
 <td>Pending listings</td>
-<td>78</td>
+<td><span class="num">78</span></td>
 <td>n/a</td>
 <td></td>
 </tr>
 <tr>
 <td>Median days on market</td>
-<td>42</td>
+<td><span class="num">42</span></td>
 <td>n/a</td>
 <td>n/a</td>
 </tr>
 <tr>
 <td>Median asking price</td>
-<td>$829,716</td>
+<td><span class="num">$829,716</span></td>
 <td>n/a</td>
 <td>n/a</td>
 </tr>
 <tr>
 <td>Median price per square foot</td>
-<td>$553</td>
+<td><span class="num">$553</span></td>
 <td>n/a</td>
 <td>n/a</td>
 </tr>
@@ -685,26 +699,26 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>30-year fixed average</td>
-<td>7.4%</td>
-<td>6.27%</td>
+<td><span class="num">7.4%</span></td>
+<td><span class="num">6.27%</span></td>
 <td>+1.13 pts</td>
 </tr>
 <tr>
 <td>15-year fixed average</td>
-<td>6.71%</td>
-<td>5.52%</td>
+<td><span class="num">6.71%</span></td>
+<td><span class="num">5.52%</span></td>
 <td>+1.19 pts</td>
 </tr>
 <tr>
 <td>Payment on $907,865</td>
-<td>$6,286</td>
-<td>$5,602</td>
+<td><span class="num">$6,286</span></td>
+<td><span class="num">$5,602</span></td>
 <td>+$684/mo</td>
 </tr>
 <tr>
 <td>As of</td>
-<td>2026-10-15</td>
-<td>2025-10-16</td>
+<td><span class="num">2026-10-15</span></td>
+<td><span class="num">2025-10-16</span></td>
 <td></td>
 </tr>
 </tbody></table></div>
@@ -718,35 +732,35 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>2026 one-unit limit, Alameda County</td>
-<td>$1,249,125</td>
+<td><span class="num">$1,249,125</span></td>
 </tr>
 <tr>
 <td>Typical home value in Mt Eden</td>
-<td>$940,793</td>
+<td><span class="num">$940,793</span></td>
 </tr>
 <tr>
 <td>Loan at 3.5 percent down</td>
-<td>$907,865</td>
+<td><span class="num">$907,865</span></td>
 </tr>
 <tr>
 <td>Headroom under the ceiling</td>
-<td>$341,260</td>
+<td><span class="num">$341,260</span></td>
 </tr>
 <tr>
 <td>Highest price a minimum-down loan reaches</td>
-<td>$1,294,430</td>
+<td><span class="num">$1,294,430</span></td>
 </tr>
 <tr>
 <td>Two-unit limit</td>
-<td>$1,599,375</td>
+<td><span class="num">$1,599,375</span></td>
 </tr>
 <tr>
 <td>Three-unit limit</td>
-<td>$1,933,200</td>
+<td><span class="num">$1,933,200</span></td>
 </tr>
 <tr>
 <td>Four-unit limit</td>
-<td>$2,402,625</td>
+<td><span class="num">$2,402,625</span></td>
 </tr>
 </tbody></table></div>
 <h2 id="fha-conventional-and-naca-side-by-side">FHA, conventional, and NACA side by side</h2>
@@ -760,57 +774,57 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Purchase price</td>
-<td>$940,793</td>
-<td>$940,793</td>
-<td>$940,793</td>
+<td><span class="num">$940,793</span></td>
+<td><span class="num">$940,793</span></td>
+<td><span class="num">$940,793</span></td>
 </tr>
 <tr>
 <td>Down payment</td>
-<td>$32,928</td>
-<td>$47,040</td>
-<td>$188,159</td>
+<td><span class="num">$32,928</span></td>
+<td><span class="num">$47,040</span></td>
+<td><span class="num">$188,159</span></td>
 </tr>
 <tr>
 <td>Upfront MIP financed</td>
-<td>$15,888</td>
+<td><span class="num">$15,888</span></td>
 <td>none</td>
 <td>none</td>
 </tr>
 <tr>
 <td>Loan amount</td>
-<td>$923,753</td>
-<td>$893,753</td>
-<td>$752,634</td>
+<td><span class="num">$923,753</span></td>
+<td><span class="num">$893,753</span></td>
+<td><span class="num">$752,634</span></td>
 </tr>
 <tr>
 <td>Principal and interest</td>
-<td>$6,396</td>
-<td>$6,188</td>
-<td>$5,211</td>
+<td><span class="num">$6,396</span></td>
+<td><span class="num">$6,188</span></td>
+<td><span class="num">$5,211</span></td>
 </tr>
 <tr>
 <td>Mortgage insurance</td>
-<td>$423</td>
-<td>$462</td>
+<td><span class="num">$423</span></td>
+<td><span class="num">$462</span></td>
 <td>none</td>
 </tr>
 <tr>
 <td>Property tax</td>
-<td>$1,113</td>
-<td>$1,113</td>
-<td>$1,113</td>
+<td><span class="num">$1,113</span></td>
+<td><span class="num">$1,113</span></td>
+<td><span class="num">$1,113</span></td>
 </tr>
 <tr>
 <td>Insurance</td>
-<td>$215</td>
-<td>$215</td>
-<td>$215</td>
+<td><span class="num">$215</span></td>
+<td><span class="num">$215</span></td>
+<td><span class="num">$215</span></td>
 </tr>
 <tr>
 <td><strong>Total monthly</strong></td>
-<td><strong>$8,148</strong></td>
-<td><strong>$7,978</strong></td>
-<td><strong>$6,539</strong></td>
+<td><span class="num"><strong>$8,148</strong></span></td>
+<td><span class="num"><strong>$7,978</strong></span></td>
+<td><span class="num"><strong>$6,539</strong></span></td>
 </tr>
 <tr>
 <td>Mortgage insurance ends</td>
@@ -843,39 +857,39 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Typical home value</td>
-<td>$940,793</td>
-<td>$838,493</td>
-<td>$705,517</td>
+<td><span class="num">$940,793</span></td>
+<td><span class="num">$838,493</span></td>
+<td><span class="num">$705,517</span></td>
 </tr>
 <tr>
 <td>Price increase</td>
 <td></td>
-<td>-$102,300</td>
-<td>-$235,275</td>
+<td><span class="num neg">-$102,300</span></td>
+<td><span class="num neg">-$235,275</span></td>
 </tr>
 <tr>
 <td>Monthly payment</td>
-<td>$6,286</td>
-<td>$5,602</td>
-<td>$4,714</td>
+<td><span class="num">$6,286</span></td>
+<td><span class="num">$5,602</span></td>
+<td><span class="num">$4,714</span></td>
 </tr>
 <tr>
 <td>Payment increase per month</td>
 <td></td>
-<td>-$684</td>
-<td>-$1,572</td>
+<td><span class="num neg">-$684</span></td>
+<td><span class="num neg">-$1,572</span></td>
 </tr>
 <tr>
 <td>Extra paid in payments over the period</td>
 <td></td>
-<td>-$16,404</td>
-<td>-$94,319</td>
+<td><span class="num neg">-$16,404</span></td>
+<td><span class="num neg">-$94,319</span></td>
 </tr>
 <tr>
 <td><strong>Cost of waiting</strong></td>
 <td></td>
-<td><strong>-$118,704</strong></td>
-<td><strong>-$329,594</strong></td>
+<td><span class="num neg"><strong>-$118,704</strong></span></td>
+<td><span class="num neg"><strong>-$329,594</strong></span></td>
 </tr>
 <tr>
 <td>Rent paid while waiting</td>
@@ -895,20 +909,20 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Rates fall 0.75 pts</td>
-<td>6.65%</td>
-<td>$5,828</td>
+<td><span class="num">6.65%</span></td>
+<td><span class="num">$5,828</span></td>
 <td>-$458/mo</td>
 </tr>
 <tr>
 <td>Today</td>
-<td>7.40%</td>
-<td>$6,286</td>
+<td><span class="num">7.40%</span></td>
+<td><span class="num">$6,286</span></td>
 <td></td>
 </tr>
 <tr>
 <td>Rates rise 0.75 pts</td>
-<td>8.15%</td>
-<td>$6,757</td>
+<td><span class="num">8.15%</span></td>
+<td><span class="num">$6,757</span></td>
 <td>+$471/mo</td>
 </tr>
 </tbody></table></div>
@@ -923,38 +937,38 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Loan payment</td>
-<td>$6,286</td>
-<td>$75,430</td>
+<td><span class="num">$6,286</span></td>
+<td><span class="num">$75,430</span></td>
 <td>3.5% down at 7.4%, 30 years</td>
 </tr>
 <tr>
 <td>Property tax</td>
-<td>$1,113</td>
-<td>$13,359</td>
+<td><span class="num">$1,113</span></td>
+<td><span class="num">$13,359</span></td>
 <td>1.42%, Alameda County effective rate</td>
 </tr>
 <tr>
 <td>Insurance</td>
-<td>$215</td>
-<td>$2,580</td>
+<td><span class="num">$215</span></td>
+<td><span class="num">$2,580</span></td>
 <td>California average premium</td>
 </tr>
 <tr>
 <td>Utilities</td>
-<td>$622</td>
-<td>$7,464</td>
+<td><span class="num">$622</span></td>
+<td><span class="num">$7,464</span></td>
 <td>average home of roughly 1,800 sq ft</td>
 </tr>
 <tr>
 <td>Maintenance</td>
-<td>$784</td>
-<td>$9,408</td>
+<td><span class="num">$784</span></td>
+<td><span class="num">$9,408</span></td>
 <td>budgeted at 1% of value per year</td>
 </tr>
 <tr>
 <td><strong>Total</strong></td>
-<td><strong>$9,020</strong></td>
-<td><strong>$108,242</strong></td>
+<td><span class="num"><strong>$9,020</strong></span></td>
+<td><span class="num"><strong>$108,242</strong></span></td>
 <td>HOA not included</td>
 </tr>
 </tbody></table></div>
@@ -967,22 +981,22 @@ em{color:var(--muted);font-style:italic}
 <th>Equals this many days</th>
 </tr></thead><tbody>
 <tr>
-<td>$10,000</td>
+<td><span class="num">$10,000</span></td>
 <td>1.1 months</td>
 <td>34 days</td>
 </tr>
 <tr>
-<td>$25,000</td>
+<td><span class="num">$25,000</span></td>
 <td>2.8 months</td>
 <td>84 days</td>
 </tr>
 <tr>
-<td>$50,000</td>
+<td><span class="num">$50,000</span></td>
 <td>5.5 months</td>
 <td>169 days</td>
 </tr>
 <tr>
-<td>$100,000</td>
+<td><span class="num">$100,000</span></td>
 <td>11.1 months</td>
 <td>337 days</td>
 </tr>
@@ -1178,43 +1192,43 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td>Anthony W. Ochoa Middle</td>
 <td>Hayward Unified</td>
-<td>7-8</td>
+<td><span class="num">7-8</span></td>
 <td>Middle</td>
 </tr>
 <tr>
 <td>La Vista Middle</td>
 <td>Hayward Unified</td>
-<td>7-8</td>
+<td><span class="num">7-8</span></td>
 <td>Middle</td>
 </tr>
 <tr>
 <td>Martin Luther King, Jr. Middle</td>
 <td>Hayward Unified</td>
-<td>7-8</td>
+<td><span class="num">7-8</span></td>
 <td>Middle</td>
 </tr>
 <tr>
 <td>Alameda County Community</td>
 <td>Alameda County Office of Education</td>
-<td>8-12</td>
+<td><span class="num">8-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Alternative Learning Academy at Conley-Caraballo High</td>
 <td>New Haven Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Brenkwitz High</td>
 <td>Hayward Unified</td>
-<td>10-12</td>
+<td><span class="num">10-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Core Learning Academy at Conley-Caraballo High</td>
 <td>New Haven Unified</td>
-<td>10-12</td>
+<td><span class="num">10-12</span></td>
 <td>High</td>
 </tr>
 <tr>
@@ -1226,49 +1240,49 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td>Hayward High</td>
 <td>Hayward Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Leadership Public Schools - Hayward</td>
 <td>Hayward Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Mt. Eden High</td>
 <td>Hayward Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Opportunity Academy</td>
 <td>Alameda County Office of Education</td>
-<td>10-12</td>
+<td><span class="num">10-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Royal Sunset (Continuation)</td>
 <td>San Lorenzo Unified</td>
-<td>10-12</td>
+<td><span class="num">10-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Tennyson High</td>
 <td>Hayward Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Hayward Twin Oaks Montessori</td>
 <td>Hayward Unified</td>
-<td>1-12</td>
+<td><span class="num">1-12</span></td>
 <td>Elementary and high</td>
 </tr>
 <tr>
 <td>Impact Academy of Arts &amp; Technology</td>
 <td>Hayward Unified</td>
-<td>6-12</td>
+<td><span class="num">6-12</span></td>
 <td>Elementary and high</td>
 </tr>
 </tbody></table></div>
@@ -1282,15 +1296,15 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Median value, owner-occupied</td>
-<td>$854,400</td>
+<td><span class="num">$854,400</span></td>
 </tr>
 <tr>
 <td>Median gross rent</td>
-<td>$2,391</td>
+<td><span class="num">$2,391</span></td>
 </tr>
 <tr>
 <td>Median monthly owner cost with a mortgage</td>
-<td>$3,208</td>
+<td><span class="num">$3,208</span></td>
 </tr>
 <tr>
 <td>Owner-occupied share</td>
@@ -1298,15 +1312,15 @@ em{color:var(--muted);font-style:italic}
 </tr>
 <tr>
 <td>Renter-occupied share</td>
-<td>42.0%</td>
+<td><span class="num">42.0%</span></td>
 </tr>
 <tr>
 <td>Median gross rent as share of income</td>
-<td>31.9%</td>
+<td><span class="num">31.9%</span></td>
 </tr>
 <tr>
 <td>Median household income (affordability input)</td>
-<td>$113,318</td>
+<td><span class="num">$113,318</span></td>
 </tr>
 <tr>
 <td>Built 1939 or earlier</td>
@@ -1385,42 +1399,42 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td>Typical home value, neighborhood and city</td>
 <td><a href="https://www.zillow.com/research/data/" rel="noopener">Zillow Home Value Index, neighborhood level, smoothed and seasonally adjusted</a></td>
-<td>2026-09-30</td>
+<td><span class="num">2026-09-30</span></td>
 </tr>
 <tr>
 <td>Listing activity, inventory, days on market, price per square foot</td>
 <td><a href="https://www.realtor.com/research/data/" rel="noopener">Realtor.com Residential Listings Database, monthly ZIP metrics, aggregated across the city ZIP codes</a></td>
-<td>2026-09</td>
+<td><span class="num">2026-09</span></td>
 </tr>
 <tr>
 <td>Mortgage rate averages</td>
 <td><a href="https://www.freddiemac.com/pmms" rel="noopener">Freddie Mac Primary Mortgage Market Survey</a></td>
-<td>2026-10-15</td>
+<td><span class="num">2026-10-15</span></td>
 </tr>
 <tr>
 <td>Conforming and FHA loan limits</td>
 <td><a href="https://www.fhfa.gov/sites/default/files/2025-11/FullCountyLoanLimitList2026_HERA-BASED_FINAL_FLAT.csv" rel="noopener">Federal Housing Finance Agency, 2026 conforming loan limits</a></td>
-<td>2026</td>
+<td><span class="num">2026</span></td>
 </tr>
 <tr>
 <td>Property tax effective rate</td>
 <td><a href="https://www.ownwell.com/trends/california/alameda-county" rel="noopener">Ownwell property tax trends</a></td>
-<td>2026-10-16</td>
+<td><span class="num">2026-10-16</span></td>
 </tr>
 <tr>
 <td>Documentary and property transfer tax rates</td>
 <td><a href="https://www.californiacityfinance.com/PropTransfTaxRates.pdf" rel="noopener">California City Documentary and Property Transfer Tax Rates, compiled by Michael Coleman, CaliforniaCityFinance.com, effective 01 December 2025.</a></td>
-<td>2026-10-16</td>
+<td><span class="num">2026-10-16</span></td>
 </tr>
 <tr>
 <td>Homeowners insurance average</td>
 <td><a href="https://insurify.com/homeowners-insurance/states/california/" rel="noopener">Insurify, California average homeowners insurance</a></td>
-<td>2026-10-16</td>
+<td><span class="num">2026-10-16</span></td>
 </tr>
 <tr>
 <td>Public school directory</td>
 <td><a href="https://www.cde.ca.gov/SchoolDirectory/" rel="noopener">California Department of Education, public school directory</a></td>
-<td>2026-10</td>
+<td><span class="num">2026-10</span></td>
 </tr>
 <tr>
 <td>Housing and affordability profile</td>
@@ -1430,7 +1444,7 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td>Search questions</td>
 <td>Google Search autocomplete, harvested 2026-10</td>
-<td>2026-10</td>
+<td><span class="num">2026-10</span></td>
 </tr>
 </tbody></table></div>
 <p><strong>Updated 2026-10-17.</strong> Home value data current to 2026-09-30. Listing activity current to 2026-09. Mortgage rates current to 2026-10-15. This report is rebuilt every month when new data is published.</p>

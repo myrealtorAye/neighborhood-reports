@@ -396,41 +396,55 @@
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Titan+One&family=Graduate&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
 <style>:root{
-  --bone:#F2EBE3; --ink:#121216; --orange:#F26E22; --pine:#2D4A2B;
-  --crimson:#AA0000; --blue:#1D428A; --gold:#B58938;
-  --line:#D8CEC1; --muted:#4A4438; --panel:#FBF8F4; --zebra:#E9E1D7;
+  /* Orca Sunset, locked 18 October 2026. No blue anywhere. No green text anywhere. */
+  --bone:#F2EBE3; --orange:#FD792E; --ink:#090102;
+  /* five band sunset stack, top to bottom, always in this order */
+  --oxblood:#860B01; --crimson:#BC1307; --orangered:#F54926; --gold:#FDC935;
+  /* chart only */
+  --tan:#C6BAA8; --cream:#FAE7CD;
   color-scheme: light;
 }
 *{box-sizing:border-box}
 html{background:var(--bone)}
 body{margin:0;background:var(--bone);color:var(--ink);font:400 17px/1.68 'DM Sans',system-ui,-apple-system,sans-serif}
 main{max-width:760px;margin:0 auto;padding:48px 20px 96px;background:var(--bone)}
-h1,h2,h3{font-family:'Playfair Display',Georgia,serif;letter-spacing:-.01em}
-h1{font-size:2.3rem;font-weight:900;line-height:1.14;margin:0 0 .55em;color:var(--orange);
-   padding-bottom:.2em;border-bottom:2px solid var(--crimson)}
-h2{font-size:1.5rem;font-weight:900;margin:2.4em 0 .5em;padding-top:.55em;
-   border-top:2px solid var(--pine);color:var(--pine)}
-h3{font-size:1.12rem;font-weight:700;margin:1.9em 0 .35em;color:var(--pine)}
+h1,h2,h3{font-family:'Fredoka',system-ui,sans-serif;letter-spacing:-.01em}
+h1{font-size:2.3rem;font-weight:700;line-height:1.14;margin:0 0 .15em;color:var(--orange)}
+/* the five band sunset stack sits under the title */
+h1:after{content:'';display:block;height:10px;margin:.3em 0 .9em;
+   background:linear-gradient(to bottom,
+     var(--oxblood) 0 20%, var(--crimson) 20% 40%, var(--orangered) 40% 60%,
+     var(--orange) 60% 80%, var(--gold) 80% 100%)}
+h2{font-size:1.5rem;font-weight:600;margin:2.4em 0 .5em;padding-top:.55em;
+   border-top:3px solid var(--oxblood);color:var(--ink)}
+/* interior accent bars rotate between Deep Oxblood and Sunburst Orange only */
+h2:nth-of-type(even){border-top-color:var(--orange)}
+h3{font-size:1.12rem;font-weight:600;margin:1.9em 0 .35em;color:var(--ink)}
 h4{font-family:'DM Sans',system-ui,sans-serif;font-size:1rem;font-weight:700;margin:1.5em 0 .3em;color:var(--ink)}
 p{margin:0 0 1.15em}
-a{color:var(--pine);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:2px}
+a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:2px}
 a:hover{color:var(--orange);text-decoration-color:var(--orange)}
 ul{margin:0 0 1.2em;padding-left:1.25em;list-style:none}
 li{margin:.32em 0;position:relative}
-li:before{content:'▸';position:absolute;left:-1.1em;color:var(--gold);font-size:.95em}
+li:before{content:'▸';position:absolute;left:-1.1em;color:var(--orange);font-size:.95em}
 strong{font-weight:700}
-hr{border:0;border-top:1px solid var(--pine);opacity:.35;margin:2.5em 0}
+hr{border:0;border-top:1px solid var(--tan);margin:2.5em 0}
 code{font-family:'DM Mono',ui-monospace,monospace;background:#E6DCD0;padding:.1em .35em;border-radius:3px;font-size:.9em}
-.tablewrap{overflow-x:auto;margin:0 0 1.6em;border:1px solid var(--line);border-radius:4px;background:var(--panel)}
-table{border-collapse:collapse;width:100%;font:400 14px/1.45 'DM Sans',system-ui,sans-serif;background:var(--panel)}
-th{font-family:'DM Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.03em;text-transform:uppercase;
-   text-align:left;background:var(--pine);color:var(--bone);padding:10px 11px;font-weight:500;white-space:nowrap}
-td{padding:9px 11px;border-top:1px solid var(--line);vertical-align:top;color:var(--ink)}
-tbody tr:nth-child(even){background:var(--zebra)}
-em{color:var(--muted);font-style:italic}
-.dre,main > p:last-of-type{font-size:1rem;line-height:1.5;color:var(--pine)}
+.tablewrap{overflow-x:auto;margin:0 0 1.6em;border:1px solid var(--tan);border-radius:4px;background:var(--bone)}
+table{border-collapse:collapse;width:100%;font:400 14px/1.45 'Graduate',Georgia,serif;background:var(--bone)}
+th{font-family:'Graduate',Georgia,serif;font-size:12px;letter-spacing:.03em;text-transform:uppercase;
+   text-align:left;background:var(--bone);color:var(--ink);padding:10px 11px;font-weight:400;
+   white-space:nowrap;border-bottom:2px solid var(--ink)}
+td{padding:9px 11px;border-top:1px solid var(--tan);vertical-align:top;color:var(--ink)}
+/* numbers are always Near-Black Titan One, never coloured, except a change value */
+td .num{font-family:'Titan One',system-ui,sans-serif;font-weight:400;letter-spacing:.01em}
+td .neg{color:var(--crimson)}
+/* an overall or summary row takes the pale cream fill and an orange outline */
+tbody tr.overall{background:var(--cream);outline:4px solid var(--orange);outline-offset:-4px}
+em{font-style:italic}
+.dre,main > p:last-of-type{font-size:1rem;line-height:1.5;color:var(--ink)}
 @media (max-width:640px){main{padding:28px 16px 72px}h1{font-size:1.7rem}h2{font-size:1.3rem}}</style>
 </head>
 <body>
@@ -461,9 +475,9 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Typical home value (Zillow ZHVI)</td>
-<td>$392,997</td>
-<td>+0.01%</td>
-<td>-1.6%</td>
+<td><span class="num">$392,997</span></td>
+<td><span class="num">+0.01%</span></td>
+<td><span class="num neg">-1.6%</span></td>
 </tr>
 <tr>
 <td>Rank in Stockton by value</td>
@@ -479,7 +493,7 @@ em{color:var(--muted);font-style:italic}
 </tr>
 <tr>
 <td>As of</td>
-<td>2026-09-30</td>
+<td><span class="num">2026-09-30</span></td>
 <td></td>
 <td></td>
 </tr>
@@ -497,144 +511,144 @@ em{color:var(--muted);font-style:italic}
 <th>YoY</th>
 </tr></thead><tbody>
 <tr>
-<td>1</td>
+<td><span class="num">1</span></td>
 <td>Brookside</td>
-<td>$579,546</td>
-<td>-0.18%</td>
-<td>-1.4%</td>
+<td><span class="num">$579,546</span></td>
+<td><span class="num neg">-0.18%</span></td>
+<td><span class="num neg">-1.4%</span></td>
 </tr>
 <tr>
-<td>2</td>
+<td><span class="num">2</span></td>
 <td>Spanos Park West</td>
-<td>$566,957</td>
-<td>-0.07%</td>
-<td>-3.2%</td>
+<td><span class="num">$566,957</span></td>
+<td><span class="num neg">-0.07%</span></td>
+<td><span class="num neg">-3.2%</span></td>
 </tr>
 <tr>
-<td>3</td>
+<td><span class="num">3</span></td>
 <td>Elkhorn</td>
-<td>$556,269</td>
-<td>+0.07%</td>
-<td>-3.6%</td>
+<td><span class="num">$556,269</span></td>
+<td><span class="num">+0.07%</span></td>
+<td><span class="num neg">-3.6%</span></td>
 </tr>
 <tr>
-<td>4</td>
+<td><span class="num">4</span></td>
 <td>La Morada</td>
-<td>$536,518</td>
-<td>+0.10%</td>
-<td>-1.6%</td>
+<td><span class="num">$536,518</span></td>
+<td><span class="num">+0.10%</span></td>
+<td><span class="num neg">-1.6%</span></td>
 </tr>
 <tr>
-<td>5</td>
+<td><span class="num">5</span></td>
 <td>Spanos Park East</td>
-<td>$532,844</td>
-<td>+0.06%</td>
-<td>-2.3%</td>
+<td><span class="num">$532,844</span></td>
+<td><span class="num">+0.06%</span></td>
+<td><span class="num neg">-2.3%</span></td>
 </tr>
 <tr>
-<td>6</td>
+<td><span class="num">6</span></td>
 <td>El Pinal</td>
-<td>$476,253</td>
-<td>+0.09%</td>
-<td>-1.6%</td>
+<td><span class="num">$476,253</span></td>
+<td><span class="num">+0.09%</span></td>
+<td><span class="num neg">-1.6%</span></td>
 </tr>
 <tr>
-<td>7</td>
+<td><span class="num">7</span></td>
 <td>Weston Ranch</td>
-<td>$473,669</td>
-<td>-0.20%</td>
-<td>-2.1%</td>
+<td><span class="num">$473,669</span></td>
+<td><span class="num neg">-0.20%</span></td>
+<td><span class="num neg">-2.1%</span></td>
 </tr>
 <tr>
-<td>8</td>
+<td><span class="num">8</span></td>
 <td>Creekside - Wagner</td>
-<td>$461,336</td>
-<td>+0.12%</td>
-<td>-1.9%</td>
+<td><span class="num">$461,336</span></td>
+<td><span class="num">+0.12%</span></td>
+<td><span class="num neg">-1.9%</span></td>
 </tr>
 <tr>
-<td>9</td>
+<td><span class="num">9</span></td>
 <td>Parkwoods</td>
-<td>$449,960</td>
-<td>+0.11%</td>
-<td>-0.4%</td>
+<td><span class="num">$449,960</span></td>
+<td><span class="num">+0.11%</span></td>
+<td><span class="num neg">-0.4%</span></td>
 </tr>
 <tr>
-<td>10</td>
+<td><span class="num">10</span></td>
 <td>Quail Lakes - Venetian Bridges</td>
-<td>$448,503</td>
-<td>+0.28%</td>
-<td>-0.3%</td>
+<td><span class="num">$448,503</span></td>
+<td><span class="num">+0.28%</span></td>
+<td><span class="num neg">-0.3%</span></td>
 </tr>
 <tr>
-<td>11</td>
+<td><span class="num">11</span></td>
 <td>Lincoln Village West</td>
-<td>$447,626</td>
-<td>+0.10%</td>
-<td>-1.9%</td>
+<td><span class="num">$447,626</span></td>
+<td><span class="num">+0.10%</span></td>
+<td><span class="num neg">-1.9%</span></td>
 </tr>
 <tr>
-<td>12</td>
+<td><span class="num">12</span></td>
 <td>Weber Ranch</td>
-<td>$443,900</td>
-<td>+0.12%</td>
-<td>-0.9%</td>
+<td><span class="num">$443,900</span></td>
+<td><span class="num">+0.12%</span></td>
+<td><span class="num neg">-0.9%</span></td>
 </tr>
 <tr>
-<td>13</td>
+<td><span class="num">13</span></td>
 <td>Stonewood</td>
-<td>$437,715</td>
-<td>+0.16%</td>
-<td>-1.4%</td>
+<td><span class="num">$437,715</span></td>
+<td><span class="num">+0.16%</span></td>
+<td><span class="num neg">-1.4%</span></td>
 </tr>
 <tr>
-<td>14</td>
+<td><span class="num">14</span></td>
 <td>Colonial Heights</td>
-<td>$427,262</td>
-<td>+0.01%</td>
-<td>-3.3%</td>
+<td><span class="num">$427,262</span></td>
+<td><span class="num">+0.01%</span></td>
+<td><span class="num neg">-3.3%</span></td>
 </tr>
 <tr>
-<td>15</td>
+<td><span class="num">15</span></td>
 <td>Holiday Park</td>
-<td>$398,131</td>
-<td>+0.39%</td>
-<td>-0.9%</td>
+<td><span class="num">$398,131</span></td>
+<td><span class="num">+0.39%</span></td>
+<td><span class="num neg">-0.9%</span></td>
 </tr>
 <tr>
-<td>16</td>
+<td><span class="num">16</span></td>
 <td><strong>Van Buskirk</strong>  &lt;-- this report</td>
-<td>$392,997</td>
-<td>+0.01%</td>
-<td>-1.6%</td>
+<td><span class="num">$392,997</span></td>
+<td><span class="num">+0.01%</span></td>
+<td><span class="num neg">-1.6%</span></td>
 </tr>
 <tr>
-<td>17</td>
+<td><span class="num">17</span></td>
 <td>Ponce de Leon</td>
-<td>$388,680</td>
-<td>+0.30%</td>
-<td>-0.0%</td>
+<td><span class="num">$388,680</span></td>
+<td><span class="num">+0.30%</span></td>
+<td><span class="num neg">-0.0%</span></td>
 </tr>
 <tr>
-<td>18</td>
+<td><span class="num">18</span></td>
 <td>Tam O'Shanter</td>
-<td>$387,704</td>
-<td>+0.27%</td>
-<td>-1.1%</td>
+<td><span class="num">$387,704</span></td>
+<td><span class="num">+0.27%</span></td>
+<td><span class="num neg">-1.1%</span></td>
 </tr>
 <tr>
-<td>19</td>
+<td><span class="num">19</span></td>
 <td>Mariposa</td>
-<td>$386,586</td>
-<td>+0.33%</td>
-<td>-3.1%</td>
+<td><span class="num">$386,586</span></td>
+<td><span class="num">+0.33%</span></td>
+<td><span class="num neg">-3.1%</span></td>
 </tr>
 <tr>
-<td>20</td>
+<td><span class="num">20</span></td>
 <td>Stockton Metropolitan Airport</td>
-<td>$381,106</td>
-<td>+0.15%</td>
-<td>-2.3%</td>
+<td><span class="num">$381,106</span></td>
+<td><span class="num">+0.15%</span></td>
+<td><span class="num neg">-2.3%</span></td>
 </tr>
 <tr>
 <td></td>
@@ -644,25 +658,25 @@ em{color:var(--muted);font-style:italic}
 <td></td>
 </tr>
 <tr>
-<td>35</td>
+<td><span class="num">35</span></td>
 <td>Weberstown</td>
-<td>$293,503</td>
-<td>+0.10%</td>
-<td>-1.9%</td>
+<td><span class="num">$293,503</span></td>
+<td><span class="num">+0.10%</span></td>
+<td><span class="num neg">-1.9%</span></td>
 </tr>
 <tr>
-<td>36</td>
+<td><span class="num">36</span></td>
 <td>Gleason Park</td>
-<td>$289,966</td>
-<td>-0.11%</td>
-<td>-0.5%</td>
+<td><span class="num">$289,966</span></td>
+<td><span class="num neg">-0.11%</span></td>
+<td><span class="num neg">-0.5%</span></td>
 </tr>
 <tr>
-<td>37</td>
+<td><span class="num">37</span></td>
 <td>Louis Park</td>
-<td>$210,764</td>
-<td>-0.77%</td>
-<td>-2.5%</td>
+<td><span class="num">$210,764</span></td>
+<td><span class="num neg">-0.77%</span></td>
+<td><span class="num neg">-2.5%</span></td>
 </tr>
 </tbody></table></div>
 <p><em>Showing the top 12, the rows around Van Buskirk, and the bottom 3, out of 37 neighborhoods Zillow tracks in Stockton.</em></p>
@@ -682,37 +696,37 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Active listings</td>
-<td>557</td>
+<td><span class="num">557</span></td>
 <td>n/a</td>
 <td>n/a</td>
 </tr>
 <tr>
 <td>New listings</td>
-<td>218</td>
+<td><span class="num">218</span></td>
 <td>n/a</td>
 <td>n/a</td>
 </tr>
 <tr>
 <td>Pending listings</td>
-<td>251</td>
+<td><span class="num">251</span></td>
 <td>n/a</td>
 <td></td>
 </tr>
 <tr>
 <td>Median days on market</td>
-<td>59</td>
+<td><span class="num">59</span></td>
 <td>n/a</td>
 <td>n/a</td>
 </tr>
 <tr>
 <td>Median asking price</td>
-<td>$423,750</td>
+<td><span class="num">$423,750</span></td>
 <td>n/a</td>
 <td>n/a</td>
 </tr>
 <tr>
 <td>Median price per square foot</td>
-<td>$279</td>
+<td><span class="num">$279</span></td>
 <td>n/a</td>
 <td>n/a</td>
 </tr>
@@ -741,26 +755,26 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>30-year fixed average</td>
-<td>7.4%</td>
-<td>6.27%</td>
+<td><span class="num">7.4%</span></td>
+<td><span class="num">6.27%</span></td>
 <td>+1.13 pts</td>
 </tr>
 <tr>
 <td>15-year fixed average</td>
-<td>6.71%</td>
-<td>5.52%</td>
+<td><span class="num">6.71%</span></td>
+<td><span class="num">5.52%</span></td>
 <td>+1.19 pts</td>
 </tr>
 <tr>
 <td>Payment on $379,242</td>
-<td>$2,626</td>
-<td>$2,340</td>
+<td><span class="num">$2,626</span></td>
+<td><span class="num">$2,340</span></td>
 <td>+$286/mo</td>
 </tr>
 <tr>
 <td>As of</td>
-<td>2026-10-15</td>
-<td>2025-10-16</td>
+<td><span class="num">2026-10-15</span></td>
+<td><span class="num">2025-10-16</span></td>
 <td></td>
 </tr>
 </tbody></table></div>
@@ -774,35 +788,35 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>2026 one-unit limit, San Joaquin County</td>
-<td>$832,750</td>
+<td><span class="num">$832,750</span></td>
 </tr>
 <tr>
 <td>Typical home value in Van Buskirk</td>
-<td>$392,997</td>
+<td><span class="num">$392,997</span></td>
 </tr>
 <tr>
 <td>Loan at 3.5 percent down</td>
-<td>$379,242</td>
+<td><span class="num">$379,242</span></td>
 </tr>
 <tr>
 <td>Headroom under the ceiling</td>
-<td>$453,508</td>
+<td><span class="num">$453,508</span></td>
 </tr>
 <tr>
 <td>Highest price a minimum-down loan reaches</td>
-<td>$862,953</td>
+<td><span class="num">$862,953</span></td>
 </tr>
 <tr>
 <td>Two-unit limit</td>
-<td>$1,066,250</td>
+<td><span class="num">$1,066,250</span></td>
 </tr>
 <tr>
 <td>Three-unit limit</td>
-<td>$1,288,800</td>
+<td><span class="num">$1,288,800</span></td>
 </tr>
 <tr>
 <td>Four-unit limit</td>
-<td>$1,601,750</td>
+<td><span class="num">$1,601,750</span></td>
 </tr>
 </tbody></table></div>
 <h2 id="fha-conventional-and-naca-side-by-side">FHA, conventional, and NACA side by side</h2>
@@ -816,57 +830,57 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Purchase price</td>
-<td>$392,997</td>
-<td>$392,997</td>
-<td>$392,997</td>
+<td><span class="num">$392,997</span></td>
+<td><span class="num">$392,997</span></td>
+<td><span class="num">$392,997</span></td>
 </tr>
 <tr>
 <td>Down payment</td>
-<td>$13,755</td>
-<td>$19,650</td>
-<td>$78,599</td>
+<td><span class="num">$13,755</span></td>
+<td><span class="num">$19,650</span></td>
+<td><span class="num">$78,599</span></td>
 </tr>
 <tr>
 <td>Upfront MIP financed</td>
-<td>$6,637</td>
+<td><span class="num">$6,637</span></td>
 <td>none</td>
 <td>none</td>
 </tr>
 <tr>
 <td>Loan amount</td>
-<td>$385,878</td>
-<td>$373,347</td>
-<td>$314,397</td>
+<td><span class="num">$385,878</span></td>
+<td><span class="num">$373,347</span></td>
+<td><span class="num">$314,397</span></td>
 </tr>
 <tr>
 <td>Principal and interest</td>
-<td>$2,672</td>
-<td>$2,585</td>
-<td>$2,177</td>
+<td><span class="num">$2,672</span></td>
+<td><span class="num">$2,585</span></td>
+<td><span class="num">$2,177</span></td>
 </tr>
 <tr>
 <td>Mortgage insurance</td>
-<td>$177</td>
-<td>$193</td>
+<td><span class="num">$177</span></td>
+<td><span class="num">$193</span></td>
 <td>none</td>
 </tr>
 <tr>
 <td>Property tax</td>
-<td>$416</td>
-<td>$416</td>
-<td>$416</td>
+<td><span class="num">$416</span></td>
+<td><span class="num">$416</span></td>
+<td><span class="num">$416</span></td>
 </tr>
 <tr>
 <td>Insurance</td>
-<td>$215</td>
-<td>$215</td>
-<td>$215</td>
+<td><span class="num">$215</span></td>
+<td><span class="num">$215</span></td>
+<td><span class="num">$215</span></td>
 </tr>
 <tr>
 <td><strong>Total monthly</strong></td>
-<td><strong>$3,480</strong></td>
-<td><strong>$3,409</strong></td>
-<td><strong>$2,808</strong></td>
+<td><span class="num"><strong>$3,480</strong></span></td>
+<td><span class="num"><strong>$3,409</strong></span></td>
+<td><span class="num"><strong>$2,808</strong></span></td>
 </tr>
 <tr>
 <td>Mortgage insurance ends</td>
@@ -899,39 +913,39 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Typical home value</td>
-<td>$392,997</td>
-<td>$380,817</td>
-<td>$363,251</td>
+<td><span class="num">$392,997</span></td>
+<td><span class="num">$380,817</span></td>
+<td><span class="num">$363,251</span></td>
 </tr>
 <tr>
 <td>Price increase</td>
 <td></td>
-<td>-$12,180</td>
-<td>-$29,745</td>
+<td><span class="num neg">-$12,180</span></td>
+<td><span class="num neg">-$29,745</span></td>
 </tr>
 <tr>
 <td>Monthly payment</td>
-<td>$2,626</td>
-<td>$2,544</td>
-<td>$2,427</td>
+<td><span class="num">$2,626</span></td>
+<td><span class="num">$2,544</span></td>
+<td><span class="num">$2,427</span></td>
 </tr>
 <tr>
 <td>Payment increase per month</td>
 <td></td>
-<td>-$81</td>
-<td>-$199</td>
+<td><span class="num neg">-$81</span></td>
+<td><span class="num neg">-$199</span></td>
 </tr>
 <tr>
 <td>Extra paid in payments over the period</td>
 <td></td>
-<td>-$1,953</td>
-<td>-$11,925</td>
+<td><span class="num neg">-$1,953</span></td>
+<td><span class="num neg">-$11,925</span></td>
 </tr>
 <tr>
 <td><strong>Cost of waiting</strong></td>
 <td></td>
-<td><strong>-$14,133</strong></td>
-<td><strong>-$41,670</strong></td>
+<td><span class="num neg"><strong>-$14,133</strong></span></td>
+<td><span class="num neg"><strong>-$41,670</strong></span></td>
 </tr>
 <tr>
 <td>Rent paid while waiting</td>
@@ -951,20 +965,20 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Rates fall 0.75 pts</td>
-<td>6.65%</td>
-<td>$2,435</td>
+<td><span class="num">6.65%</span></td>
+<td><span class="num">$2,435</span></td>
 <td>-$191/mo</td>
 </tr>
 <tr>
 <td>Today</td>
-<td>7.40%</td>
-<td>$2,626</td>
+<td><span class="num">7.40%</span></td>
+<td><span class="num">$2,626</span></td>
 <td></td>
 </tr>
 <tr>
 <td>Rates rise 0.75 pts</td>
-<td>8.15%</td>
-<td>$2,822</td>
+<td><span class="num">8.15%</span></td>
+<td><span class="num">$2,822</span></td>
 <td>+$197/mo</td>
 </tr>
 </tbody></table></div>
@@ -979,38 +993,38 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Loan payment</td>
-<td>$2,626</td>
-<td>$31,510</td>
+<td><span class="num">$2,626</span></td>
+<td><span class="num">$31,510</span></td>
 <td>3.5% down at 7.4%, 30 years</td>
 </tr>
 <tr>
 <td>Property tax</td>
-<td>$416</td>
-<td>$4,991</td>
+<td><span class="num">$416</span></td>
+<td><span class="num">$4,991</span></td>
 <td>1.27%, Stockton effective rate</td>
 </tr>
 <tr>
 <td>Insurance</td>
-<td>$215</td>
-<td>$2,580</td>
+<td><span class="num">$215</span></td>
+<td><span class="num">$2,580</span></td>
 <td>California average premium</td>
 </tr>
 <tr>
 <td>Utilities</td>
-<td>$622</td>
-<td>$7,464</td>
+<td><span class="num">$622</span></td>
+<td><span class="num">$7,464</span></td>
 <td>average home of roughly 1,800 sq ft</td>
 </tr>
 <tr>
 <td>Maintenance</td>
-<td>$327</td>
-<td>$3,930</td>
+<td><span class="num">$327</span></td>
+<td><span class="num">$3,930</span></td>
 <td>budgeted at 1% of value per year</td>
 </tr>
 <tr>
 <td><strong>Total</strong></td>
-<td><strong>$4,206</strong></td>
-<td><strong>$50,475</strong></td>
+<td><span class="num"><strong>$4,206</strong></span></td>
+<td><span class="num"><strong>$50,475</strong></span></td>
 <td>HOA not included</td>
 </tr>
 </tbody></table></div>
@@ -1023,22 +1037,22 @@ em{color:var(--muted);font-style:italic}
 <th>Equals this many days</th>
 </tr></thead><tbody>
 <tr>
-<td>$10,000</td>
+<td><span class="num">$10,000</span></td>
 <td>2.4 months</td>
 <td>72 days</td>
 </tr>
 <tr>
-<td>$25,000</td>
+<td><span class="num">$25,000</span></td>
 <td>5.9 months</td>
 <td>181 days</td>
 </tr>
 <tr>
-<td>$50,000</td>
+<td><span class="num">$50,000</span></td>
 <td>11.9 months</td>
 <td>362 days</td>
 </tr>
 <tr>
-<td>$100,000</td>
+<td><span class="num">$100,000</span></td>
 <td>23.8 months</td>
 <td>724 days</td>
 </tr>
@@ -1552,7 +1566,7 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td>Unbound Stockton Community</td>
 <td>San Joaquin County Office of Education</td>
-<td>4-7</td>
+<td><span class="num">4-7</span></td>
 <td>Elementary</td>
 </tr>
 <tr>
@@ -1612,145 +1626,145 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td>Aspire Benjamin Holt Middle</td>
 <td>Lodi Unified</td>
-<td>6-8</td>
+<td><span class="num">6-8</span></td>
 <td>Middle</td>
 </tr>
 <tr>
 <td>Delta Sierra Middle</td>
 <td>Lodi Unified</td>
-<td>7-8</td>
+<td><span class="num">7-8</span></td>
 <td>Middle</td>
 </tr>
 <tr>
 <td>Elkhorn</td>
 <td>Lodi Unified</td>
-<td>4-8</td>
+<td><span class="num">4-8</span></td>
 <td>Middle</td>
 </tr>
 <tr>
 <td>Morada Middle</td>
 <td>Lodi Unified</td>
-<td>7-8</td>
+<td><span class="num">7-8</span></td>
 <td>Middle</td>
 </tr>
 <tr>
 <td>Sierra Middle</td>
 <td>Lincoln Unified</td>
-<td>7-8</td>
+<td><span class="num">7-8</span></td>
 <td>Middle</td>
 </tr>
 <tr>
 <td>Team Charter Academy</td>
 <td>Stockton Unified</td>
-<td>6-8</td>
+<td><span class="num">6-8</span></td>
 <td>Middle</td>
 </tr>
 <tr>
 <td>Waterloo Elementary</td>
 <td>Linden Unified</td>
-<td>5-8</td>
+<td><span class="num">5-8</span></td>
 <td>Middle</td>
 </tr>
 <tr>
 <td>Aspire Benjamin Holt College Preparatory Academy</td>
 <td>Lodi Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Bear Creek High</td>
 <td>Lodi Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Cesar Chavez High</td>
 <td>Stockton Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Christa McAuliffe Middle</td>
 <td>Lodi Unified</td>
-<td>7-10</td>
+<td><span class="num">7-10</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>District Special Education</td>
 <td>Stockton Unified</td>
-<td>12</td>
+<td><span class="num">12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Edison High</td>
 <td>Stockton Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Edward C. Merlo Institute of Environmental Studies</td>
 <td>Stockton Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Franklin High</td>
 <td>Stockton Unified</td>
-<td>8-12</td>
+<td><span class="num">8-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Health Careers Academy</td>
 <td>Stockton Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Jane Frederick High</td>
 <td>Stockton Unified</td>
-<td>10-12</td>
+<td><span class="num">10-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>John F. Cruikshank, Jr.</td>
 <td>San Joaquin County Office of Education</td>
-<td>7-12</td>
+<td><span class="num">7-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Lincoln High</td>
 <td>Lincoln Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Middle College High</td>
 <td>Lodi Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>New Vision High</td>
 <td>Manteca Unified</td>
-<td>11-12</td>
+<td><span class="num">11-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Pacific Law Academy</td>
 <td>Stockton Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Plaza Robles High</td>
 <td>Lodi Unified</td>
-<td>11-12</td>
+<td><span class="num">11-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Ronald E. McNair High</td>
 <td>Lodi Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
@@ -1768,37 +1782,37 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td>Stagg Senior High</td>
 <td>Stockton Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Stockton Early College Academy</td>
 <td>Stockton Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Stockton High</td>
 <td>Stockton Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Village Oaks High</td>
 <td>Lincoln Unified</td>
-<td>10-12</td>
+<td><span class="num">10-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Weber Institute</td>
 <td>Stockton Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
 <td>Weston Ranch High</td>
 <td>Manteca Unified</td>
-<td>9-12</td>
+<td><span class="num">9-12</span></td>
 <td>High</td>
 </tr>
 <tr>
@@ -1810,13 +1824,13 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td>Aspire Langston Hughes Academy</td>
 <td>Stockton Unified</td>
-<td>6-12</td>
+<td><span class="num">6-12</span></td>
 <td>Elementary and high</td>
 </tr>
 <tr>
 <td>Aspire Stockton 6-12 Secondary Academy</td>
 <td>Stockton Unified</td>
-<td>6-11</td>
+<td><span class="num">6-11</span></td>
 <td>Elementary and high</td>
 </tr>
 <tr>
@@ -1828,13 +1842,13 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td>one.Charter</td>
 <td>San Joaquin County Office of Education</td>
-<td>4-12</td>
+<td><span class="num">4-12</span></td>
 <td>Elementary and high</td>
 </tr>
 <tr>
 <td>San Joaquin County Community</td>
 <td>San Joaquin County Office of Education</td>
-<td>3-12</td>
+<td><span class="num">3-12</span></td>
 <td>Elementary and high</td>
 </tr>
 <tr>
@@ -1846,7 +1860,7 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td>Stockton Collegiate International Secondary</td>
 <td>Stockton Unified</td>
-<td>6-12</td>
+<td><span class="num">6-12</span></td>
 <td>Elementary and high</td>
 </tr>
 <tr>
@@ -1878,15 +1892,15 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Median value, owner-occupied</td>
-<td>$440,900</td>
+<td><span class="num">$440,900</span></td>
 </tr>
 <tr>
 <td>Median gross rent</td>
-<td>$1,577</td>
+<td><span class="num">$1,577</span></td>
 </tr>
 <tr>
 <td>Median monthly owner cost with a mortgage</td>
-<td>$2,217</td>
+<td><span class="num">$2,217</span></td>
 </tr>
 <tr>
 <td>Owner-occupied share</td>
@@ -1894,15 +1908,15 @@ em{color:var(--muted);font-style:italic}
 </tr>
 <tr>
 <td>Renter-occupied share</td>
-<td>46.1%</td>
+<td><span class="num">46.1%</span></td>
 </tr>
 <tr>
 <td>Median gross rent as share of income</td>
-<td>33.1%</td>
+<td><span class="num">33.1%</span></td>
 </tr>
 <tr>
 <td>Median household income (affordability input)</td>
-<td>$79,907</td>
+<td><span class="num">$79,907</span></td>
 </tr>
 <tr>
 <td>Built 1939 or earlier</td>
@@ -1981,42 +1995,42 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td>Typical home value, neighborhood and city</td>
 <td><a href="https://www.zillow.com/research/data/" rel="noopener">Zillow Home Value Index, neighborhood level, smoothed and seasonally adjusted</a></td>
-<td>2026-09-30</td>
+<td><span class="num">2026-09-30</span></td>
 </tr>
 <tr>
 <td>Listing activity, inventory, days on market, price per square foot</td>
 <td><a href="https://www.realtor.com/research/data/" rel="noopener">Realtor.com Residential Listings Database, monthly ZIP metrics, aggregated across the city ZIP codes</a></td>
-<td>2026-09</td>
+<td><span class="num">2026-09</span></td>
 </tr>
 <tr>
 <td>Mortgage rate averages</td>
 <td><a href="https://www.freddiemac.com/pmms" rel="noopener">Freddie Mac Primary Mortgage Market Survey</a></td>
-<td>2026-10-15</td>
+<td><span class="num">2026-10-15</span></td>
 </tr>
 <tr>
 <td>Conforming and FHA loan limits</td>
 <td><a href="https://www.fhfa.gov/sites/default/files/2025-11/FullCountyLoanLimitList2026_HERA-BASED_FINAL_FLAT.csv" rel="noopener">Federal Housing Finance Agency, 2026 conforming loan limits</a></td>
-<td>2026</td>
+<td><span class="num">2026</span></td>
 </tr>
 <tr>
 <td>Property tax effective rate</td>
 <td><a href="https://www.ownwell.com/trends/california/san-joaquin-county/stockton" rel="noopener">Ownwell property tax trends</a></td>
-<td>2026-10-16</td>
+<td><span class="num">2026-10-16</span></td>
 </tr>
 <tr>
 <td>Documentary and property transfer tax rates</td>
 <td><a href="https://www.californiacityfinance.com/PropTransfTaxRates.pdf" rel="noopener">California City Documentary and Property Transfer Tax Rates, compiled by Michael Coleman, CaliforniaCityFinance.com, effective 01 December 2025.</a></td>
-<td>2026-10-16</td>
+<td><span class="num">2026-10-16</span></td>
 </tr>
 <tr>
 <td>Homeowners insurance average</td>
 <td><a href="https://insurify.com/homeowners-insurance/states/california/" rel="noopener">Insurify, California average homeowners insurance</a></td>
-<td>2026-10-16</td>
+<td><span class="num">2026-10-16</span></td>
 </tr>
 <tr>
 <td>Public school directory</td>
 <td><a href="https://www.cde.ca.gov/SchoolDirectory/" rel="noopener">California Department of Education, public school directory</a></td>
-<td>2026-10</td>
+<td><span class="num">2026-10</span></td>
 </tr>
 <tr>
 <td>Housing and affordability profile</td>
@@ -2026,7 +2040,7 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td>Search questions</td>
 <td>Google Search autocomplete, harvested 2026-10</td>
-<td>2026-10</td>
+<td><span class="num">2026-10</span></td>
 </tr>
 </tbody></table></div>
 <p><strong>Updated 2026-10-17.</strong> Home value data current to 2026-09-30. Listing activity current to 2026-09. Mortgage rates current to 2026-10-15. This report is rebuilt every month when new data is published.</p>

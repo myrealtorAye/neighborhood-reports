@@ -410,41 +410,55 @@
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Titan+One&family=Graduate&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
 <style>:root{
-  --bone:#F2EBE3; --ink:#121216; --orange:#F26E22; --pine:#2D4A2B;
-  --crimson:#AA0000; --blue:#1D428A; --gold:#B58938;
-  --line:#D8CEC1; --muted:#4A4438; --panel:#FBF8F4; --zebra:#E9E1D7;
+  /* Orca Sunset, locked 18 October 2026. No blue anywhere. No green text anywhere. */
+  --bone:#F2EBE3; --orange:#FD792E; --ink:#090102;
+  /* five band sunset stack, top to bottom, always in this order */
+  --oxblood:#860B01; --crimson:#BC1307; --orangered:#F54926; --gold:#FDC935;
+  /* chart only */
+  --tan:#C6BAA8; --cream:#FAE7CD;
   color-scheme: light;
 }
 *{box-sizing:border-box}
 html{background:var(--bone)}
 body{margin:0;background:var(--bone);color:var(--ink);font:400 17px/1.68 'DM Sans',system-ui,-apple-system,sans-serif}
 main{max-width:760px;margin:0 auto;padding:48px 20px 96px;background:var(--bone)}
-h1,h2,h3{font-family:'Playfair Display',Georgia,serif;letter-spacing:-.01em}
-h1{font-size:2.3rem;font-weight:900;line-height:1.14;margin:0 0 .55em;color:var(--orange);
-   padding-bottom:.2em;border-bottom:2px solid var(--crimson)}
-h2{font-size:1.5rem;font-weight:900;margin:2.4em 0 .5em;padding-top:.55em;
-   border-top:2px solid var(--pine);color:var(--pine)}
-h3{font-size:1.12rem;font-weight:700;margin:1.9em 0 .35em;color:var(--pine)}
+h1,h2,h3{font-family:'Fredoka',system-ui,sans-serif;letter-spacing:-.01em}
+h1{font-size:2.3rem;font-weight:700;line-height:1.14;margin:0 0 .15em;color:var(--orange)}
+/* the five band sunset stack sits under the title */
+h1:after{content:'';display:block;height:10px;margin:.3em 0 .9em;
+   background:linear-gradient(to bottom,
+     var(--oxblood) 0 20%, var(--crimson) 20% 40%, var(--orangered) 40% 60%,
+     var(--orange) 60% 80%, var(--gold) 80% 100%)}
+h2{font-size:1.5rem;font-weight:600;margin:2.4em 0 .5em;padding-top:.55em;
+   border-top:3px solid var(--oxblood);color:var(--ink)}
+/* interior accent bars rotate between Deep Oxblood and Sunburst Orange only */
+h2:nth-of-type(even){border-top-color:var(--orange)}
+h3{font-size:1.12rem;font-weight:600;margin:1.9em 0 .35em;color:var(--ink)}
 h4{font-family:'DM Sans',system-ui,sans-serif;font-size:1rem;font-weight:700;margin:1.5em 0 .3em;color:var(--ink)}
 p{margin:0 0 1.15em}
-a{color:var(--pine);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:2px}
+a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:2px}
 a:hover{color:var(--orange);text-decoration-color:var(--orange)}
 ul{margin:0 0 1.2em;padding-left:1.25em;list-style:none}
 li{margin:.32em 0;position:relative}
-li:before{content:'▸';position:absolute;left:-1.1em;color:var(--gold);font-size:.95em}
+li:before{content:'▸';position:absolute;left:-1.1em;color:var(--orange);font-size:.95em}
 strong{font-weight:700}
-hr{border:0;border-top:1px solid var(--pine);opacity:.35;margin:2.5em 0}
+hr{border:0;border-top:1px solid var(--tan);margin:2.5em 0}
 code{font-family:'DM Mono',ui-monospace,monospace;background:#E6DCD0;padding:.1em .35em;border-radius:3px;font-size:.9em}
-.tablewrap{overflow-x:auto;margin:0 0 1.6em;border:1px solid var(--line);border-radius:4px;background:var(--panel)}
-table{border-collapse:collapse;width:100%;font:400 14px/1.45 'DM Sans',system-ui,sans-serif;background:var(--panel)}
-th{font-family:'DM Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.03em;text-transform:uppercase;
-   text-align:left;background:var(--pine);color:var(--bone);padding:10px 11px;font-weight:500;white-space:nowrap}
-td{padding:9px 11px;border-top:1px solid var(--line);vertical-align:top;color:var(--ink)}
-tbody tr:nth-child(even){background:var(--zebra)}
-em{color:var(--muted);font-style:italic}
-.dre,main > p:last-of-type{font-size:1rem;line-height:1.5;color:var(--pine)}
+.tablewrap{overflow-x:auto;margin:0 0 1.6em;border:1px solid var(--tan);border-radius:4px;background:var(--bone)}
+table{border-collapse:collapse;width:100%;font:400 14px/1.45 'Graduate',Georgia,serif;background:var(--bone)}
+th{font-family:'Graduate',Georgia,serif;font-size:12px;letter-spacing:.03em;text-transform:uppercase;
+   text-align:left;background:var(--bone);color:var(--ink);padding:10px 11px;font-weight:400;
+   white-space:nowrap;border-bottom:2px solid var(--ink)}
+td{padding:9px 11px;border-top:1px solid var(--tan);vertical-align:top;color:var(--ink)}
+/* numbers are always Near-Black Titan One, never coloured, except a change value */
+td .num{font-family:'Titan One',system-ui,sans-serif;font-weight:400;letter-spacing:.01em}
+td .neg{color:var(--crimson)}
+/* an overall or summary row takes the pale cream fill and an orange outline */
+tbody tr.overall{background:var(--cream);outline:4px solid var(--orange);outline-offset:-4px}
+em{font-style:italic}
+.dre,main > p:last-of-type{font-size:1rem;line-height:1.5;color:var(--ink)}
 @media (max-width:640px){main{padding:28px 16px 72px}h1{font-size:1.7rem}h2{font-size:1.3rem}}</style>
 </head>
 <body>
@@ -484,88 +498,88 @@ em{color:var(--muted);font-style:italic}
 <th>YoY</th>
 </tr></thead><tbody>
 <tr>
-<td>1</td>
+<td><span class="num">1</span></td>
 <td>94539, Fremont</td>
-<td>$2,155,195</td>
-<td>+0.51%</td>
-<td>+2.0%</td>
+<td><span class="num">$2,155,195</span></td>
+<td><span class="num">+0.51%</span></td>
+<td><span class="num">+2.0%</span></td>
 </tr>
 <tr>
-<td>2</td>
+<td><span class="num">2</span></td>
 <td><strong>94705, Berkeley</strong>  &lt;-- this report</td>
-<td>$1,974,361</td>
-<td>+0.61%</td>
-<td>+7.1%</td>
+<td><span class="num">$1,974,361</span></td>
+<td><span class="num">+0.61%</span></td>
+<td><span class="num">+7.1%</span></td>
 </tr>
 <tr>
-<td>3</td>
+<td><span class="num">3</span></td>
 <td>94707, Berkeley</td>
-<td>$1,774,965</td>
-<td>+0.90%</td>
-<td>+10.4%</td>
+<td><span class="num">$1,774,965</span></td>
+<td><span class="num">+0.90%</span></td>
+<td><span class="num">+10.4%</span></td>
 </tr>
 <tr>
-<td>4</td>
+<td><span class="num">4</span></td>
 <td>94618, Oakland</td>
-<td>$1,653,325</td>
-<td>+1.02%</td>
-<td>+8.7%</td>
+<td><span class="num">$1,653,325</span></td>
+<td><span class="num">+1.02%</span></td>
+<td><span class="num">+8.7%</span></td>
 </tr>
 <tr>
-<td>5</td>
+<td><span class="num">5</span></td>
 <td>94566, Pleasanton</td>
-<td>$1,644,043</td>
-<td>+0.03%</td>
-<td>-2.3%</td>
+<td><span class="num">$1,644,043</span></td>
+<td><span class="num">+0.03%</span></td>
+<td><span class="num neg">-2.3%</span></td>
 </tr>
 <tr>
-<td>6</td>
+<td><span class="num">6</span></td>
 <td>94708, Berkeley</td>
-<td>$1,627,180</td>
-<td>+0.92%</td>
-<td>+6.1%</td>
+<td><span class="num">$1,627,180</span></td>
+<td><span class="num">+0.92%</span></td>
+<td><span class="num">+6.1%</span></td>
 </tr>
 <tr>
-<td>7</td>
+<td><span class="num">7</span></td>
 <td>94586, Sunol</td>
-<td>$1,427,217</td>
-<td>+0.51%</td>
-<td>+3.5%</td>
+<td><span class="num">$1,427,217</span></td>
+<td><span class="num">+0.51%</span></td>
+<td><span class="num">+3.5%</span></td>
 </tr>
 <tr>
-<td>8</td>
+<td><span class="num">8</span></td>
 <td>94555, Fremont</td>
-<td>$1,425,523</td>
-<td>+0.01%</td>
-<td>-2.0%</td>
+<td><span class="num">$1,425,523</span></td>
+<td><span class="num">+0.01%</span></td>
+<td><span class="num neg">-2.0%</span></td>
 </tr>
 <tr>
-<td>9</td>
+<td><span class="num">9</span></td>
 <td>94611, Oakland</td>
-<td>$1,409,497</td>
-<td>+0.90%</td>
-<td>+5.6%</td>
+<td><span class="num">$1,409,497</span></td>
+<td><span class="num">+0.90%</span></td>
+<td><span class="num">+5.6%</span></td>
 </tr>
 <tr>
-<td>10</td>
+<td><span class="num">10</span></td>
 <td>94536, Fremont</td>
-<td>$1,375,210</td>
-<td>+0.05%</td>
-<td>-1.0%</td>
+<td><span class="num">$1,375,210</span></td>
+<td><span class="num">+0.05%</span></td>
+<td><span class="num neg">-1.0%</span></td>
 </tr>
 <tr>
-<td>11</td>
+<td><span class="num">11</span></td>
 <td>94552, Castro Valley</td>
-<td>$1,364,641</td>
-<td>+0.22%</td>
-<td>+1.0%</td>
+<td><span class="num">$1,364,641</span></td>
+<td><span class="num">+0.22%</span></td>
+<td><span class="num">+1.0%</span></td>
 </tr>
 <tr>
-<td>12</td>
+<td><span class="num">12</span></td>
 <td>94588, Pleasanton</td>
-<td>$1,351,989</td>
-<td>-0.08%</td>
-<td>-3.4%</td>
+<td><span class="num">$1,351,989</span></td>
+<td><span class="num neg">-0.08%</span></td>
+<td><span class="num neg">-3.4%</span></td>
 </tr>
 <tr>
 <td></td>
@@ -575,25 +589,25 @@ em{color:var(--muted);font-style:italic}
 <td></td>
 </tr>
 <tr>
-<td>45</td>
+<td><span class="num">45</span></td>
 <td>94607, Oakland</td>
-<td>$513,751</td>
-<td>-0.04%</td>
-<td>-3.6%</td>
+<td><span class="num">$513,751</span></td>
+<td><span class="num neg">-0.04%</span></td>
+<td><span class="num neg">-3.6%</span></td>
 </tr>
 <tr>
-<td>46</td>
+<td><span class="num">46</span></td>
 <td>94603, Oakland</td>
-<td>$507,514</td>
-<td>+0.42%</td>
-<td>-1.9%</td>
+<td><span class="num">$507,514</span></td>
+<td><span class="num">+0.42%</span></td>
+<td><span class="num neg">-1.9%</span></td>
 </tr>
 <tr>
-<td>47</td>
+<td><span class="num">47</span></td>
 <td>94621, Oakland</td>
-<td>$445,423</td>
-<td>+0.65%</td>
-<td>-3.3%</td>
+<td><span class="num">$445,423</span></td>
+<td><span class="num">+0.65%</span></td>
+<td><span class="num neg">-3.3%</span></td>
 </tr>
 </tbody></table></div>
 <p><em>Showing the top 12, the rows around ZIP 94705, and the bottom 3, out of 47 ZIP codes Zillow tracks in Alameda County.</em></p>
@@ -608,13 +622,13 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Oakland</td>
-<td>$16.10</td>
-<td>$31,787</td>
+<td><span class="num">$16.10</span></td>
+<td><span class="num">$31,787</span></td>
 </tr>
 <tr>
 <td>Berkeley</td>
-<td>$26.10</td>
-<td>$51,531</td>
+<td><span class="num">$26.10</span></td>
+<td><span class="num">$51,531</span></td>
 </tr>
 </tbody></table></div>
 <h2 id="the-two-price-numbers-that-disagree-and-why">The two price numbers that disagree, and why</h2>
@@ -633,39 +647,39 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Active listings</td>
-<td>15</td>
-<td>+45.0%</td>
-<td>+7.4%</td>
+<td><span class="num">15</span></td>
+<td><span class="num">+45.0%</span></td>
+<td><span class="num">+7.4%</span></td>
 </tr>
 <tr>
 <td>New listings</td>
-<td>16</td>
-<td>+300.0%</td>
+<td><span class="num">16</span></td>
+<td><span class="num">+300.0%</span></td>
 <td>n/a</td>
 </tr>
 <tr>
 <td>Pending listings</td>
-<td>6</td>
+<td><span class="num">6</span></td>
 <td>n/a</td>
 <td></td>
 </tr>
 <tr>
 <td>Median days on market</td>
-<td>21</td>
-<td>-43.9%</td>
-<td>-69.3%</td>
+<td><span class="num">21</span></td>
+<td><span class="num neg">-43.9%</span></td>
+<td><span class="num neg">-69.3%</span></td>
 </tr>
 <tr>
 <td>Median asking price</td>
-<td>$1,583,500</td>
-<td>-5.3%</td>
-<td>-6.8%</td>
+<td><span class="num">$1,583,500</span></td>
+<td><span class="num neg">-5.3%</span></td>
+<td><span class="num neg">-6.8%</span></td>
 </tr>
 <tr>
 <td>Median price per square foot</td>
-<td>$728</td>
-<td>+2.9%</td>
-<td>-8.2%</td>
+<td><span class="num">$728</span></td>
+<td><span class="num">+2.9%</span></td>
+<td><span class="num neg">-8.2%</span></td>
 </tr>
 <tr>
 <td>Median listing size</td>
@@ -675,9 +689,9 @@ em{color:var(--muted);font-style:italic}
 </tr>
 <tr>
 <td>Typical rent (Zillow ZORI)</td>
-<td>$2,826</td>
+<td><span class="num">$2,826</span></td>
 <td></td>
-<td>+2.3%</td>
+<td><span class="num">+2.3%</span></td>
 </tr>
 </tbody></table></div>
 <h2 id="what-the-money-costs-right-now">What the money costs right now</h2>
@@ -692,26 +706,26 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>30-year fixed average</td>
-<td>7.4%</td>
-<td>6.27%</td>
+<td><span class="num">7.4%</span></td>
+<td><span class="num">6.27%</span></td>
 <td>+1.13 pts</td>
 </tr>
 <tr>
 <td>15-year fixed average</td>
-<td>6.71%</td>
-<td>5.52%</td>
+<td><span class="num">6.71%</span></td>
+<td><span class="num">5.52%</span></td>
 <td>+1.19 pts</td>
 </tr>
 <tr>
 <td>Payment on $1,905,258</td>
-<td>$13,192</td>
-<td>$11,756</td>
+<td><span class="num">$13,192</span></td>
+<td><span class="num">$11,756</span></td>
 <td>+$1,436/mo</td>
 </tr>
 <tr>
 <td>As of</td>
-<td>2026-10-15</td>
-<td>2025-10-16</td>
+<td><span class="num">2026-10-15</span></td>
+<td><span class="num">2025-10-16</span></td>
 <td></td>
 </tr>
 </tbody></table></div>
@@ -726,19 +740,19 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>2026 one-unit limit, Alameda County</td>
-<td>$1,249,125</td>
+<td><span class="num">$1,249,125</span></td>
 </tr>
 <tr>
 <td>Typical home value in 94705</td>
-<td>$1,974,361</td>
+<td><span class="num">$1,974,361</span></td>
 </tr>
 <tr>
 <td>Loan at 3.5 percent down</td>
-<td>$1,905,258</td>
+<td><span class="num">$1,905,258</span></td>
 </tr>
 <tr>
 <td>Amount over the ceiling</td>
-<td>$656,133</td>
+<td><span class="num">$656,133</span></td>
 </tr>
 <tr>
 <td>Down payment needed to reach the ceiling</td>
@@ -746,19 +760,19 @@ em{color:var(--muted);font-style:italic}
 </tr>
 <tr>
 <td>Highest price a minimum-down loan reaches</td>
-<td>$1,294,430</td>
+<td><span class="num">$1,294,430</span></td>
 </tr>
 <tr>
 <td>Two-unit limit</td>
-<td>$1,599,375</td>
+<td><span class="num">$1,599,375</span></td>
 </tr>
 <tr>
 <td>Three-unit limit</td>
-<td>$1,933,200</td>
+<td><span class="num">$1,933,200</span></td>
 </tr>
 <tr>
 <td>Four-unit limit</td>
-<td>$2,402,625</td>
+<td><span class="num">$2,402,625</span></td>
 </tr>
 </tbody></table></div>
 <h2 id="fha-conventional-and-naca-side-by-side">FHA, conventional, and NACA side by side</h2>
@@ -772,57 +786,57 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Purchase price</td>
-<td>$1,294,430</td>
-<td>$1,294,430</td>
-<td>$1,294,430</td>
+<td><span class="num">$1,294,430</span></td>
+<td><span class="num">$1,294,430</span></td>
+<td><span class="num">$1,294,430</span></td>
 </tr>
 <tr>
 <td>Down payment</td>
-<td>$45,305</td>
-<td>$64,722</td>
-<td>$258,886</td>
+<td><span class="num">$45,305</span></td>
+<td><span class="num">$64,722</span></td>
+<td><span class="num">$258,886</span></td>
 </tr>
 <tr>
 <td>Upfront MIP financed</td>
-<td>$21,860</td>
+<td><span class="num">$21,860</span></td>
 <td>none</td>
 <td>none</td>
 </tr>
 <tr>
 <td>Loan amount</td>
-<td>$1,270,985</td>
-<td>$1,229,709</td>
-<td>$1,035,544</td>
+<td><span class="num">$1,270,985</span></td>
+<td><span class="num">$1,229,709</span></td>
+<td><span class="num">$1,035,544</span></td>
 </tr>
 <tr>
 <td>Principal and interest</td>
-<td>$8,800</td>
-<td>$8,514</td>
-<td>$7,170</td>
+<td><span class="num">$8,800</span></td>
+<td><span class="num">$8,514</span></td>
+<td><span class="num">$7,170</span></td>
 </tr>
 <tr>
 <td>Mortgage insurance</td>
-<td>$583</td>
-<td>$635</td>
+<td><span class="num">$583</span></td>
+<td><span class="num">$635</span></td>
 <td>none</td>
 </tr>
 <tr>
 <td>Property tax</td>
-<td>$2,336</td>
-<td>$2,336</td>
-<td>$2,336</td>
+<td><span class="num">$2,336</span></td>
+<td><span class="num">$2,336</span></td>
+<td><span class="num">$2,336</span></td>
 </tr>
 <tr>
 <td>Insurance</td>
-<td>$215</td>
-<td>$215</td>
-<td>$215</td>
+<td><span class="num">$215</span></td>
+<td><span class="num">$215</span></td>
+<td><span class="num">$215</span></td>
 </tr>
 <tr>
 <td><strong>Total monthly</strong></td>
-<td><strong>$11,934</strong></td>
-<td><strong>$11,701</strong></td>
-<td><strong>$9,721</strong></td>
+<td><span class="num"><strong>$11,934</strong></span></td>
+<td><span class="num"><strong>$11,701</strong></span></td>
+<td><span class="num"><strong>$9,721</strong></span></td>
 </tr>
 <tr>
 <td>Mortgage insurance ends</td>
@@ -855,45 +869,45 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Typical home value</td>
-<td>$1,974,361</td>
-<td>$2,264,619</td>
-<td>$2,781,941</td>
+<td><span class="num">$1,974,361</span></td>
+<td><span class="num">$2,264,619</span></td>
+<td><span class="num">$2,781,941</span></td>
 </tr>
 <tr>
 <td>Price increase</td>
 <td></td>
-<td>$290,258</td>
-<td>$807,581</td>
+<td><span class="num">$290,258</span></td>
+<td><span class="num">$807,581</span></td>
 </tr>
 <tr>
 <td>Monthly payment</td>
-<td>$13,192</td>
-<td>$15,131</td>
-<td>$18,587</td>
+<td><span class="num">$13,192</span></td>
+<td><span class="num">$15,131</span></td>
+<td><span class="num">$18,587</span></td>
 </tr>
 <tr>
 <td>Payment increase per month</td>
 <td></td>
-<td>$1,939</td>
-<td>$5,396</td>
+<td><span class="num">$1,939</span></td>
+<td><span class="num">$5,396</span></td>
 </tr>
 <tr>
 <td>Extra paid in payments over the period</td>
 <td></td>
-<td>$46,544</td>
-<td>$323,749</td>
+<td><span class="num">$46,544</span></td>
+<td><span class="num">$323,749</span></td>
 </tr>
 <tr>
 <td><strong>Cost of waiting</strong></td>
 <td></td>
-<td><strong>$336,802</strong></td>
-<td><strong>$1,131,330</strong></td>
+<td><span class="num"><strong>$336,802</strong></span></td>
+<td><span class="num"><strong>$1,131,330</strong></span></td>
 </tr>
 <tr>
 <td>Rent paid while waiting</td>
 <td></td>
-<td>$67,835</td>
-<td>$169,587</td>
+<td><span class="num">$67,835</span></td>
+<td><span class="num">$169,587</span></td>
 </tr>
 </tbody></table></div>
 <p>Now the part that most versions of this calculation leave out. Extrapolating 7.1 percent for five years is an extrapolation of a single observed year, not a forecast, and compounding one strong year out to five produces a large number by construction. It is worth seeing what the same math does on a more conservative input. At the citywide rate of 8.0 percent instead, the same home reaches $2,302,309 in two years and $2,899,141 in five. That is -$117,199 less than the neighborhood-rate projection.</p>
@@ -907,20 +921,20 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Rates fall 0.75 pts</td>
-<td>6.65%</td>
-<td>$12,231</td>
+<td><span class="num">6.65%</span></td>
+<td><span class="num">$12,231</span></td>
 <td>-$961/mo</td>
 </tr>
 <tr>
 <td>Today</td>
-<td>7.40%</td>
-<td>$13,192</td>
+<td><span class="num">7.40%</span></td>
+<td><span class="num">$13,192</span></td>
 <td></td>
 </tr>
 <tr>
 <td>Rates rise 0.75 pts</td>
-<td>8.15%</td>
-<td>$14,180</td>
+<td><span class="num">8.15%</span></td>
+<td><span class="num">$14,180</span></td>
 <td>+$988/mo</td>
 </tr>
 </tbody></table></div>
@@ -935,38 +949,38 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Loan payment</td>
-<td>$13,192</td>
-<td>$158,299</td>
+<td><span class="num">$13,192</span></td>
+<td><span class="num">$158,299</span></td>
 <td>3.5% down at 7.4%, 30 years</td>
 </tr>
 <tr>
 <td>Property tax</td>
-<td>$2,336</td>
-<td>$28,036</td>
+<td><span class="num">$2,336</span></td>
+<td><span class="num">$28,036</span></td>
 <td>1.42%, Alameda County effective rate</td>
 </tr>
 <tr>
 <td>Insurance</td>
-<td>$215</td>
-<td>$2,580</td>
+<td><span class="num">$215</span></td>
+<td><span class="num">$2,580</span></td>
 <td>California average premium</td>
 </tr>
 <tr>
 <td>Utilities</td>
-<td>$622</td>
-<td>$7,464</td>
+<td><span class="num">$622</span></td>
+<td><span class="num">$7,464</span></td>
 <td>average home of roughly 1,800 sq ft</td>
 </tr>
 <tr>
 <td>Maintenance</td>
-<td>$1,645</td>
-<td>$19,744</td>
+<td><span class="num">$1,645</span></td>
+<td><span class="num">$19,744</span></td>
 <td>budgeted at 1% of value per year</td>
 </tr>
 <tr>
 <td><strong>Total</strong></td>
-<td><strong>$18,010</strong></td>
-<td><strong>$216,123</strong></td>
+<td><span class="num"><strong>$18,010</strong></span></td>
+<td><span class="num"><strong>$216,123</strong></span></td>
 <td>HOA not included</td>
 </tr>
 </tbody></table></div>
@@ -979,22 +993,22 @@ em{color:var(--muted);font-style:italic}
 <th>Equals this many days</th>
 </tr></thead><tbody>
 <tr>
-<td>$10,000</td>
+<td><span class="num">$10,000</span></td>
 <td>0.6 months</td>
 <td>17 days</td>
 </tr>
 <tr>
-<td>$25,000</td>
+<td><span class="num">$25,000</span></td>
 <td>1.4 months</td>
 <td>42 days</td>
 </tr>
 <tr>
-<td>$50,000</td>
+<td><span class="num">$50,000</span></td>
 <td>2.8 months</td>
 <td>85 days</td>
 </tr>
 <tr>
-<td>$100,000</td>
+<td><span class="num">$100,000</span></td>
 <td>5.6 months</td>
 <td>169 days</td>
 </tr>
@@ -1076,7 +1090,7 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td>Willard Middle</td>
 <td>Berkeley Unified</td>
-<td>6-8</td>
+<td><span class="num">6-8</span></td>
 <td>Middle</td>
 </tr>
 </tbody></table></div>
@@ -1090,15 +1104,15 @@ em{color:var(--muted);font-style:italic}
 </tr></thead><tbody>
 <tr>
 <td>Median value, owner-occupied</td>
-<td>$1,992,800</td>
+<td><span class="num">$1,992,800</span></td>
 </tr>
 <tr>
 <td>Median gross rent</td>
-<td>$2,441</td>
+<td><span class="num">$2,441</span></td>
 </tr>
 <tr>
 <td>Median monthly owner cost with a mortgage</td>
-<td>$4,001</td>
+<td><span class="num">$4,001</span></td>
 </tr>
 <tr>
 <td>Owner-occupied share</td>
@@ -1106,15 +1120,15 @@ em{color:var(--muted);font-style:italic}
 </tr>
 <tr>
 <td>Renter-occupied share</td>
-<td>40.6%</td>
+<td><span class="num">40.6%</span></td>
 </tr>
 <tr>
 <td>Median gross rent as share of income</td>
-<td>25.2%</td>
+<td><span class="num">25.2%</span></td>
 </tr>
 <tr>
 <td>Median household income (affordability input)</td>
-<td>$167,970</td>
+<td><span class="num">$167,970</span></td>
 </tr>
 <tr>
 <td>Built 1939 or earlier</td>
@@ -1189,47 +1203,47 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td>Typical home value, neighborhood and city</td>
 <td><a href="https://www.zillow.com/research/data/" rel="noopener">Zillow Home Value Index, ZIP code level</a></td>
-<td>2026-09-30</td>
+<td><span class="num">2026-09-30</span></td>
 </tr>
 <tr>
 <td>Listing activity, inventory, days on market, price per square foot</td>
 <td><a href="https://www.realtor.com/research/data/" rel="noopener">Realtor.com Residential Listings Database, monthly ZIP metrics</a></td>
-<td>2026-09</td>
+<td><span class="num">2026-09</span></td>
 </tr>
 <tr>
 <td>Typical rent</td>
 <td><a href="https://www.zillow.com/research/data/" rel="noopener">Zillow Observed Rent Index</a></td>
-<td>2026-09-30</td>
+<td><span class="num">2026-09-30</span></td>
 </tr>
 <tr>
 <td>Mortgage rate averages</td>
 <td><a href="https://www.freddiemac.com/pmms" rel="noopener">Freddie Mac Primary Mortgage Market Survey</a></td>
-<td>2026-10-15</td>
+<td><span class="num">2026-10-15</span></td>
 </tr>
 <tr>
 <td>Conforming and FHA loan limits</td>
 <td><a href="https://www.fhfa.gov/sites/default/files/2025-11/FullCountyLoanLimitList2026_HERA-BASED_FINAL_FLAT.csv" rel="noopener">Federal Housing Finance Agency, 2026 conforming loan limits</a></td>
-<td>2026</td>
+<td><span class="num">2026</span></td>
 </tr>
 <tr>
 <td>Property tax effective rate</td>
 <td><a href="https://www.ownwell.com/trends/california/alameda-county" rel="noopener">Ownwell property tax trends</a></td>
-<td>2026-10-16</td>
+<td><span class="num">2026-10-16</span></td>
 </tr>
 <tr>
 <td>Documentary and property transfer tax rates</td>
 <td><a href="https://www.californiacityfinance.com/PropTransfTaxRates.pdf" rel="noopener">California City Documentary and Property Transfer Tax Rates, compiled by Michael Coleman, CaliforniaCityFinance.com, effective 01 December 2025.</a></td>
-<td>2026-10-16</td>
+<td><span class="num">2026-10-16</span></td>
 </tr>
 <tr>
 <td>Homeowners insurance average</td>
 <td><a href="https://insurify.com/homeowners-insurance/states/california/" rel="noopener">Insurify, California average homeowners insurance</a></td>
-<td>2026-10-16</td>
+<td><span class="num">2026-10-16</span></td>
 </tr>
 <tr>
 <td>Public school directory</td>
 <td><a href="https://www.cde.ca.gov/SchoolDirectory/" rel="noopener">California Department of Education, public school directory</a></td>
-<td>2026-10</td>
+<td><span class="num">2026-10</span></td>
 </tr>
 <tr>
 <td>Housing and affordability profile</td>
@@ -1239,7 +1253,7 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td>Search questions</td>
 <td>Google Search autocomplete, harvested 2026-10</td>
-<td>2026-10</td>
+<td><span class="num">2026-10</span></td>
 </tr>
 </tbody></table></div>
 <p><strong>Updated 2026-10-17.</strong> Home value data current to 2026-09-30. Listing activity current to 2026-09. Mortgage rates current to 2026-10-15. This report is rebuilt every month when new data is published.</p>

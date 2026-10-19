@@ -18,8 +18,8 @@
   "@type": "Article",
   "headline": "ZIP code housing market reports, Alameda, Contra Costa and San Joaquin counties",
   "description": "Monthly housing market reports for 115 ZIP codes across the East Bay and Central Valley. Home values, homes for sale, and costs, measured at ZIP level.",
-  "datePublished": "2026-10-18",
-  "dateModified": "2026-10-18",
+  "datePublished": "2026-10-19",
+  "dateModified": "2026-10-19",
   "inLanguage": "en-US",
   "url": "https://myrealtoraye.github.io/neighborhood-reports/zip/",
   "mainEntityOfPage": {
@@ -41,7 +41,7 @@
   "@type": "CollectionPage",
   "name": "ZIP code housing market reports, Alameda, Contra Costa and San Joaquin counties",
   "url": "https://myrealtoraye.github.io/neighborhood-reports/zip/",
-  "dateModified": "2026-10-18",
+  "dateModified": "2026-10-19",
   "about": [
     {
       "@type": "PostalCodeArea",
@@ -738,41 +738,55 @@
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Titan+One&family=Graduate&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
 <style>:root{
-  --bone:#F2EBE3; --ink:#121216; --orange:#F26E22; --pine:#2D4A2B;
-  --crimson:#AA0000; --blue:#1D428A; --gold:#B58938;
-  --line:#D8CEC1; --muted:#4A4438; --panel:#FBF8F4; --zebra:#E9E1D7;
+  /* Orca Sunset, locked 18 October 2026. No blue anywhere. No green text anywhere. */
+  --bone:#F2EBE3; --orange:#FD792E; --ink:#090102;
+  /* five band sunset stack, top to bottom, always in this order */
+  --oxblood:#860B01; --crimson:#BC1307; --orangered:#F54926; --gold:#FDC935;
+  /* chart only */
+  --tan:#C6BAA8; --cream:#FAE7CD;
   color-scheme: light;
 }
 *{box-sizing:border-box}
 html{background:var(--bone)}
 body{margin:0;background:var(--bone);color:var(--ink);font:400 17px/1.68 'DM Sans',system-ui,-apple-system,sans-serif}
 main{max-width:760px;margin:0 auto;padding:48px 20px 96px;background:var(--bone)}
-h1,h2,h3{font-family:'Playfair Display',Georgia,serif;letter-spacing:-.01em}
-h1{font-size:2.3rem;font-weight:900;line-height:1.14;margin:0 0 .55em;color:var(--orange);
-   padding-bottom:.2em;border-bottom:2px solid var(--crimson)}
-h2{font-size:1.5rem;font-weight:900;margin:2.4em 0 .5em;padding-top:.55em;
-   border-top:2px solid var(--pine);color:var(--pine)}
-h3{font-size:1.12rem;font-weight:700;margin:1.9em 0 .35em;color:var(--pine)}
+h1,h2,h3{font-family:'Fredoka',system-ui,sans-serif;letter-spacing:-.01em}
+h1{font-size:2.3rem;font-weight:700;line-height:1.14;margin:0 0 .15em;color:var(--orange)}
+/* the five band sunset stack sits under the title */
+h1:after{content:'';display:block;height:10px;margin:.3em 0 .9em;
+   background:linear-gradient(to bottom,
+     var(--oxblood) 0 20%, var(--crimson) 20% 40%, var(--orangered) 40% 60%,
+     var(--orange) 60% 80%, var(--gold) 80% 100%)}
+h2{font-size:1.5rem;font-weight:600;margin:2.4em 0 .5em;padding-top:.55em;
+   border-top:3px solid var(--oxblood);color:var(--ink)}
+/* interior accent bars rotate between Deep Oxblood and Sunburst Orange only */
+h2:nth-of-type(even){border-top-color:var(--orange)}
+h3{font-size:1.12rem;font-weight:600;margin:1.9em 0 .35em;color:var(--ink)}
 h4{font-family:'DM Sans',system-ui,sans-serif;font-size:1rem;font-weight:700;margin:1.5em 0 .3em;color:var(--ink)}
 p{margin:0 0 1.15em}
-a{color:var(--pine);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:2px}
+a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:2px}
 a:hover{color:var(--orange);text-decoration-color:var(--orange)}
 ul{margin:0 0 1.2em;padding-left:1.25em;list-style:none}
 li{margin:.32em 0;position:relative}
-li:before{content:'▸';position:absolute;left:-1.1em;color:var(--gold);font-size:.95em}
+li:before{content:'▸';position:absolute;left:-1.1em;color:var(--orange);font-size:.95em}
 strong{font-weight:700}
-hr{border:0;border-top:1px solid var(--pine);opacity:.35;margin:2.5em 0}
+hr{border:0;border-top:1px solid var(--tan);margin:2.5em 0}
 code{font-family:'DM Mono',ui-monospace,monospace;background:#E6DCD0;padding:.1em .35em;border-radius:3px;font-size:.9em}
-.tablewrap{overflow-x:auto;margin:0 0 1.6em;border:1px solid var(--line);border-radius:4px;background:var(--panel)}
-table{border-collapse:collapse;width:100%;font:400 14px/1.45 'DM Sans',system-ui,sans-serif;background:var(--panel)}
-th{font-family:'DM Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.03em;text-transform:uppercase;
-   text-align:left;background:var(--pine);color:var(--bone);padding:10px 11px;font-weight:500;white-space:nowrap}
-td{padding:9px 11px;border-top:1px solid var(--line);vertical-align:top;color:var(--ink)}
-tbody tr:nth-child(even){background:var(--zebra)}
-em{color:var(--muted);font-style:italic}
-.dre,main > p:last-of-type{font-size:1rem;line-height:1.5;color:var(--pine)}
+.tablewrap{overflow-x:auto;margin:0 0 1.6em;border:1px solid var(--tan);border-radius:4px;background:var(--bone)}
+table{border-collapse:collapse;width:100%;font:400 14px/1.45 'Graduate',Georgia,serif;background:var(--bone)}
+th{font-family:'Graduate',Georgia,serif;font-size:12px;letter-spacing:.03em;text-transform:uppercase;
+   text-align:left;background:var(--bone);color:var(--ink);padding:10px 11px;font-weight:400;
+   white-space:nowrap;border-bottom:2px solid var(--ink)}
+td{padding:9px 11px;border-top:1px solid var(--tan);vertical-align:top;color:var(--ink)}
+/* numbers are always Near-Black Titan One, never coloured, except a change value */
+td .num{font-family:'Titan One',system-ui,sans-serif;font-weight:400;letter-spacing:.01em}
+td .neg{color:var(--crimson)}
+/* an overall or summary row takes the pale cream fill and an orange outline */
+tbody tr.overall{background:var(--cream);outline:4px solid var(--orange);outline-offset:-4px}
+em{font-style:italic}
+.dre,main > p:last-of-type{font-size:1rem;line-height:1.5;color:var(--ink)}
 @media (max-width:640px){main{padding:28px 16px 72px}h1{font-size:1.7rem}h2{font-size:1.3rem}}</style>
 </head>
 <body>
@@ -792,331 +806,331 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94539/" rel="noopener">94539</a></td>
 <td>Fremont</td>
-<td>$2,155,195</td>
-<td>+0.51%</td>
-<td>+2.0%</td>
+<td><span class="num">$2,155,195</span></td>
+<td><span class="num">+0.51%</span></td>
+<td><span class="num">+2.0%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94705/" rel="noopener">94705</a></td>
 <td>Berkeley, Oakland</td>
-<td>$1,974,361</td>
-<td>+0.61%</td>
-<td>+7.1%</td>
+<td><span class="num">$1,974,361</span></td>
+<td><span class="num">+0.61%</span></td>
+<td><span class="num">+7.1%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94707/" rel="noopener">94707</a></td>
 <td>Berkeley</td>
-<td>$1,774,965</td>
-<td>+0.90%</td>
-<td>+10.4%</td>
+<td><span class="num">$1,774,965</span></td>
+<td><span class="num">+0.90%</span></td>
+<td><span class="num">+10.4%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94618/" rel="noopener">94618</a></td>
 <td>Oakland</td>
-<td>$1,653,325</td>
-<td>+1.02%</td>
-<td>+8.7%</td>
+<td><span class="num">$1,653,325</span></td>
+<td><span class="num">+1.02%</span></td>
+<td><span class="num">+8.7%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94566/" rel="noopener">94566</a></td>
 <td>Pleasanton</td>
-<td>$1,644,043</td>
-<td>+0.03%</td>
-<td>-2.3%</td>
+<td><span class="num">$1,644,043</span></td>
+<td><span class="num">+0.03%</span></td>
+<td><span class="num neg">-2.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94708/" rel="noopener">94708</a></td>
 <td>Berkeley</td>
-<td>$1,627,180</td>
-<td>+0.92%</td>
-<td>+6.1%</td>
+<td><span class="num">$1,627,180</span></td>
+<td><span class="num">+0.92%</span></td>
+<td><span class="num">+6.1%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94586/" rel="noopener">94586</a></td>
 <td>Sunol</td>
-<td>$1,427,217</td>
-<td>+0.51%</td>
-<td>+3.5%</td>
+<td><span class="num">$1,427,217</span></td>
+<td><span class="num">+0.51%</span></td>
+<td><span class="num">+3.5%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94555/" rel="noopener">94555</a></td>
 <td>Fremont</td>
-<td>$1,425,523</td>
-<td>+0.01%</td>
-<td>-2.0%</td>
+<td><span class="num">$1,425,523</span></td>
+<td><span class="num">+0.01%</span></td>
+<td><span class="num neg">-2.0%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94611/" rel="noopener">94611</a></td>
 <td>Oakland, Piedmont</td>
-<td>$1,409,497</td>
-<td>+0.90%</td>
-<td>+5.6%</td>
+<td><span class="num">$1,409,497</span></td>
+<td><span class="num">+0.90%</span></td>
+<td><span class="num">+5.6%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94536/" rel="noopener">94536</a></td>
 <td>Fremont</td>
-<td>$1,375,210</td>
-<td>+0.05%</td>
-<td>-1.0%</td>
+<td><span class="num">$1,375,210</span></td>
+<td><span class="num">+0.05%</span></td>
+<td><span class="num neg">-1.0%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94552/" rel="noopener">94552</a></td>
 <td>Castro Valley</td>
-<td>$1,364,641</td>
-<td>+0.22%</td>
-<td>+1.0%</td>
+<td><span class="num">$1,364,641</span></td>
+<td><span class="num">+0.22%</span></td>
+<td><span class="num">+1.0%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94588/" rel="noopener">94588</a></td>
 <td>Pleasanton</td>
-<td>$1,351,989</td>
-<td>-0.08%</td>
-<td>-3.4%</td>
+<td><span class="num">$1,351,989</span></td>
+<td><span class="num neg">-0.08%</span></td>
+<td><span class="num neg">-3.4%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94709/" rel="noopener">94709</a></td>
 <td>Berkeley</td>
-<td>$1,323,943</td>
-<td>+0.92%</td>
-<td>+8.9%</td>
+<td><span class="num">$1,323,943</span></td>
+<td><span class="num">+0.92%</span></td>
+<td><span class="num">+8.9%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94703/" rel="noopener">94703</a></td>
 <td>Berkeley</td>
-<td>$1,257,344</td>
-<td>+0.58%</td>
-<td>+5.7%</td>
+<td><span class="num">$1,257,344</span></td>
+<td><span class="num">+0.58%</span></td>
+<td><span class="num">+5.7%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94538/" rel="noopener">94538</a></td>
 <td>Fremont</td>
-<td>$1,254,332</td>
-<td>+0.08%</td>
-<td>-1.7%</td>
+<td><span class="num">$1,254,332</span></td>
+<td><span class="num">+0.08%</span></td>
+<td><span class="num neg">-1.7%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94706/" rel="noopener">94706</a></td>
 <td>Albany</td>
-<td>$1,241,732</td>
-<td>+0.69%</td>
-<td>+6.8%</td>
+<td><span class="num">$1,241,732</span></td>
+<td><span class="num">+0.69%</span></td>
+<td><span class="num">+6.8%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94568/" rel="noopener">94568</a></td>
 <td>Dublin</td>
-<td>$1,229,076</td>
-<td>-0.36%</td>
-<td>-5.5%</td>
+<td><span class="num">$1,229,076</span></td>
+<td><span class="num neg">-0.36%</span></td>
+<td><span class="num neg">-5.5%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94542/" rel="noopener">94542</a></td>
 <td>Hayward</td>
-<td>$1,212,614</td>
-<td>+0.07%</td>
-<td>+0.5%</td>
+<td><span class="num">$1,212,614</span></td>
+<td><span class="num">+0.07%</span></td>
+<td><span class="num">+0.5%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94610/" rel="noopener">94610</a></td>
 <td>Oakland</td>
-<td>$1,200,916</td>
-<td>+1.03%</td>
-<td>+7.5%</td>
+<td><span class="num">$1,200,916</span></td>
+<td><span class="num">+1.03%</span></td>
+<td><span class="num">+7.5%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94587/" rel="noopener">94587</a></td>
 <td>Union City</td>
-<td>$1,196,418</td>
-<td>-0.10%</td>
-<td>-1.9%</td>
+<td><span class="num">$1,196,418</span></td>
+<td><span class="num neg">-0.10%</span></td>
+<td><span class="num neg">-1.9%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94550/" rel="noopener">94550</a></td>
 <td>Livermore</td>
-<td>$1,195,648</td>
-<td>+0.09%</td>
-<td>-1.0%</td>
+<td><span class="num">$1,195,648</span></td>
+<td><span class="num">+0.09%</span></td>
+<td><span class="num neg">-1.0%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94560/" rel="noopener">94560</a></td>
 <td>Newark</td>
-<td>$1,185,035</td>
-<td>-0.08%</td>
-<td>-2.4%</td>
+<td><span class="num">$1,185,035</span></td>
+<td><span class="num neg">-0.08%</span></td>
+<td><span class="num neg">-2.4%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94702/" rel="noopener">94702</a></td>
 <td>Berkeley</td>
-<td>$1,161,105</td>
-<td>+0.77%</td>
-<td>+8.2%</td>
+<td><span class="num">$1,161,105</span></td>
+<td><span class="num">+0.77%</span></td>
+<td><span class="num">+8.2%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94501/" rel="noopener">94501</a></td>
 <td>Alameda</td>
-<td>$1,147,274</td>
-<td>+0.77%</td>
-<td>+3.3%</td>
+<td><span class="num">$1,147,274</span></td>
+<td><span class="num">+0.77%</span></td>
+<td><span class="num">+3.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94502/" rel="noopener">94502</a></td>
 <td>Alameda</td>
-<td>$1,142,089</td>
-<td>+0.16%</td>
-<td>-0.3%</td>
+<td><span class="num">$1,142,089</span></td>
+<td><span class="num">+0.16%</span></td>
+<td><span class="num neg">-0.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94704/" rel="noopener">94704</a></td>
 <td>Berkeley</td>
-<td>$1,138,840</td>
-<td>+0.74%</td>
-<td>+3.0%</td>
+<td><span class="num">$1,138,840</span></td>
+<td><span class="num">+0.74%</span></td>
+<td><span class="num">+3.0%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94602/" rel="noopener">94602</a></td>
 <td>Oakland</td>
-<td>$1,012,291</td>
-<td>+1.15%</td>
-<td>+8.1%</td>
+<td><span class="num">$1,012,291</span></td>
+<td><span class="num">+1.15%</span></td>
+<td><span class="num">+8.1%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94546/" rel="noopener">94546</a></td>
 <td>Castro Valley</td>
-<td>$1,006,862</td>
-<td>+0.23%</td>
-<td>+1.5%</td>
+<td><span class="num">$1,006,862</span></td>
+<td><span class="num">+0.23%</span></td>
+<td><span class="num">+1.5%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94710/" rel="noopener">94710</a></td>
 <td>Berkeley</td>
-<td>$984,984</td>
-<td>+0.89%</td>
-<td>+4.4%</td>
+<td><span class="num">$984,984</span></td>
+<td><span class="num">+0.89%</span></td>
+<td><span class="num">+4.4%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94609/" rel="noopener">94609</a></td>
 <td>Oakland</td>
-<td>$968,042</td>
-<td>+0.65%</td>
-<td>+6.5%</td>
+<td><span class="num">$968,042</span></td>
+<td><span class="num">+0.65%</span></td>
+<td><span class="num">+6.5%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94551/" rel="noopener">94551</a></td>
 <td>Livermore</td>
-<td>$963,197</td>
-<td>-0.03%</td>
-<td>-3.4%</td>
+<td><span class="num">$963,197</span></td>
+<td><span class="num neg">-0.03%</span></td>
+<td><span class="num neg">-3.4%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94545/" rel="noopener">94545</a></td>
 <td>Hayward</td>
-<td>$874,613</td>
-<td>+0.02%</td>
-<td>-2.9%</td>
+<td><span class="num">$874,613</span></td>
+<td><span class="num">+0.02%</span></td>
+<td><span class="num neg">-2.9%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94579/" rel="noopener">94579</a></td>
 <td>San Leandro</td>
-<td>$840,615</td>
-<td>+0.30%</td>
-<td>-0.4%</td>
+<td><span class="num">$840,615</span></td>
+<td><span class="num">+0.30%</span></td>
+<td><span class="num neg">-0.4%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94619/" rel="noopener">94619</a></td>
 <td>Oakland</td>
-<td>$832,199</td>
-<td>+0.62%</td>
-<td>+2.3%</td>
+<td><span class="num">$832,199</span></td>
+<td><span class="num">+0.62%</span></td>
+<td><span class="num">+2.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94544/" rel="noopener">94544</a></td>
 <td>Hayward</td>
-<td>$804,006</td>
-<td>+0.10%</td>
-<td>-3.2%</td>
+<td><span class="num">$804,006</span></td>
+<td><span class="num">+0.10%</span></td>
+<td><span class="num neg">-3.2%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94580/" rel="noopener">94580</a></td>
 <td>San Lorenzo</td>
-<td>$797,509</td>
-<td>+0.24%</td>
-<td>-1.3%</td>
+<td><span class="num">$797,509</span></td>
+<td><span class="num">+0.24%</span></td>
+<td><span class="num neg">-1.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94577/" rel="noopener">94577</a></td>
 <td>San Leandro</td>
-<td>$794,024</td>
-<td>+0.49%</td>
-<td>-0.3%</td>
+<td><span class="num">$794,024</span></td>
+<td><span class="num">+0.49%</span></td>
+<td><span class="num neg">-0.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94578/" rel="noopener">94578</a></td>
 <td>San Leandro</td>
-<td>$765,957</td>
-<td>+0.41%</td>
-<td>-0.3%</td>
+<td><span class="num">$765,957</span></td>
+<td><span class="num">+0.41%</span></td>
+<td><span class="num neg">-0.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94541/" rel="noopener">94541</a></td>
 <td>Hayward</td>
-<td>$759,862</td>
-<td>+0.18%</td>
-<td>-1.4%</td>
+<td><span class="num">$759,862</span></td>
+<td><span class="num">+0.18%</span></td>
+<td><span class="num neg">-1.4%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94605/" rel="noopener">94605</a></td>
 <td>Oakland</td>
-<td>$659,248</td>
-<td>+0.69%</td>
-<td>+0.1%</td>
+<td><span class="num">$659,248</span></td>
+<td><span class="num">+0.69%</span></td>
+<td><span class="num">+0.1%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94608/" rel="noopener">94608</a></td>
 <td>Emeryville</td>
-<td>$604,472</td>
-<td>+0.41%</td>
-<td>+0.0%</td>
+<td><span class="num">$604,472</span></td>
+<td><span class="num">+0.41%</span></td>
+<td><span class="num">+0.0%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94606/" rel="noopener">94606</a></td>
 <td>Oakland</td>
-<td>$593,953</td>
-<td>+0.23%</td>
-<td>+0.6%</td>
+<td><span class="num">$593,953</span></td>
+<td><span class="num">+0.23%</span></td>
+<td><span class="num">+0.6%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94601/" rel="noopener">94601</a></td>
 <td>Oakland</td>
-<td>$553,360</td>
-<td>+0.81%</td>
-<td>-1.3%</td>
+<td><span class="num">$553,360</span></td>
+<td><span class="num">+0.81%</span></td>
+<td><span class="num neg">-1.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94612/" rel="noopener">94612</a></td>
 <td>Oakland</td>
-<td>$530,669</td>
-<td>+0.11%</td>
-<td>-6.9%</td>
+<td><span class="num">$530,669</span></td>
+<td><span class="num">+0.11%</span></td>
+<td><span class="num neg">-6.9%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94607/" rel="noopener">94607</a></td>
 <td>Oakland</td>
-<td>$513,751</td>
-<td>-0.04%</td>
-<td>-3.6%</td>
+<td><span class="num">$513,751</span></td>
+<td><span class="num neg">-0.04%</span></td>
+<td><span class="num neg">-3.6%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94603/" rel="noopener">94603</a></td>
 <td>Oakland</td>
-<td>$507,514</td>
-<td>+0.42%</td>
-<td>-1.9%</td>
+<td><span class="num">$507,514</span></td>
+<td><span class="num">+0.42%</span></td>
+<td><span class="num neg">-1.9%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94621/" rel="noopener">94621</a></td>
 <td>Oakland</td>
-<td>$445,423</td>
-<td>+0.65%</td>
-<td>-3.3%</td>
+<td><span class="num">$445,423</span></td>
+<td><span class="num">+0.65%</span></td>
+<td><span class="num neg">-3.3%</span></td>
 </tr>
 </tbody></table></div>
 <h2 id="contra-costa-county">Contra Costa County</h2>
@@ -1131,275 +1145,275 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94528/" rel="noopener">94528</a></td>
 <td>Diablo</td>
-<td>$3,107,080</td>
-<td>+1.02%</td>
-<td>+3.9%</td>
+<td><span class="num">$3,107,080</span></td>
+<td><span class="num">+1.02%</span></td>
+<td><span class="num">+3.9%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94507/" rel="noopener">94507</a></td>
 <td>Alamo</td>
-<td>$2,532,469</td>
-<td>+0.95%</td>
-<td>+5.2%</td>
+<td><span class="num">$2,532,469</span></td>
+<td><span class="num">+0.95%</span></td>
+<td><span class="num">+5.2%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94506/" rel="noopener">94506</a></td>
 <td>Danville</td>
-<td>$1,982,682</td>
-<td>+0.41%</td>
-<td>-1.2%</td>
+<td><span class="num">$1,982,682</span></td>
+<td><span class="num">+0.41%</span></td>
+<td><span class="num neg">-1.2%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94563/" rel="noopener">94563</a></td>
 <td>Orinda</td>
-<td>$1,944,002</td>
-<td>+0.63%</td>
-<td>+2.6%</td>
+<td><span class="num">$1,944,002</span></td>
+<td><span class="num">+0.63%</span></td>
+<td><span class="num">+2.6%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94549/" rel="noopener">94549</a></td>
 <td>Lafayette</td>
-<td>$1,910,595</td>
-<td>+0.78%</td>
-<td>+3.4%</td>
+<td><span class="num">$1,910,595</span></td>
+<td><span class="num">+0.78%</span></td>
+<td><span class="num">+3.4%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94526/" rel="noopener">94526</a></td>
 <td>Danville</td>
-<td>$1,711,410</td>
-<td>+0.45%</td>
-<td>+1.3%</td>
+<td><span class="num">$1,711,410</span></td>
+<td><span class="num">+0.45%</span></td>
+<td><span class="num">+1.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94582/" rel="noopener">94582</a></td>
 <td>San Ramon</td>
-<td>$1,664,501</td>
-<td>+0.06%</td>
-<td>-3.0%</td>
+<td><span class="num">$1,664,501</span></td>
+<td><span class="num">+0.06%</span></td>
+<td><span class="num neg">-3.0%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94556/" rel="noopener">94556</a></td>
 <td>Moraga</td>
-<td>$1,604,399</td>
-<td>+0.59%</td>
-<td>+3.3%</td>
+<td><span class="num">$1,604,399</span></td>
+<td><span class="num">+0.59%</span></td>
+<td><span class="num">+3.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94598/" rel="noopener">94598</a></td>
 <td>Walnut Creek</td>
-<td>$1,369,644</td>
-<td>+0.60%</td>
-<td>+2.3%</td>
+<td><span class="num">$1,369,644</span></td>
+<td><span class="num">+0.60%</span></td>
+<td><span class="num">+2.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94583/" rel="noopener">94583</a></td>
 <td>San Ramon</td>
-<td>$1,331,929</td>
-<td>+0.03%</td>
-<td>-2.8%</td>
+<td><span class="num">$1,331,929</span></td>
+<td><span class="num">+0.03%</span></td>
+<td><span class="num neg">-2.8%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94530/" rel="noopener">94530</a></td>
 <td>El Cerrito</td>
-<td>$1,119,704</td>
-<td>+0.75%</td>
-<td>+3.4%</td>
+<td><span class="num">$1,119,704</span></td>
+<td><span class="num">+0.75%</span></td>
+<td><span class="num">+3.4%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94596/" rel="noopener">94596</a></td>
 <td>Walnut Creek</td>
-<td>$1,064,425</td>
-<td>+0.32%</td>
-<td>+1.8%</td>
+<td><span class="num">$1,064,425</span></td>
+<td><span class="num">+0.32%</span></td>
+<td><span class="num">+1.8%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94517/" rel="noopener">94517</a></td>
 <td>Clayton</td>
-<td>$1,027,282</td>
-<td>+0.47%</td>
-<td>+1.8%</td>
+<td><span class="num">$1,027,282</span></td>
+<td><span class="num">+0.47%</span></td>
+<td><span class="num">+1.8%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94597/" rel="noopener">94597</a></td>
 <td>Walnut Creek</td>
-<td>$972,248</td>
-<td>+0.35%</td>
-<td>+1.3%</td>
+<td><span class="num">$972,248</span></td>
+<td><span class="num">+0.35%</span></td>
+<td><span class="num">+1.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94523/" rel="noopener">94523</a></td>
 <td>Pleasant Hill</td>
-<td>$968,536</td>
-<td>+0.38%</td>
-<td>+1.3%</td>
+<td><span class="num">$968,536</span></td>
+<td><span class="num">+0.38%</span></td>
+<td><span class="num">+1.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94514/" rel="noopener">94514</a></td>
 <td>Byron</td>
-<td>$839,627</td>
-<td>+0.15%</td>
-<td>+3.9%</td>
+<td><span class="num">$839,627</span></td>
+<td><span class="num">+0.15%</span></td>
+<td><span class="num">+3.9%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94518/" rel="noopener">94518</a></td>
 <td>Concord</td>
-<td>$825,058</td>
-<td>+0.25%</td>
-<td>-0.8%</td>
+<td><span class="num">$825,058</span></td>
+<td><span class="num">+0.25%</span></td>
+<td><span class="num neg">-0.8%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94513/" rel="noopener">94513</a></td>
 <td>Brentwood</td>
-<td>$781,518</td>
-<td>-0.11%</td>
-<td>-0.9%</td>
+<td><span class="num">$781,518</span></td>
+<td><span class="num neg">-0.11%</span></td>
+<td><span class="num neg">-0.9%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94505/" rel="noopener">94505</a></td>
 <td>Discovery Bay</td>
-<td>$773,799</td>
-<td>-0.11%</td>
-<td>-0.9%</td>
+<td><span class="num">$773,799</span></td>
+<td><span class="num neg">-0.11%</span></td>
+<td><span class="num neg">-0.9%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94521/" rel="noopener">94521</a></td>
 <td>Concord</td>
-<td>$772,049</td>
-<td>+0.47%</td>
-<td>+0.7%</td>
+<td><span class="num">$772,049</span></td>
+<td><span class="num">+0.47%</span></td>
+<td><span class="num">+0.7%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94553/" rel="noopener">94553</a></td>
 <td>Martinez</td>
-<td>$749,473</td>
-<td>+0.26%</td>
-<td>-1.3%</td>
+<td><span class="num">$749,473</span></td>
+<td><span class="num">+0.26%</span></td>
+<td><span class="num neg">-1.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94547/" rel="noopener">94547</a></td>
 <td>Hercules</td>
-<td>$735,574</td>
-<td>+0.41%</td>
-<td>-0.7%</td>
+<td><span class="num">$735,574</span></td>
+<td><span class="num">+0.41%</span></td>
+<td><span class="num neg">-0.7%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94803/" rel="noopener">94803</a></td>
 <td>El Sobrante, Richmond</td>
-<td>$726,110</td>
-<td>+0.59%</td>
-<td>-0.2%</td>
+<td><span class="num">$726,110</span></td>
+<td><span class="num">+0.59%</span></td>
+<td><span class="num neg">-0.2%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94564/" rel="noopener">94564</a></td>
 <td>Pinole</td>
-<td>$716,196</td>
-<td>+0.52%</td>
-<td>+0.1%</td>
+<td><span class="num">$716,196</span></td>
+<td><span class="num">+0.52%</span></td>
+<td><span class="num">+0.1%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94519/" rel="noopener">94519</a></td>
 <td>Concord</td>
-<td>$709,070</td>
-<td>+0.44%</td>
-<td>+0.3%</td>
+<td><span class="num">$709,070</span></td>
+<td><span class="num">+0.44%</span></td>
+<td><span class="num">+0.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94805/" rel="noopener">94805</a></td>
 <td>Richmond</td>
-<td>$693,927</td>
-<td>+0.63%</td>
-<td>+2.3%</td>
+<td><span class="num">$693,927</span></td>
+<td><span class="num">+0.63%</span></td>
+<td><span class="num">+2.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94595/" rel="noopener">94595</a></td>
 <td>Walnut Creek</td>
-<td>$665,851</td>
-<td>+0.12%</td>
-<td>+0.3%</td>
+<td><span class="num">$665,851</span></td>
+<td><span class="num">+0.12%</span></td>
+<td><span class="num">+0.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94525/" rel="noopener">94525</a></td>
 <td>Crockett</td>
-<td>$659,084</td>
-<td>+0.32%</td>
-<td>-1.2%</td>
+<td><span class="num">$659,084</span></td>
+<td><span class="num">+0.32%</span></td>
+<td><span class="num neg">-1.2%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94531/" rel="noopener">94531</a></td>
 <td>Antioch</td>
-<td>$658,419</td>
-<td>+0.26%</td>
-<td>-0.3%</td>
+<td><span class="num">$658,419</span></td>
+<td><span class="num">+0.26%</span></td>
+<td><span class="num neg">-0.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94569/" rel="noopener">94569</a></td>
 <td>Port Costa</td>
-<td>$656,450</td>
-<td>+0.75%</td>
-<td>+2.0%</td>
+<td><span class="num">$656,450</span></td>
+<td><span class="num">+0.75%</span></td>
+<td><span class="num">+2.0%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94561/" rel="noopener">94561</a></td>
 <td>Oakley</td>
-<td>$653,759</td>
-<td>+0.18%</td>
-<td>-0.5%</td>
+<td><span class="num">$653,759</span></td>
+<td><span class="num">+0.18%</span></td>
+<td><span class="num neg">-0.5%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94572/" rel="noopener">94572</a></td>
 <td>Rodeo</td>
-<td>$646,763</td>
-<td>+0.59%</td>
-<td>-0.3%</td>
+<td><span class="num">$646,763</span></td>
+<td><span class="num">+0.59%</span></td>
+<td><span class="num neg">-0.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94511/" rel="noopener">94511</a></td>
 <td>Bethel Island</td>
-<td>$626,543</td>
-<td>+0.23%</td>
-<td>-0.1%</td>
+<td><span class="num">$626,543</span></td>
+<td><span class="num">+0.23%</span></td>
+<td><span class="num neg">-0.1%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94520/" rel="noopener">94520</a></td>
 <td>Concord</td>
-<td>$600,650</td>
-<td>+0.34%</td>
-<td>+0.7%</td>
+<td><span class="num">$600,650</span></td>
+<td><span class="num">+0.34%</span></td>
+<td><span class="num">+0.7%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94806/" rel="noopener">94806</a></td>
 <td>San Pablo</td>
-<td>$571,391</td>
-<td>+0.29%</td>
-<td>-0.5%</td>
+<td><span class="num">$571,391</span></td>
+<td><span class="num">+0.29%</span></td>
+<td><span class="num neg">-0.5%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94804/" rel="noopener">94804</a></td>
 <td>Richmond</td>
-<td>$566,473</td>
-<td>+0.28%</td>
-<td>-1.8%</td>
+<td><span class="num">$566,473</span></td>
+<td><span class="num">+0.28%</span></td>
+<td><span class="num neg">-1.8%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94565/" rel="noopener">94565</a></td>
 <td>Pittsburg</td>
-<td>$559,194</td>
-<td>+0.14%</td>
-<td>-0.8%</td>
+<td><span class="num">$559,194</span></td>
+<td><span class="num">+0.14%</span></td>
+<td><span class="num neg">-0.8%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94509/" rel="noopener">94509</a></td>
 <td>Antioch</td>
-<td>$536,330</td>
-<td>+0.37%</td>
-<td>-1.0%</td>
+<td><span class="num">$536,330</span></td>
+<td><span class="num">+0.37%</span></td>
+<td><span class="num neg">-1.0%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/94801/" rel="noopener">94801</a></td>
 <td>Richmond</td>
-<td>$506,862</td>
-<td>-0.07%</td>
-<td>-1.6%</td>
+<td><span class="num">$506,862</span></td>
+<td><span class="num neg">-0.07%</span></td>
+<td><span class="num neg">-1.6%</span></td>
 </tr>
 </tbody></table></div>
 <h2 id="san-joaquin-county">San Joaquin County</h2>
@@ -1414,209 +1428,209 @@ em{color:var(--muted);font-style:italic}
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95227/" rel="noopener">95227</a></td>
 <td>Lockeford, Clements</td>
-<td>$925,185</td>
-<td>-0.36%</td>
-<td>-1.0%</td>
+<td><span class="num">$925,185</span></td>
+<td><span class="num neg">-0.36%</span></td>
+<td><span class="num neg">-1.0%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95304/" rel="noopener">95304</a></td>
 <td>Tracy</td>
-<td>$920,793</td>
-<td>-0.07%</td>
-<td>-0.9%</td>
+<td><span class="num">$920,793</span></td>
+<td><span class="num neg">-0.07%</span></td>
+<td><span class="num neg">-0.9%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95391/" rel="noopener">95391</a></td>
 <td>Tracy, Mountain House</td>
-<td>$848,137</td>
-<td>-1.12%</td>
-<td>-8.0%</td>
+<td><span class="num">$848,137</span></td>
+<td><span class="num neg">-1.12%</span></td>
+<td><span class="num neg">-8.0%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95220/" rel="noopener">95220</a></td>
 <td>Acampo</td>
-<td>$788,205</td>
-<td>+0.19%</td>
-<td>+0.6%</td>
+<td><span class="num">$788,205</span></td>
+<td><span class="num">+0.19%</span></td>
+<td><span class="num">+0.6%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95377/" rel="noopener">95377</a></td>
 <td>Tracy</td>
-<td>$736,285</td>
-<td>-0.33%</td>
-<td>-4.3%</td>
+<td><span class="num">$736,285</span></td>
+<td><span class="num neg">-0.33%</span></td>
+<td><span class="num neg">-4.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95366/" rel="noopener">95366</a></td>
 <td>Ripon</td>
-<td>$673,189</td>
-<td>+0.14%</td>
-<td>+0.3%</td>
+<td><span class="num">$673,189</span></td>
+<td><span class="num">+0.14%</span></td>
+<td><span class="num">+0.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95236/" rel="noopener">95236</a></td>
 <td>Linden</td>
-<td>$670,103</td>
-<td>+0.25%</td>
-<td>+3.2%</td>
+<td><span class="num">$670,103</span></td>
+<td><span class="num">+0.25%</span></td>
+<td><span class="num">+3.2%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95337/" rel="noopener">95337</a></td>
 <td>Manteca</td>
-<td>$629,487</td>
-<td>-0.19%</td>
-<td>-3.2%</td>
+<td><span class="num">$629,487</span></td>
+<td><span class="num neg">-0.19%</span></td>
+<td><span class="num neg">-3.2%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95330/" rel="noopener">95330</a></td>
 <td>Lathrop</td>
-<td>$620,754</td>
-<td>-0.39%</td>
-<td>-3.7%</td>
+<td><span class="num">$620,754</span></td>
+<td><span class="num neg">-0.39%</span></td>
+<td><span class="num neg">-3.7%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95320/" rel="noopener">95320</a></td>
 <td>Escalon</td>
-<td>$590,793</td>
-<td>-0.01%</td>
-<td>+1.0%</td>
+<td><span class="num">$590,793</span></td>
+<td><span class="num neg">-0.01%</span></td>
+<td><span class="num">+1.0%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95258/" rel="noopener">95258</a></td>
 <td>Woodbridge</td>
-<td>$584,501</td>
-<td>+0.17%</td>
-<td>+0.5%</td>
+<td><span class="num">$584,501</span></td>
+<td><span class="num">+0.17%</span></td>
+<td><span class="num">+0.5%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95376/" rel="noopener">95376</a></td>
 <td>Tracy</td>
-<td>$575,545</td>
-<td>-0.08%</td>
-<td>-3.9%</td>
+<td><span class="num">$575,545</span></td>
+<td><span class="num neg">-0.08%</span></td>
+<td><span class="num neg">-3.9%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95242/" rel="noopener">95242</a></td>
 <td>Lodi</td>
-<td>$565,100</td>
-<td>+0.06%</td>
-<td>-1.0%</td>
+<td><span class="num">$565,100</span></td>
+<td><span class="num">+0.06%</span></td>
+<td><span class="num neg">-1.0%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95686/" rel="noopener">95686</a></td>
 <td>Thornton</td>
-<td>$546,222</td>
-<td>+0.03%</td>
-<td>-0.9%</td>
+<td><span class="num">$546,222</span></td>
+<td><span class="num">+0.03%</span></td>
+<td><span class="num neg">-0.9%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95212/" rel="noopener">95212</a></td>
 <td>Stockton</td>
-<td>$541,557</td>
-<td>+0.10%</td>
-<td>-1.1%</td>
+<td><span class="num">$541,557</span></td>
+<td><span class="num">+0.10%</span></td>
+<td><span class="num neg">-1.1%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95219/" rel="noopener">95219</a></td>
 <td>Stockton, Brentwood</td>
-<td>$540,731</td>
-<td>-0.07%</td>
-<td>-2.5%</td>
+<td><span class="num">$540,731</span></td>
+<td><span class="num neg">-0.07%</span></td>
+<td><span class="num neg">-2.5%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95237/" rel="noopener">95237</a></td>
 <td>Lockeford</td>
-<td>$518,456</td>
-<td>+0.08%</td>
-<td>-0.1%</td>
+<td><span class="num">$518,456</span></td>
+<td><span class="num">+0.08%</span></td>
+<td><span class="num neg">-0.1%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95336/" rel="noopener">95336</a></td>
 <td>Manteca</td>
-<td>$514,732</td>
-<td>-0.07%</td>
-<td>-3.0%</td>
+<td><span class="num">$514,732</span></td>
+<td><span class="num neg">-0.07%</span></td>
+<td><span class="num neg">-3.0%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95231/" rel="noopener">95231</a></td>
 <td>French Camp</td>
-<td>$506,025</td>
-<td>-0.32%</td>
-<td>+2.4%</td>
+<td><span class="num">$506,025</span></td>
+<td><span class="num neg">-0.32%</span></td>
+<td><span class="num">+2.4%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95209/" rel="noopener">95209</a></td>
 <td>Stockton</td>
-<td>$478,124</td>
-<td>+0.06%</td>
-<td>-2.3%</td>
+<td><span class="num">$478,124</span></td>
+<td><span class="num">+0.06%</span></td>
+<td><span class="num neg">-2.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95240/" rel="noopener">95240</a></td>
 <td>Lodi</td>
-<td>$461,273</td>
-<td>+0.12%</td>
-<td>-1.4%</td>
+<td><span class="num">$461,273</span></td>
+<td><span class="num">+0.12%</span></td>
+<td><span class="num neg">-1.4%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95215/" rel="noopener">95215</a></td>
 <td>Stockton, Garden Acres</td>
-<td>$435,412</td>
-<td>+0.10%</td>
-<td>+0.6%</td>
+<td><span class="num">$435,412</span></td>
+<td><span class="num">+0.10%</span></td>
+<td><span class="num">+0.6%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95206/" rel="noopener">95206</a></td>
 <td>Stockton</td>
-<td>$409,950</td>
-<td>-0.06%</td>
-<td>-2.0%</td>
+<td><span class="num">$409,950</span></td>
+<td><span class="num neg">-0.06%</span></td>
+<td><span class="num neg">-2.0%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95207/" rel="noopener">95207</a></td>
 <td>Stockton</td>
-<td>$400,645</td>
-<td>+0.18%</td>
-<td>-1.3%</td>
+<td><span class="num">$400,645</span></td>
+<td><span class="num">+0.18%</span></td>
+<td><span class="num neg">-1.3%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95210/" rel="noopener">95210</a></td>
 <td>Stockton</td>
-<td>$388,712</td>
-<td>+0.24%</td>
-<td>-0.9%</td>
+<td><span class="num">$388,712</span></td>
+<td><span class="num">+0.24%</span></td>
+<td><span class="num neg">-0.9%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95204/" rel="noopener">95204</a></td>
 <td>Stockton</td>
-<td>$376,598</td>
-<td>+0.30%</td>
-<td>-1.2%</td>
+<td><span class="num">$376,598</span></td>
+<td><span class="num">+0.30%</span></td>
+<td><span class="num neg">-1.2%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95203/" rel="noopener">95203</a></td>
 <td>Stockton</td>
-<td>$335,924</td>
-<td>-0.19%</td>
-<td>-1.2%</td>
+<td><span class="num">$335,924</span></td>
+<td><span class="num neg">-0.19%</span></td>
+<td><span class="num neg">-1.2%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95202/" rel="noopener">95202</a></td>
 <td>Stockton</td>
-<td>$333,431</td>
-<td>+0.24%</td>
-<td>-0.1%</td>
+<td><span class="num">$333,431</span></td>
+<td><span class="num">+0.24%</span></td>
+<td><span class="num neg">-0.1%</span></td>
 </tr>
 <tr>
 <td><a href="https://myrealtoraye.github.io/neighborhood-reports/zip/95205/" rel="noopener">95205</a></td>
 <td>Stockton</td>
-<td>$320,781</td>
-<td>+0.14%</td>
-<td>-2.7%</td>
+<td><span class="num">$320,781</span></td>
+<td><span class="num">+0.14%</span></td>
+<td><span class="num neg">-2.7%</span></td>
 </tr>
 </tbody></table></div>
 <hr>
-<p>Every figure comes from a named source with the date it was published, shown on each report. Home values are the Zillow Home Value Index at ZIP level. Listing activity is the Realtor.com monthly ZIP metrics. Housing stock is the American Community Survey at ZIP Code Tabulation Area level. Updated 2026-10-18.</p>
+<p>Every figure comes from a named source with the date it was published, shown on each report. Home values are the Zillow Home Value Index at ZIP level. Listing activity is the Realtor.com monthly ZIP metrics. Housing stock is the American Community Survey at ZIP Code Tabulation Area level. Updated 2026-10-19.</p>
 <p><a href="https://myrealtoraye.github.io/neighborhood-reports/" rel="noopener">All neighborhood and city reports</a></p>
 <p>Alex Bradeis | eXp Realty | CA DRE #02244910</p>
 </main>
