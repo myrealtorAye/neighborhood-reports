@@ -377,6 +377,8 @@ h2{font-size:1.5rem;font-weight:600;margin:2.4em 0 .5em;padding-top:.55em;
    border-top:3px solid var(--oxblood);color:var(--ink)}
 /* interior accent bars rotate between Deep Oxblood and Sunburst Orange only */
 h2:nth-of-type(even){border-top-color:var(--orange)}
+/* the sunset stack is already the title rule, so an h2 directly under it drops its own */
+h1 + h2{border-top:0;padding-top:0;margin-top:1.6em}
 h3{font-size:1.12rem;font-weight:600;margin:1.9em 0 .35em;color:var(--ink)}
 h4{font-family:'DM Sans',system-ui,sans-serif;font-size:1rem;font-weight:700;margin:1.5em 0 .3em;color:var(--ink)}
 p{margin:0 0 1.15em}
