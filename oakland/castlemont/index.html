@@ -431,6 +431,10 @@ a:hover{color:var(--orange);text-decoration-color:var(--orange)}
 ul{margin:0 0 1.2em;padding-left:1.25em;list-style:none}
 li{margin:.32em 0;position:relative}
 li:before{content:'▸';position:absolute;left:-1.1em;color:var(--orange);font-size:.95em}
+/* a nested level, cities then their neighborhoods, steps in and goes quieter */
+ul ul{margin:.25em 0 .7em;padding-left:1.5em}
+ul ul li{margin:.18em 0;font-size:.95em}
+ul ul li:before{content:'•';color:var(--tan);font-size:1em}
 strong{font-weight:700}
 hr{border:0;border-top:1px solid var(--tan);margin:2.5em 0}
 code{font-family:'DM Mono',ui-monospace,monospace;background:#E6DCD0;padding:.1em .35em;border-radius:3px;font-size:.9em}
@@ -454,13 +458,20 @@ em{font-style:italic}
 <h1 id="castlemont-oakland-ca-market-report-and-buyer-guide-october-2026">Castlemont, Oakland CA Market Report and Buyer Guide, October 2026</h1>
 <h2 id="the-short-version">The short version</h2>
 <ul>
-<li>Typical home value in Castlemont: <strong>$450,275</strong>, up 0.87 percent month over month, down 3.7 percent year over year.</li>
-<li>Rank in Oakland: <strong>114 of 121</strong> neighborhoods by typical value.</li>
-<li>Oakland listing activity: <strong>527 active</strong>, n/a month over month, median <strong>40 days</strong> on market.</li>
-<li>30-year fixed average: <strong>7.4 percent</strong> as of 2026-10-15 (6.27 percent a year earlier).</li>
-<li>2026 one-unit loan limit, Alameda County: <strong>$1,249,125</strong>.</li>
-<li>Monthly cost of owning the typical home here: <strong>$4,862</strong> ($58,348 a year), HOA not included.</li>
-<li>Effective property tax rate used: <strong>1.71 percent</strong> (Oakland effective rate).</li>
+<li>Typical home value in Castlemont: <strong>$450,275</strong>, up 0.87 percent month over month, down 3.7 percent year over year.
+</li>
+<li>Rank in Oakland: <strong>114 of 121</strong> neighborhoods by typical value.
+</li>
+<li>Oakland listing activity: <strong>527 active</strong>, n/a month over month, median <strong>40 days</strong> on market.
+</li>
+<li>30-year fixed average: <strong>7.4 percent</strong> as of 2026-10-15 (6.27 percent a year earlier).
+</li>
+<li>2026 one-unit loan limit, Alameda County: <strong>$1,249,125</strong>.
+</li>
+<li>Monthly cost of owning the typical home here: <strong>$4,862</strong> ($58,348 a year), HOA not included.
+</li>
+<li>Effective property tax rate used: <strong>1.71 percent</strong> (Oakland effective rate).
+</li>
 </ul>
 <p>The typical home in Castlemont is worth $450,275, and a minimum-down loan on it comes to $434,516. That fits inside the Alameda County ceiling of $1,249,125. That one fact decides which loan programs are actually open to a buyer here, and it is the first thing worth checking before anything else.</p>
 <p>This is the October 2026 report for Castlemont, rebuilt from the current month's data. Everything below is sourced and dated, the formulas are shown rather than asserted, and the numbers that disagree with each other are pointed out instead of smoothed over. It is updated every month.</p>
@@ -1958,18 +1969,30 @@ em{font-style:italic}
 <h2 id="buying-and-selling-the-questions-that-come-up-every-time">Buying and selling, the questions that come up every time</h2>
 <p>These answers are the same whichever neighborhood you are looking at, so they live on one page rather than being repeated in every report:</p>
 <ul>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#how-much-do-i-actually-need-for-a-down-payment" rel="noopener">How much do I actually need for a down payment?</a></li>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#what-are-closing-costs-and-who-pays-what" rel="noopener">What are closing costs, and who pays what?</a></li>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#how-long-does-escrow-take-in-california" rel="noopener">How long does escrow take in California?</a></li>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#what-is-the-difference-between-pre-qualified-and-pre-approved" rel="noopener">What is the difference between pre-qualified and pre-approved?</a></li>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#is-now-a-good-time-to-buy" rel="noopener">Is now a good time to buy?</a></li>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#what-is-my-home-actually-worth" rel="noopener">What is my home actually worth?</a></li>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#should-i-fix-things-before-i-sell" rel="noopener">Should I fix things before I sell?</a></li>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#do-i-pay-tax-when-i-sell-my-home" rel="noopener">Do I pay tax when I sell my home?</a></li>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#can-i-buy-before-i-sell" rel="noopener">Can I buy before I sell?</a></li>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#what-is-a-supplemental-tax-bill" rel="noopener">What is a supplemental tax bill?</a></li>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#what-happens-to-the-house-in-a-divorce" rel="noopener">What happens to the house in a divorce?</a></li>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#what-happens-to-the-house-when-someone-dies" rel="noopener">What happens to the house when someone dies?</a></li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#how-much-do-i-actually-need-for-a-down-payment" rel="noopener">How much do I actually need for a down payment?</a>
+</li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#what-are-closing-costs-and-who-pays-what" rel="noopener">What are closing costs, and who pays what?</a>
+</li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#how-long-does-escrow-take-in-california" rel="noopener">How long does escrow take in California?</a>
+</li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#what-is-the-difference-between-pre-qualified-and-pre-approved" rel="noopener">What is the difference between pre-qualified and pre-approved?</a>
+</li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#is-now-a-good-time-to-buy" rel="noopener">Is now a good time to buy?</a>
+</li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#what-is-my-home-actually-worth" rel="noopener">What is my home actually worth?</a>
+</li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#should-i-fix-things-before-i-sell" rel="noopener">Should I fix things before I sell?</a>
+</li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#do-i-pay-tax-when-i-sell-my-home" rel="noopener">Do I pay tax when I sell my home?</a>
+</li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#can-i-buy-before-i-sell" rel="noopener">Can I buy before I sell?</a>
+</li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#what-is-a-supplemental-tax-bill" rel="noopener">What is a supplemental tax bill?</a>
+</li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#what-happens-to-the-house-in-a-divorce" rel="noopener">What happens to the house in a divorce?</a>
+</li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/#what-happens-to-the-house-when-someone-dies" rel="noopener">What happens to the house when someone dies?</a>
+</li>
 </ul>
 <h2 id="sources-with-dates">Sources, with dates</h2>
 <div class="tablewrap">
@@ -2036,13 +2059,20 @@ em{font-style:italic}
 <h2 id="common-questions">Common questions</h2>
 <p>The questions that come up on every deal, answered once and kept current, rather than repeated in each month's report.</p>
 <ul>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/" rel="noopener">Buying and selling: the questions that come up every time</a></li>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/loan-programs-guide/" rel="noopener">FHA, conventional and NACA: how the three actually compare</a></li>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/property-tax-guide/" rel="noopener">California property tax: Proposition 13, reassessment, the supplemental bill and Proposition 19</a></li>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/adu-guide/" rel="noopener">ADUs in California: what the law allows, and what one is actually worth</a></li>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/divorce-guide/" rel="noopener">Selling a home in a divorce</a></li>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/probate-guide/" rel="noopener">Selling a home in probate or from a trust</a></li>
-<li><a href="https://myrealtoraye.github.io/neighborhood-reports/method/" rel="noopener">How these reports are built</a></li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/buying-and-selling-questions/" rel="noopener">Buying and selling: the questions that come up every time</a>
+</li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/loan-programs-guide/" rel="noopener">FHA, conventional and NACA: how the three actually compare</a>
+</li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/property-tax-guide/" rel="noopener">California property tax: Proposition 13, reassessment, the supplemental bill and Proposition 19</a>
+</li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/adu-guide/" rel="noopener">ADUs in California: what the law allows, and what one is actually worth</a>
+</li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/divorce-guide/" rel="noopener">Selling a home in a divorce</a>
+</li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/probate-guide/" rel="noopener">Selling a home in probate or from a trust</a>
+</li>
+<li><a href="https://myrealtoraye.github.io/neighborhood-reports/method/" rel="noopener">How these reports are built</a>
+</li>
 </ul>
 <hr>
 <p>Written by Alex Bradeis. I publish one of these for every neighborhood I cover, every month, as the new numbers come out.</p>

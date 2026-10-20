@@ -773,6 +773,10 @@ a:hover{color:var(--orange);text-decoration-color:var(--orange)}
 ul{margin:0 0 1.2em;padding-left:1.25em;list-style:none}
 li{margin:.32em 0;position:relative}
 li:before{content:'▸';position:absolute;left:-1.1em;color:var(--orange);font-size:.95em}
+/* a nested level, cities then their neighborhoods, steps in and goes quieter */
+ul ul{margin:.25em 0 .7em;padding-left:1.5em}
+ul ul li{margin:.18em 0;font-size:.95em}
+ul ul li:before{content:'•';color:var(--tan);font-size:1em}
 strong{font-weight:700}
 hr{border:0;border-top:1px solid var(--tan);margin:2.5em 0}
 code{font-family:'DM Mono',ui-monospace,monospace;background:#E6DCD0;padding:.1em .35em;border-radius:3px;font-size:.9em}
