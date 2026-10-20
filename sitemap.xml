@@ -289,6 +289,30 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/ashland/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/ashland/ashland/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/bay-point/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/bay-point/bay-point/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://myrealtoraye.github.io/neighborhood-reports/berkeley/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -427,6 +451,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/blackhawk/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/blackhawk/blackhawk/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://myrealtoraye.github.io/neighborhood-reports/brentwood/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -518,6 +554,18 @@
   </url>
   <url>
     <loc>https://myrealtoraye.github.io/neighborhood-reports/castro-valley/proctor/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/cherryland/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/cherryland/cherryland/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -920,6 +968,18 @@
   </url>
   <url>
     <loc>https://myrealtoraye.github.io/neighborhood-reports/escalon/downtown-escalon/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/fairview/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/fairview/fairview/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -1603,6 +1663,54 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/mountain-house/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/mountain-house/altamont/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/mountain-house/bethany/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/mountain-house/college-park/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/mountain-house/cordes/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/mountain-house/hansen/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/mountain-house/questa/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/mountain-house/wicklund/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://myrealtoraye.github.io/neighborhood-reports/newark/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -2120,6 +2228,36 @@
   </url>
   <url>
     <loc>https://myrealtoraye.github.io/neighborhood-reports/orinda/sleepy-hollow/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/pacheco/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/pacheco/clyde/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/pacheco/contra-costa-centre/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/pacheco/pacheco/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://myrealtoraye.github.io/neighborhood-reports/pacheco/vine-hill/</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
