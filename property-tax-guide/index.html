@@ -76,6 +76,10 @@ li:before{content:'▸';position:absolute;left:-1.1em;color:var(--orange);font-s
 ul ul{margin:.25em 0 .7em;padding-left:1.5em}
 ul ul li{margin:.18em 0;font-size:.95em}
 ul ul li:before{content:'•';color:var(--tan);font-size:1em}
+/* a list item that CONTAINS a nested list is a parent, so weight it. Scoped
+   this way it only hits the index, where cities carry neighborhoods, and
+   never the flat bullet lists inside an article. */
+li:has(> ul) > a{font-weight:700}
 strong{font-weight:700}
 hr{border:0;border-top:1px solid var(--tan);margin:2.5em 0}
 code{font-family:'DM Mono',ui-monospace,monospace;background:#E6DCD0;padding:.1em .35em;border-radius:3px;font-size:.9em}
