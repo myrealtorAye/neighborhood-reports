@@ -196,9 +196,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 400,
+        "value": 7.4,
         "unitText": "PERCENT",
-        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
+        "observationDate": "2026-10-15",
         "observationAbout": {
           "@type": "Place",
           "name": "Floresta Gardens, San Leandro, CA"
@@ -229,7 +229,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 261359,
+        "value": 7838,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -264,7 +264,7 @@
         "name": "Is Floresta Gardens expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of San Leandro, yes. Floresta Gardens ranks 7 of 13 neighborhoods by typical value, and at $804,867 it sits 1 percent above the citywide typical value of $798,068. The monthly number is the one I would focus on: owning the typical home here runs about $261,359 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of San Leandro, yes. Floresta Gardens ranks 7 of 13 neighborhoods by typical value, and at $804,867 it sits 1 percent above the citywide typical value of $798,068. The monthly number is the one I would focus on: owning the typical home here runs about $7,838 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -344,7 +344,7 @@
         "name": "What is it like living in Floresta Gardens?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $804,867, the monthly carry is around $261,359. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $804,867, the monthly carry is around $7,838. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

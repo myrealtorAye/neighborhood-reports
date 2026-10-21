@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 400,
+        "value": 7.4,
         "unitText": "PERCENT",
-        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
+        "observationDate": "2026-10-15",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94805",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 225386,
+        "value": 6809,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 94805 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Richmond, yes. 94805 ranks 26 of 39 neighborhoods by typical value, and at $693,927 it sits 16 percent above the citywide typical value of $600,691. The monthly number is the one I would focus on: owning the typical home here runs about $225,386 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,772. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Richmond, yes. 94805 ranks 26 of 39 neighborhoods by typical value, and at $693,927 it sits 16 percent above the citywide typical value of $600,691. The monthly number is the one I would focus on: owning the typical home here runs about $6,809 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,772. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94805?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $693,927, the monthly carry is around $225,386, and rent runs $2,772. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $693,927, the monthly carry is around $6,809, and rent runs $2,772. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 400,
+        "value": 7.4,
         "unitText": "PERCENT",
-        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
+        "observationDate": "2026-10-15",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94550",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 387848,
+        "value": 11237,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 94550 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Livermore, yes. 94550 ranks 21 of 47 neighborhoods by typical value, and at $1,195,648 it sits 12 percent above the citywide typical value of $1,071,869. The monthly number is the one I would focus on: owning the typical home here runs about $387,848 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $3,007. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Livermore, yes. 94550 ranks 21 of 47 neighborhoods by typical value, and at $1,195,648 it sits 12 percent above the citywide typical value of $1,071,869. The monthly number is the one I would focus on: owning the typical home here runs about $11,237 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $3,007. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94550?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,195,648, the monthly carry is around $387,848, and rent runs $3,007. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,195,648, the monthly carry is around $11,237, and rent runs $3,007. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

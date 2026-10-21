@@ -146,9 +146,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 400,
+        "value": 7.4,
         "unitText": "PERCENT",
-        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
+        "observationDate": "2026-10-15",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94569",
@@ -182,7 +182,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 213259,
+        "value": 6487,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -218,7 +218,7 @@
         "name": "Is 94569 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Port Costa, yes. 94569 ranks 30 of 39 neighborhoods by typical value, and at $656,450 it sits 0 percent above the citywide typical value of $656,450. The monthly number is the one I would focus on: owning the typical home here runs about $213,259 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Port Costa, yes. 94569 ranks 30 of 39 neighborhoods by typical value, and at $656,450 it sits 0 percent above the citywide typical value of $656,450. The monthly number is the one I would focus on: owning the typical home here runs about $6,487 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -298,7 +298,7 @@
         "name": "What is it like living in 94569?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $656,450, the monthly carry is around $213,259. I rebuild this report every month, so the figures are current to 2026-09-30 for value and null for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $656,450, the monthly carry is around $6,487. I rebuild this report every month, so the figures are current to 2026-09-30 for value and null for listing activity, not whenever the page happened to be written."
         }
       }
     ]

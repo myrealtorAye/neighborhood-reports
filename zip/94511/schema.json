@@ -194,9 +194,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 400,
+        "value": 7.4,
         "unitText": "PERCENT",
-        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
+        "observationDate": "2026-10-15",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94511",
@@ -230,7 +230,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 203581,
+        "value": 6229,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -266,7 +266,7 @@
         "name": "Is 94511 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Bethel Island, yes. 94511 ranks 33 of 39 neighborhoods by typical value, and at $626,543 it sits 0 percent above the citywide typical value of $626,543. The monthly number is the one I would focus on: owning the typical home here runs about $203,581 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Bethel Island, yes. 94511 ranks 33 of 39 neighborhoods by typical value, and at $626,543 it sits 0 percent above the citywide typical value of $626,543. The monthly number is the one I would focus on: owning the typical home here runs about $6,229 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -346,7 +346,7 @@
         "name": "What is it like living in 94511?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $626,543, the monthly carry is around $203,581. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $626,543, the monthly carry is around $6,229. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

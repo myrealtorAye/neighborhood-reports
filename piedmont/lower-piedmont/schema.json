@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 400,
+        "value": 7.4,
         "unitText": "PERCENT",
-        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
+        "observationDate": "2026-10-15",
         "observationAbout": {
           "@type": "Place",
           "name": "Lower Piedmont, Piedmont, CA"
@@ -185,7 +185,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 825930,
+        "value": 23009,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -220,7 +220,7 @@
         "name": "Is Lower Piedmont expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Piedmont, yes. Lower Piedmont ranks null of null neighborhoods by typical value, and at $2,549,073 it sits 0 percent above the citywide typical value of $2,549,073. The monthly number is the one I would focus on: owning the typical home here runs about $825,930 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Piedmont, yes. Lower Piedmont ranks null of null neighborhoods by typical value, and at $2,549,073 it sits 0 percent above the citywide typical value of $2,549,073. The monthly number is the one I would focus on: owning the typical home here runs about $23,009 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -300,7 +300,7 @@
         "name": "What is it like living in Lower Piedmont?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $2,549,073, the monthly carry is around $825,930. I rebuild this report every month, so the figures are current to 2026-09-30 for value and null for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $2,549,073, the monthly carry is around $23,009. I rebuild this report every month, so the figures are current to 2026-09-30 for value and null for listing activity, not whenever the page happened to be written."
         }
       }
     ]

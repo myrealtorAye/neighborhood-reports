@@ -210,9 +210,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 400,
+        "value": 7.4,
         "unitText": "PERCENT",
-        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
+        "observationDate": "2026-10-15",
         "observationAbout": {
           "@type": "Place",
           "name": "Montclair, Oakland, CA"
@@ -243,7 +243,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 472405,
+        "value": 13852,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is Montclair expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Oakland, yes. Montclair ranks 9 of 121 neighborhoods by typical value, and at $1,455,795 it sits 105 percent above the citywide typical value of $710,647. The monthly number is the one I would focus on: owning the typical home here runs about $472,405 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,996. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Oakland, yes. Montclair ranks 9 of 121 neighborhoods by typical value, and at $1,455,795 it sits 105 percent above the citywide typical value of $710,647. The monthly number is the one I would focus on: owning the typical home here runs about $13,852 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,996. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in Montclair?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,455,795, the monthly carry is around $472,405, and rent runs $2,996. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,455,795, the monthly carry is around $13,852, and rent runs $2,996. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

@@ -194,9 +194,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 400,
+        "value": 7.4,
         "unitText": "PERCENT",
-        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
+        "observationDate": "2026-10-15",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 95258",
@@ -230,7 +230,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 189938,
+        "value": 5829,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -266,7 +266,7 @@
         "name": "Is 95258 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Woodbridge, yes. 95258 ranks 11 of 29 neighborhoods by typical value, and at $584,501 it sits 0 percent below the citywide typical value of $586,663. The monthly number is the one I would focus on: owning the typical home here runs about $189,938 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Woodbridge, yes. 95258 ranks 11 of 29 neighborhoods by typical value, and at $584,501 it sits 0 percent below the citywide typical value of $586,663. The monthly number is the one I would focus on: owning the typical home here runs about $5,829 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -346,7 +346,7 @@
         "name": "What is it like living in 95258?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $584,501, the monthly carry is around $189,938. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $584,501, the monthly carry is around $5,829. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

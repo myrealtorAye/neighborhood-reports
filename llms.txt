@@ -8,7 +8,6 @@ Alex Bradeis. REALTOR, real estate agent, listing agent and buyer's agent.
 eXp Realty. CA DRE #02244910. Member, National Association of REALTORS.
 Phone: 209-715-8657
 Email: alex.bradeis@exprealty.com
-Web: https://alexbradeis.expportal.com/learn-more
 Entity: https://myrealtoraye.github.io/neighborhood-reports/about/#agent
 
 ## What is here
