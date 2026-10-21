@@ -3,9 +3,9 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "94564 Housing Market Report, Pinole CA, October 2026",
-    "description": "Homes for sale and home values in ZIP 94564, Pinole, California. Typical home value $716,196, up 0.52 percent month over month and up 0.1 percent year over year, measured for this ZIP rather than citywide. Listing activity, how 94564 ranks against every other ZIP in Contra Costa County, mortgage rates, loan limits, property and transfer tax math, cost of waiting and cost of holding, schools, housing stock, and the questions people actually search.",
-    "datePublished": "2026-10-17",
-    "dateModified": "2026-10-17",
+    "description": "Homes for sale and home values in ZIP 94564, Pinole, California. Typical home value $716,196, up 0.52 percent month over month and up 0.1 percent year over year, measured for this ZIP and not citywide. Listing activity, how 94564 ranks against every other ZIP in Contra Costa County, mortgage rates, loan limits, property and transfer tax math, cost of waiting and cost of holding, schools, housing stock, and the questions people actually search.",
+    "datePublished": "2026-10-21",
+    "dateModified": "2026-10-21",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -294,7 +294,7 @@
         "name": "What is the transfer tax in Pinole?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "This is the cost people forget to budget for, and it varies more by city line than anything else in a California transaction. Pinole is a general law city, so the rate here is $1.10 per $1,000 of value. On a home at $716,196 that is $788. For scale, the identical sale price would carry $788 in Antioch and $9,382 in El Cerrito, both in this same county. Who pays is set by the contract and by local custom rather than by statute, and it is negotiable. Escrow is the authority on the exact figure for a specific sale."
+          "text": "This is the cost people forget to budget for, and it varies more by city line than anything else in a California transaction. Pinole is a general law city, so the rate here is $1.10 per $1,000 of value. On a home at $716,196 that is $788. For scale, the identical sale price would carry $788 in Antioch and $9,382 in El Cerrito, both in this same county. Who pays is set by the contract and by local custom, not by statute, and it is negotiable. Escrow is the authority on the exact figure for a specific sale."
         }
       },
       {
@@ -310,7 +310,7 @@
         "name": "What first-time buyer help is available in Pinole?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "CalHFA runs the statewide programs and they layer on top of a first mortgage rather than replacing it. MyHome is a deferred-payment junior loan toward the down payment and closing costs, open year round. ZIP covers closing costs on a CalHFA conventional first. Dream For All is the shared-appreciation program, limited to first-generation buyers, and it runs in announced windows rather than continuously. GSFA Platinum is a separate option, and Pinole and Contra Costa County run their own programs on their own funding cycles. Those are the ones most people never hear about. The constraint that actually binds in a neighborhood at $716,196 is almost never income. It is the program's own purchase price cap, often set below the county loan limit. I would establish the price a program allows first, then shop inside it. Doing it the other way around is how people fall for a house the assistance cannot reach."
+          "text": "CalHFA runs the statewide programs and they layer on top of a first mortgage and do not replace it. MyHome is a deferred-payment junior loan toward the down payment and closing costs, open year round. ZIP covers closing costs on a CalHFA conventional first. Dream For All is the shared-appreciation program, limited to first-generation buyers, and it runs in announced windows, not continuously. GSFA Platinum is a separate option, and Pinole and Contra Costa County run their own programs on their own funding cycles. Those are the ones most people never hear about. The constraint that actually binds in a neighborhood at $716,196 is almost never income. It is the program's own purchase price cap, often set below the county loan limit. I would establish the price a program allows first, then shop inside it. Doing it the other way around is how people fall for a house the assistance cannot reach."
         }
       },
       {
@@ -318,7 +318,7 @@
         "name": "Can I build an ADU in Pinole?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Almost certainly yes, in some form. State law requires local agencies to allow accessory dwelling units on residential lots with ministerial approval and a decision deadline, so the real question is what size and configuration the local ordinance permits, not whether you are allowed. Owner-occupancy requirements on new ADUs have been removed, so the main house and the ADU can both be rented. Selling one separately is a different question. Assembly Bill 1033 lets a city allow an ADU to be sold as its own condominium unit, but it is permissive rather than mandatory, relatively few cities have adopted an enabling ordinance, and without one there is no right to do it. That is a question for the Pinole planning department and the municipal code, not something the state law answers on its own."
+          "text": "Almost certainly yes, in some form. State law requires local agencies to allow accessory dwelling units on residential lots with ministerial approval and a decision deadline, so the real question is what size and configuration the local ordinance permits, not whether you are allowed. Owner-occupancy requirements on new ADUs have been removed, so the main house and the ADU can both be rented. Selling one separately is a different question. Assembly Bill 1033 lets a city allow an ADU to be sold as its own condominium unit, but it is permissive and not mandatory, relatively few cities have adopted an enabling ordinance, and without one there is no right to do it. That is a question for the Pinole planning department and the municipal code, not something the state law answers on its own."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94564?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $716,196, the monthly carry is around $7,001, and rent runs $2,800. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity rather than whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $716,196, the monthly carry is around $7,001, and rent runs $2,800. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]
