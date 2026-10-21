@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94597",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 9205,
+        "value": 315448,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 94597 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Walnut Creek, yes. 94597 ranks 14 of 39 neighborhoods by typical value, and at $972,248 it sits 2 percent below the citywide typical value of $990,472. The monthly number is the one I would focus on: owning the typical home here runs about $9,205 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,711. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Walnut Creek, yes. 94597 ranks 14 of 39 neighborhoods by typical value, and at $972,248 it sits 2 percent below the citywide typical value of $990,472. The monthly number is the one I would focus on: owning the typical home here runs about $315,448 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,711. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 94597?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94597 as of 2026-09 there were 58 active listings, up 2.7 percent from the prior month and up 16.2 percent from a year earlier, with 24 new that month and 19 pending. Median days on market was 40."
+          "text": "In ZIP 94597 as of 2026-09 there were 58 active listings, up 2.7 percent from the prior month and up 16.2 percent from a year earlier. That month saw 24 new that month and 19 pending. Median days on market was 40."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94597?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $972,248, the monthly carry is around $9,205, and rent runs $2,711. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $972,248, the monthly carry is around $315,448, and rent runs $2,711. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94703",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 11774,
+        "value": 407818,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 94703 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Berkeley, yes. 94703 ranks 14 of 47 neighborhoods by typical value, and at $1,257,344 it sits 13 percent below the citywide typical value of $1,442,475. The monthly number is the one I would focus on: owning the typical home here runs about $11,774 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,544. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Berkeley, yes. 94703 ranks 14 of 47 neighborhoods by typical value, and at $1,257,344 it sits 13 percent below the citywide typical value of $1,442,475. The monthly number is the one I would focus on: owning the typical home here runs about $407,818 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,544. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 94703?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94703 as of 2026-09 there were 7 active listings, down 7.1 percent from the prior month and down 43.5 percent from a year earlier, with 10 new that month and 7 pending. Median days on market was 19."
+          "text": "In ZIP 94703 as of 2026-09 there were 7 active listings, down 7.1 percent from the prior month and down 43.5 percent from a year earlier. That month saw 10 new that month and 7 pending. Median days on market was 19."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94703?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,257,344, the monthly carry is around $11,774, and rent runs $2,544. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,257,344, the monthly carry is around $407,818, and rent runs $2,544. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

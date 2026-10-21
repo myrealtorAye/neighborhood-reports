@@ -1,0 +1,63 @@
+{
+ "slug": "hercules",
+ "scale": 2,
+ "width": 760,
+ "tables": [
+  {
+   "n": 0,
+   "caption": "This month in Hercules"
+  },
+  {
+   "n": 1,
+   "caption": "How the market differs by ZIP code"
+  },
+  {
+   "n": 2,
+   "caption": "The Hercules market this month"
+  },
+  {
+   "n": 3,
+   "caption": "What the money costs right now"
+  },
+  {
+   "n": 4,
+   "caption": "The loan limit problem at this price point"
+  },
+  {
+   "n": 5,
+   "caption": "FHA, conventional, and NACA side by side"
+  },
+  {
+   "n": 6,
+   "caption": "The cost of waiting, for buyers"
+  },
+  {
+   "n": 7,
+   "caption": "The cost of waiting, for buyers"
+  },
+  {
+   "n": 8,
+   "caption": "The cost of holding, for sellers"
+  },
+  {
+   "n": 9,
+   "caption": "The cost of holding, for sellers"
+  },
+  {
+   "n": 10,
+   "caption": "Transfer tax, and the cliff most people never see"
+  },
+  {
+   "n": 11,
+   "caption": "Schools in Hercules"
+  },
+  {
+   "n": 12,
+   "caption": "Housing stock and ownership profile"
+  },
+  {
+   "n": 13,
+   "caption": "Sources, with dates"
+  }
+ ]
+}

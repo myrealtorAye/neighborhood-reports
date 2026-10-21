@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94553",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 7287,
+        "value": 243360,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 94553 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Martinez, yes. 94553 ranks 21 of 39 neighborhoods by typical value, and at $749,473 it sits 0 percent below the citywide typical value of $749,729. The monthly number is the one I would focus on: owning the typical home here runs about $7,287 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,509. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Martinez, yes. 94553 ranks 21 of 39 neighborhoods by typical value, and at $749,473 it sits 0 percent below the citywide typical value of $749,729. The monthly number is the one I would focus on: owning the typical home here runs about $243,360 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,509. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 94553?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94553 as of 2026-09 there were 78 active listings, down 2.5 percent from the prior month and down 21.2 percent from a year earlier, with 34 new that month and 37 pending. Median days on market was 38."
+          "text": "In ZIP 94553 as of 2026-09 there were 78 active listings, down 2.5 percent from the prior month and down 21.2 percent from a year earlier. That month saw 34 new that month and 37 pending. Median days on market was 38."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94553?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $749,473, the monthly carry is around $7,287, and rent runs $2,509. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $749,473, the monthly carry is around $243,360, and rent runs $2,509. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

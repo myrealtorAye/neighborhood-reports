@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94561",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 6464,
+        "value": 212388,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 94561 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Oakley, yes. 94561 ranks 31 of 39 neighborhoods by typical value, and at $653,759 it sits 0 percent above the citywide typical value of $653,563. The monthly number is the one I would focus on: owning the typical home here runs about $6,464 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $3,294. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Oakley, yes. 94561 ranks 31 of 39 neighborhoods by typical value, and at $653,759 it sits 0 percent above the citywide typical value of $653,563. The monthly number is the one I would focus on: owning the typical home here runs about $212,388 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $3,294. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 94561?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94561 as of 2026-09 there were 104 active listings, down 0.9 percent from the prior month and up 5.1 percent from a year earlier, with 32 new that month and 31 pending. Median days on market was 44."
+          "text": "In ZIP 94561 as of 2026-09 there were 104 active listings, down 0.9 percent from the prior month and up 5.1 percent from a year earlier. That month saw 32 new that month and 31 pending. Median days on market was 44."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94561?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $653,759, the monthly carry is around $6,464, and rent runs $3,294. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $653,759, the monthly carry is around $212,388, and rent runs $3,294. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

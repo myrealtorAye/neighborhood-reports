@@ -194,9 +194,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94572",
@@ -230,7 +230,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 6403,
+        "value": 210124,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -266,7 +266,7 @@
         "name": "Is 94572 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Rodeo, yes. 94572 ranks 32 of 39 neighborhoods by typical value, and at $646,763 it sits 0 percent above the citywide typical value of $646,396. The monthly number is the one I would focus on: owning the typical home here runs about $6,403 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of n/a. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Rodeo, yes. 94572 ranks 32 of 39 neighborhoods by typical value, and at $646,763 it sits 0 percent above the citywide typical value of $646,396. The monthly number is the one I would focus on: owning the typical home here runs about $210,124 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -330,7 +330,7 @@
         "name": "How many homes are for sale in 94572?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94572 as of 2026-09 there were 12 active listings, up 20.0 percent from the prior month and up 4.3 percent from a year earlier, with 4 new that month and 6 pending. Median days on market was 38."
+          "text": "In ZIP 94572 as of 2026-09 there were 12 active listings, up 20.0 percent from the prior month and up 4.3 percent from a year earlier. That month saw 4 new that month and 6 pending. Median days on market was 38."
         }
       },
       {
@@ -346,7 +346,7 @@
         "name": "What is it like living in 94572?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $646,763, the monthly carry is around $6,403, and rent runs n/a. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $646,763, the monthly carry is around $210,124. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

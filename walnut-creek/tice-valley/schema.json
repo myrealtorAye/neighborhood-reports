@@ -196,9 +196,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "Place",
           "name": "Tice Valley, Walnut Creek, CA"
@@ -229,7 +229,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 9361,
+        "value": 321345,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -264,7 +264,7 @@
         "name": "Is Tice Valley expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Walnut Creek, yes. Tice Valley ranks null of 3 neighborhoods by typical value, and at $990,472 it sits 0 percent above the citywide typical value of $990,472. The monthly number is the one I would focus on: owning the typical home here runs about $9,361 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of n/a. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Walnut Creek, yes. Tice Valley ranks null of 3 neighborhoods by typical value, and at $990,472 it sits 0 percent above the citywide typical value of $990,472. The monthly number is the one I would focus on: owning the typical home here runs about $321,345 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -312,7 +312,7 @@
         "name": "Is the Walnut Creek housing market slowing down?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Tice Valley is up 0.32 percent month over month and up 1.3 percent year over year. Meanwhile in Walnut Creek, the median asking price is n/a year over year, price per square foot is n/a, active listings are n/a month over month, and median days on market is n/a. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
+          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Tice Valley is up 0.32 percent month over month and up 1.3 percent year over year. Realtor.com does not publish listing comparisons for Walnut Creek this month, so the value series above is the only trend figure I can stand behind here. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
         }
       },
       {
@@ -328,7 +328,7 @@
         "name": "How many homes are for sale in Tice Valley?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Walnut Creek as of 2026-09 there were 253 active listings, n/a from the prior month and n/a from a year earlier, with 124 new that month and 104 pending. Median days on market was 37."
+          "text": "In Walnut Creek as of 2026-09 there were 253 active listings. That month saw 124 new that month and 104 pending. Median days on market was 37."
         }
       },
       {
@@ -344,7 +344,7 @@
         "name": "What is it like living in Tice Valley?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $990,472, the monthly carry is around $9,361, and rent runs n/a. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $990,472, the monthly carry is around $321,345. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

@@ -207,9 +207,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "Place",
           "name": "Walnut Creek, Walnut Creek, CA"
@@ -240,7 +240,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 9361,
+        "value": 321345,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -275,7 +275,7 @@
         "name": "Is Walnut Creek expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Walnut Creek, yes. Walnut Creek ranks null of null neighborhoods by typical value, and at $990,472 it sits 0 percent above the citywide typical value of $990,472. The monthly number is the one I would focus on: owning the typical home here runs about $9,361 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $3,118. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Walnut Creek, yes. Walnut Creek ranks null of null neighborhoods by typical value, and at $990,472 it sits 0 percent above the citywide typical value of $990,472. The monthly number is the one I would focus on: owning the typical home here runs about $321,345 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $3,118. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -331,7 +331,7 @@
         "name": "What is rent like in Walnut Creek?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The Zillow Observed Rent Index for Walnut Creek is $3,118 as of 2026-09-30, n/a over the year. I use that figure in the cost of waiting section to show what renting while you decide actually costs over two and five years, because that is the real comparison and it usually goes unmade."
+          "text": "The Zillow Observed Rent Index for Walnut Creek is $3,118 as of 2026-09-30. I use that figure in the cost of waiting section to show what renting while you decide actually costs over two and five years, because that is the real comparison and it usually goes unmade."
         }
       },
       {
@@ -339,7 +339,7 @@
         "name": "How many homes are for sale in Walnut Creek?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Walnut Creek as of 2026-09 there were 253 active listings, down 0.4 percent from the prior month and up 10.1 percent from a year earlier, with 124 new that month and 104 pending. Median days on market was 37."
+          "text": "In Walnut Creek as of 2026-09 there were 253 active listings, down 0.4 percent from the prior month and up 10.1 percent from a year earlier. That month saw 124 new that month and 104 pending. Median days on market was 37."
         }
       },
       {
@@ -355,7 +355,7 @@
         "name": "What is it like living in Walnut Creek?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $990,472, the monthly carry is around $9,361, and rent runs $3,118. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $990,472, the monthly carry is around $321,345, and rent runs $3,118. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

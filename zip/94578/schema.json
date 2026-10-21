@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94578",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 7499,
+        "value": 248765,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 94578 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of San Leandro, yes. 94578 ranks 38 of 47 neighborhoods by typical value, and at $765,957 it sits 4 percent below the citywide typical value of $798,068. The monthly number is the one I would focus on: owning the typical home here runs about $7,499 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,409. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of San Leandro, yes. 94578 ranks 38 of 47 neighborhoods by typical value, and at $765,957 it sits 4 percent below the citywide typical value of $798,068. The monthly number is the one I would focus on: owning the typical home here runs about $248,765 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,409. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 94578?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94578 as of 2026-09 there were 25 active listings, up 11.4 percent from the prior month and down 39.5 percent from a year earlier, with 12 new that month and 15 pending. Median days on market was 32."
+          "text": "In ZIP 94578 as of 2026-09 there were 25 active listings, up 11.4 percent from the prior month and down 39.5 percent from a year earlier. That month saw 12 new that month and 15 pending. Median days on market was 32."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94578?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $765,957, the monthly carry is around $7,499, and rent runs $2,409. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $765,957, the monthly carry is around $248,765, and rent runs $2,409. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

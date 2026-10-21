@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94806",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 5755,
+        "value": 185734,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 94806 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of San Pablo, yes. 94806 ranks 35 of 39 neighborhoods by typical value, and at $571,391 it sits 3 percent above the citywide typical value of $553,824. The monthly number is the one I would focus on: owning the typical home here runs about $5,755 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,401. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of San Pablo, yes. 94806 ranks 35 of 39 neighborhoods by typical value, and at $571,391 it sits 3 percent above the citywide typical value of $553,824. The monthly number is the one I would focus on: owning the typical home here runs about $185,734 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,401. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 94806?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94806 as of 2026-09 there were 66 active listings, down 7.8 percent from the prior month and down 20.6 percent from a year earlier, with 30 new that month and 29 pending. Median days on market was 42."
+          "text": "In ZIP 94806 as of 2026-09 there were 66 active listings, down 7.8 percent from the prior month and down 20.6 percent from a year earlier. That month saw 30 new that month and 29 pending. Median days on market was 42."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94806?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $571,391, the monthly carry is around $5,755, and rent runs $2,401. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $571,391, the monthly carry is around $185,734, and rent runs $2,401. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

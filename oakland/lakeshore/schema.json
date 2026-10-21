@@ -210,9 +210,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "Place",
           "name": "Lakeshore, Oakland, CA"
@@ -243,7 +243,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 12255,
+        "value": 414549,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is Lakeshore expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Oakland, yes. Lakeshore ranks 17 of 121 neighborhoods by typical value, and at $1,277,186 it sits 80 percent above the citywide typical value of $710,647. The monthly number is the one I would focus on: owning the typical home here runs about $12,255 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,344. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Oakland, yes. Lakeshore ranks 17 of 121 neighborhoods by typical value, and at $1,277,186 it sits 80 percent above the citywide typical value of $710,647. The monthly number is the one I would focus on: owning the typical home here runs about $414,549 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,344. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in Lakeshore?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94610 as of 2026-09 there were 39 active listings, up 25.8 percent from the prior month and down 39.5 percent from a year earlier, with 32 new that month and 19 pending. Median days on market was 26."
+          "text": "In ZIP 94610 as of 2026-09 there were 39 active listings, up 25.8 percent from the prior month and down 39.5 percent from a year earlier. That month saw 32 new that month and 19 pending. Median days on market was 26."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in Lakeshore?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,277,186, the monthly carry is around $12,255, and rent runs $2,344. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,277,186, the monthly carry is around $414,549, and rent runs $2,344. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

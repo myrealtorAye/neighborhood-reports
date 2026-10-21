@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 95207",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 4272,
+        "value": 130469,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 95207 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Stockton, yes. 95207 ranks 24 of 29 neighborhoods by typical value, and at $400,645 it sits 5 percent below the citywide typical value of $422,451. The monthly number is the one I would focus on: owning the typical home here runs about $4,272 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $1,907. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Stockton, yes. 95207 ranks 24 of 29 neighborhoods by typical value, and at $400,645 it sits 5 percent below the citywide typical value of $422,451. The monthly number is the one I would focus on: owning the typical home here runs about $130,469 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $1,907. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 95207?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 95207 as of 2026-09 there were 82 active listings, down 8.9 percent from the prior month and down 20.4 percent from a year earlier, with 36 new that month and 34 pending. Median days on market was 59."
+          "text": "In ZIP 95207 as of 2026-09 there were 82 active listings, down 8.9 percent from the prior month and down 20.4 percent from a year earlier. That month saw 36 new that month and 34 pending. Median days on market was 59."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 95207?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $400,645, the monthly carry is around $4,272, and rent runs $1,907. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $400,645, the monthly carry is around $130,469, and rent runs $1,907. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

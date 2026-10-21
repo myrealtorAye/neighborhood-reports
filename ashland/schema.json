@@ -207,9 +207,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "Place",
           "name": "Ashland, Ashland, CA"
@@ -240,7 +240,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 7446,
+        "value": 246792,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -275,7 +275,7 @@
         "name": "Is Ashland expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Ashland, yes. Ashland ranks null of null neighborhoods by typical value, and at $759,862 it sits 0 percent above the citywide typical value of $759,862. The monthly number is the one I would focus on: owning the typical home here runs about $7,446 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,691. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Ashland, yes. Ashland ranks null of null neighborhoods by typical value, and at $759,862 it sits 0 percent above the citywide typical value of $759,862. The monthly number is the one I would focus on: owning the typical home here runs about $246,792 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,691. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -331,7 +331,7 @@
         "name": "What is rent like in Ashland?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The Zillow Observed Rent Index for Ashland is $2,691 as of 2026-09-30, n/a over the year. I use that figure in the cost of waiting section to show what renting while you decide actually costs over two and five years, because that is the real comparison and it usually goes unmade."
+          "text": "The Zillow Observed Rent Index for Ashland is $2,691 as of 2026-09-30. I use that figure in the cost of waiting section to show what renting while you decide actually costs over two and five years, because that is the real comparison and it usually goes unmade."
         }
       },
       {
@@ -339,7 +339,7 @@
         "name": "How many homes are for sale in Ashland?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Ashland as of 2026-09 there were 65 active listings, down 5.8 percent from the prior month and up 3.2 percent from a year earlier, with 30 new that month and 29 pending. Median days on market was 47."
+          "text": "In Ashland as of 2026-09 there were 65 active listings, down 5.8 percent from the prior month and up 3.2 percent from a year earlier. That month saw 30 new that month and 29 pending. Median days on market was 47."
         }
       },
       {
@@ -355,7 +355,7 @@
         "name": "What is it like living in Ashland?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $759,862, the monthly carry is around $7,446, and rent runs $2,691. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $759,862, the monthly carry is around $246,792, and rent runs $2,691. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

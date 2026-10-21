@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94539",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 19583,
+        "value": 698438,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 94539 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Fremont, yes. 94539 ranks 1 of 47 neighborhoods by typical value, and at $2,155,195 it sits 50 percent above the citywide typical value of $1,439,805. The monthly number is the one I would focus on: owning the typical home here runs about $19,583 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $4,088. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Fremont, yes. 94539 ranks 1 of 47 neighborhoods by typical value, and at $2,155,195 it sits 50 percent above the citywide typical value of $1,439,805. The monthly number is the one I would focus on: owning the typical home here runs about $698,438 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $4,088. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 94539?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94539 as of 2026-09 there were 54 active listings, down 4.5 percent from the prior month and up 17.6 percent from a year earlier, with 32 new that month and 21 pending. Median days on market was 29."
+          "text": "In ZIP 94539 as of 2026-09 there were 54 active listings, down 4.5 percent from the prior month and up 17.6 percent from a year earlier. That month saw 32 new that month and 21 pending. Median days on market was 29."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94539?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $2,155,195, the monthly carry is around $19,583, and rent runs $4,088. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $2,155,195, the monthly carry is around $698,438, and rent runs $4,088. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

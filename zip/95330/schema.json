@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 95330",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 6392,
+        "value": 201920,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 95330 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Lathrop, yes. 95330 ranks 9 of 29 neighborhoods by typical value, and at $620,754 it sits 0 percent above the citywide typical value of $620,627. The monthly number is the one I would focus on: owning the typical home here runs about $6,392 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $3,056. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Lathrop, yes. 95330 ranks 9 of 29 neighborhoods by typical value, and at $620,754 it sits 0 percent above the citywide typical value of $620,627. The monthly number is the one I would focus on: owning the typical home here runs about $201,920 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $3,056. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 95330?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 95330 as of 2026-09 there were 127 active listings, down 0.8 percent from the prior month and up 14.9 percent from a year earlier, with 36 new that month and 54 pending. Median days on market was 61."
+          "text": "In ZIP 95330 as of 2026-09 there were 127 active listings, down 0.8 percent from the prior month and up 14.9 percent from a year earlier. That month saw 36 new that month and 54 pending. Median days on market was 61."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 95330?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $620,754, the monthly carry is around $6,392, and rent runs $3,056. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $620,754, the monthly carry is around $201,920, and rent runs $3,056. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

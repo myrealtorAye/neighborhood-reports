@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "Place",
           "name": "Bay Point, Bay Point, CA"
@@ -185,7 +185,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 5650,
+        "value": 181787,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -204,7 +204,7 @@
         "name": "How much is a home in Bay Point?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Bay Point is $559,194 as of 2026-09-30, up 0.14 percent from the month before and down 0.8 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Bay Point is n/a. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Bay Point is $559,194 as of 2026-09-30, up 0.14 percent from the month before and down 0.8 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. Realtor.com does not publish a median asking price for Bay Point this month, so the value index is the figure to work from here. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -220,7 +220,7 @@
         "name": "Is Bay Point expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Bay Point, yes. Bay Point ranks null of null neighborhoods by typical value, and at $559,194 it sits 0 percent above the citywide typical value of $559,194. The monthly number is the one I would focus on: owning the typical home here runs about $5,650 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of n/a. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Bay Point, yes. Bay Point ranks null of null neighborhoods by typical value, and at $559,194 it sits 0 percent above the citywide typical value of $559,194. The monthly number is the one I would focus on: owning the typical home here runs about $181,787 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -268,7 +268,7 @@
         "name": "Is the Bay Point housing market slowing down?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Bay Point is up 0.14 percent month over month and down 0.8 percent year over year. Meanwhile in Bay Point, the median asking price is n/a year over year, price per square foot is n/a, active listings are n/a month over month, and median days on market is n/a. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
+          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Bay Point is up 0.14 percent month over month and down 0.8 percent year over year. Realtor.com does not publish listing comparisons for Bay Point this month, so the value series above is the only trend figure I can stand behind here. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
         }
       },
       {
@@ -284,7 +284,7 @@
         "name": "How many homes are for sale in Bay Point?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Bay Point as of null there were n/a active listings, n/a from the prior month and n/a from a year earlier, with n/a new that month and n/a pending. Median days on market was n/a."
+          "text": "Realtor.com does not publish a monthly listing count for Bay Point, so I cannot give you an inventory figure at this geography without inventing one."
         }
       },
       {
@@ -300,7 +300,7 @@
         "name": "What is it like living in Bay Point?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $559,194, the monthly carry is around $5,650, and rent runs n/a. I rebuild this report every month, so the figures are current to 2026-09-30 for value and null for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $559,194, the monthly carry is around $181,787. I rebuild this report every month, so the figures are current to 2026-09-30 for value and null for listing activity, not whenever the page happened to be written."
         }
       }
     ]

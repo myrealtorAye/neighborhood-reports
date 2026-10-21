@@ -196,9 +196,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "Place",
           "name": "Downtown Escalon, Escalon, CA"
@@ -229,7 +229,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 5885,
+        "value": 192067,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -264,7 +264,7 @@
         "name": "Is Downtown Escalon expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Escalon, yes. Downtown Escalon ranks null of null neighborhoods by typical value, and at $591,082 it sits 0 percent above the citywide typical value of $591,082. The monthly number is the one I would focus on: owning the typical home here runs about $5,885 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of n/a. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Escalon, yes. Downtown Escalon ranks null of null neighborhoods by typical value, and at $591,082 it sits 0 percent above the citywide typical value of $591,082. The monthly number is the one I would focus on: owning the typical home here runs about $192,067 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -312,7 +312,7 @@
         "name": "Is the Escalon housing market slowing down?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Downtown Escalon is down 0.01 percent month over month and up 1.1 percent year over year. Meanwhile in Escalon, the median asking price is n/a year over year, price per square foot is n/a, active listings are n/a month over month, and median days on market is n/a. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
+          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Downtown Escalon is down 0.01 percent month over month and up 1.1 percent year over year. Realtor.com does not publish listing comparisons for Escalon this month, so the value series above is the only trend figure I can stand behind here. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
         }
       },
       {
@@ -328,7 +328,7 @@
         "name": "How many homes are for sale in Downtown Escalon?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Escalon as of 2026-09 there were 21 active listings, n/a from the prior month and n/a from a year earlier, with 6 new that month and 11 pending. Median days on market was 68."
+          "text": "In Escalon as of 2026-09 there were 21 active listings. That month saw 6 new that month and 11 pending. Median days on market was 68."
         }
       },
       {
@@ -344,7 +344,7 @@
         "name": "What is it like living in Downtown Escalon?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $591,082, the monthly carry is around $5,885, and rent runs n/a. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $591,082, the monthly carry is around $192,067. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

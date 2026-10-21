@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94518",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 7938,
+        "value": 267819,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 94518 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Concord, yes. 94518 ranks 17 of 39 neighborhoods by typical value, and at $825,058 it sits 14 percent above the citywide typical value of $720,907. The monthly number is the one I would focus on: owning the typical home here runs about $7,938 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,684. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Concord, yes. 94518 ranks 17 of 39 neighborhoods by typical value, and at $825,058 it sits 14 percent above the citywide typical value of $720,907. The monthly number is the one I would focus on: owning the typical home here runs about $267,819 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,684. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 94518?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94518 as of 2026-09 there were 54 active listings, up 13.8 percent from the prior month and down 4.5 percent from a year earlier, with 20 new that month and 18 pending. Median days on market was 34."
+          "text": "In ZIP 94518 as of 2026-09 there were 54 active listings, up 13.8 percent from the prior month and down 4.5 percent from a year earlier. That month saw 20 new that month and 18 pending. Median days on market was 34."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94518?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $825,058, the monthly carry is around $7,938, and rent runs $2,684. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $825,058, the monthly carry is around $267,819, and rent runs $2,684. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

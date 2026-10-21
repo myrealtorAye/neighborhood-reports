@@ -207,9 +207,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "Place",
           "name": "Manteca, Manteca, CA"
@@ -240,7 +240,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 5684,
+        "value": 186029,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -275,7 +275,7 @@
         "name": "Is Manteca expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Manteca, yes. Manteca ranks null of null neighborhoods by typical value, and at $572,552 it sits 0 percent above the citywide typical value of $572,552. The monthly number is the one I would focus on: owning the typical home here runs about $5,684 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,544. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Manteca, yes. Manteca ranks null of null neighborhoods by typical value, and at $572,552 it sits 0 percent above the citywide typical value of $572,552. The monthly number is the one I would focus on: owning the typical home here runs about $186,029 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,544. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -331,7 +331,7 @@
         "name": "What is rent like in Manteca?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The Zillow Observed Rent Index for Manteca is $2,544 as of 2026-09-30, n/a over the year. I use that figure in the cost of waiting section to show what renting while you decide actually costs over two and five years, because that is the real comparison and it usually goes unmade."
+          "text": "The Zillow Observed Rent Index for Manteca is $2,544 as of 2026-09-30. I use that figure in the cost of waiting section to show what renting while you decide actually costs over two and five years, because that is the real comparison and it usually goes unmade."
         }
       },
       {
@@ -339,7 +339,7 @@
         "name": "How many homes are for sale in Manteca?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Manteca as of 2026-09 there were 228 active listings, down 5.0 percent from the prior month and down 0.1 percent from a year earlier, with 102 new that month and 117 pending. Median days on market was 46."
+          "text": "In Manteca as of 2026-09 there were 228 active listings, down 5.0 percent from the prior month and down 0.1 percent from a year earlier. That month saw 102 new that month and 117 pending. Median days on market was 46."
         }
       },
       {
@@ -355,7 +355,7 @@
         "name": "What is it like living in Manteca?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $572,552, the monthly carry is around $5,684, and rent runs $2,544. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $572,552, the monthly carry is around $186,029, and rent runs $2,544. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

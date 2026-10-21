@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94705",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 18010,
+        "value": 639905,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 94705 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Berkeley, yes. 94705 ranks 2 of 47 neighborhoods by typical value, and at $1,974,361 it sits 37 percent above the citywide typical value of $1,442,475. The monthly number is the one I would focus on: owning the typical home here runs about $18,010 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,826. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Berkeley, yes. 94705 ranks 2 of 47 neighborhoods by typical value, and at $1,974,361 it sits 37 percent above the citywide typical value of $1,442,475. The monthly number is the one I would focus on: owning the typical home here runs about $639,905 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,826. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 94705?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94705 as of 2026-09 there were 15 active listings, up 45.0 percent from the prior month and up 7.4 percent from a year earlier, with 16 new that month and 6 pending. Median days on market was 21."
+          "text": "In ZIP 94705 as of 2026-09 there were 15 active listings, up 45.0 percent from the prior month and up 7.4 percent from a year earlier. That month saw 16 new that month and 6 pending. Median days on market was 21."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94705?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,974,361, the monthly carry is around $18,010, and rent runs $2,826. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,974,361, the monthly carry is around $639,905, and rent runs $2,826. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

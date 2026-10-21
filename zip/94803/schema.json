@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94803",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 7086,
+        "value": 235800,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 94803 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of El Sobrante, yes. 94803 ranks 23 of 39 neighborhoods by typical value, and at $726,110 it sits 8 percent above the citywide typical value of $669,689. The monthly number is the one I would focus on: owning the typical home here runs about $7,086 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,988. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of El Sobrante, yes. 94803 ranks 23 of 39 neighborhoods by typical value, and at $726,110 it sits 8 percent above the citywide typical value of $669,689. The monthly number is the one I would focus on: owning the typical home here runs about $235,800 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,988. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -334,7 +334,7 @@
         "name": "What is rent like in 94803?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The Zillow Observed Rent Index for ZIP 94803 is $2,988 as of 2026-09-30, n/a over the year. I use that figure in the cost of waiting section to show what renting while you decide actually costs over two and five years, because that is the real comparison and it usually goes unmade."
+          "text": "The Zillow Observed Rent Index for ZIP 94803 is $2,988 as of 2026-09-30. I use that figure in the cost of waiting section to show what renting while you decide actually costs over two and five years, because that is the real comparison and it usually goes unmade."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 94803?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94803 as of 2026-09 there were 46 active listings, up 7.0 percent from the prior month and up 27.8 percent from a year earlier, with 24 new that month and 18 pending. Median days on market was 38."
+          "text": "In ZIP 94803 as of 2026-09 there were 46 active listings, up 7.0 percent from the prior month and up 27.8 percent from a year earlier. That month saw 24 new that month and 18 pending. Median days on market was 38."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94803?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $726,110, the monthly carry is around $7,086, and rent runs $2,988. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $726,110, the monthly carry is around $235,800, and rent runs $2,988. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 95212",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 5480,
+        "value": 176062,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 95212 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Stockton, yes. 95212 ranks 15 of 29 neighborhoods by typical value, and at $541,557 it sits 28 percent above the citywide typical value of $422,451. The monthly number is the one I would focus on: owning the typical home here runs about $5,480 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,373. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Stockton, yes. 95212 ranks 15 of 29 neighborhoods by typical value, and at $541,557 it sits 28 percent above the citywide typical value of $422,451. The monthly number is the one I would focus on: owning the typical home here runs about $176,062 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,373. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -334,7 +334,7 @@
         "name": "What is rent like in 95212?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The Zillow Observed Rent Index for ZIP 95212 is $2,373 as of 2026-09-30, n/a over the year. I use that figure in the cost of waiting section to show what renting while you decide actually costs over two and five years, because that is the real comparison and it usually goes unmade."
+          "text": "The Zillow Observed Rent Index for ZIP 95212 is $2,373 as of 2026-09-30. I use that figure in the cost of waiting section to show what renting while you decide actually costs over two and five years, because that is the real comparison and it usually goes unmade."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 95212?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 95212 as of 2026-09 there were 54 active listings, up 5.9 percent from the prior month and down 6.9 percent from a year earlier, with 16 new that month and 16 pending. Median days on market was 81."
+          "text": "In ZIP 95212 as of 2026-09 there were 54 active listings, up 5.9 percent from the prior month and down 6.9 percent from a year earlier. That month saw 16 new that month and 16 pending. Median days on market was 81."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 95212?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $541,557, the monthly carry is around $5,480, and rent runs $2,373. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $541,557, the monthly carry is around $176,062, and rent runs $2,373. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

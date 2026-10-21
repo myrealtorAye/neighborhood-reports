@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94547",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 7168,
+        "value": 238863,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 94547 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Hercules, yes. 94547 ranks 22 of 39 neighborhoods by typical value, and at $735,574 it sits 0 percent above the citywide typical value of $735,539. The monthly number is the one I would focus on: owning the typical home here runs about $7,168 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $3,209. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Hercules, yes. 94547 ranks 22 of 39 neighborhoods by typical value, and at $735,574 it sits 0 percent above the citywide typical value of $735,539. The monthly number is the one I would focus on: owning the typical home here runs about $238,863 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $3,209. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 94547?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94547 as of 2026-09 there were 36 active listings, up 1.4 percent from the prior month and up 0.0 percent from a year earlier, with 14 new that month and 15 pending. Median days on market was 39."
+          "text": "In ZIP 94547 as of 2026-09 there were 36 active listings, up 1.4 percent from the prior month and up 0.0 percent from a year earlier. That month saw 14 new that month and 15 pending. Median days on market was 39."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94547?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $735,574, the monthly carry is around $7,168, and rent runs $3,209. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $735,574, the monthly carry is around $238,863, and rent runs $3,209. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

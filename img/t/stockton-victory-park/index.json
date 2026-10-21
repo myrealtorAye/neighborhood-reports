@@ -1,0 +1,59 @@
+{
+ "slug": "stockton-victory-park",
+ "scale": 2,
+ "width": 760,
+ "tables": [
+  {
+   "n": 0,
+   "caption": "This month in Victory Park"
+  },
+  {
+   "n": 1,
+   "caption": "The wider Stockton market"
+  },
+  {
+   "n": 2,
+   "caption": "What the money costs right now"
+  },
+  {
+   "n": 3,
+   "caption": "The loan limit problem at this price point"
+  },
+  {
+   "n": 4,
+   "caption": "FHA, conventional, and NACA side by side"
+  },
+  {
+   "n": 5,
+   "caption": "The cost of waiting, for buyers"
+  },
+  {
+   "n": 6,
+   "caption": "The cost of waiting, for buyers"
+  },
+  {
+   "n": 7,
+   "caption": "The cost of holding, for sellers"
+  },
+  {
+   "n": 8,
+   "caption": "The cost of holding, for sellers"
+  },
+  {
+   "n": 9,
+   "caption": "Transfer tax, and the cliff most people never see"
+  },
+  {
+   "n": 10,
+   "caption": "Schools serving Stockton"
+  },
+  {
+   "n": 11,
+   "caption": "Housing stock and ownership profile"
+  },
+  {
+   "n": 12,
+   "caption": "Sources, with dates"
+  }
+ ]
+}

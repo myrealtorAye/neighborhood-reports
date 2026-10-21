@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 95209",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 4936,
+        "value": 155538,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 95209 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Stockton, yes. 95209 ranks 20 of 29 neighborhoods by typical value, and at $478,124 it sits 13 percent above the citywide typical value of $422,451. The monthly number is the one I would focus on: owning the typical home here runs about $4,936 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,247. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Stockton, yes. 95209 ranks 20 of 29 neighborhoods by typical value, and at $478,124 it sits 13 percent above the citywide typical value of $422,451. The monthly number is the one I would focus on: owning the typical home here runs about $155,538 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,247. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 95209?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 95209 as of 2026-09 there were 73 active listings, up 20.8 percent from the prior month and up 1.4 percent from a year earlier, with 34 new that month and 21 pending. Median days on market was 46."
+          "text": "In ZIP 95209 as of 2026-09 there were 73 active listings, up 20.8 percent from the prior month and up 1.4 percent from a year earlier. That month saw 34 new that month and 21 pending. Median days on market was 46."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 95209?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $478,124, the monthly carry is around $4,936, and rent runs $2,247. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $478,124, the monthly carry is around $155,538, and rent runs $2,247. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

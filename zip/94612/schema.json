@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94612",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 5581,
+        "value": 172734,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 94612 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Oakland, yes. 94612 ranks 44 of 47 neighborhoods by typical value, and at $530,669 it sits 25 percent below the citywide typical value of $710,647. The monthly number is the one I would focus on: owning the typical home here runs about $5,581 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $3,158. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Oakland, yes. 94612 ranks 44 of 47 neighborhoods by typical value, and at $530,669 it sits 25 percent below the citywide typical value of $710,647. The monthly number is the one I would focus on: owning the typical home here runs about $172,734 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $3,158. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 94612?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94612 as of 2026-09 there were 17 active listings, up 13.3 percent from the prior month and down 29.2 percent from a year earlier, with 8 new that month and 3 pending. Median days on market was 58."
+          "text": "In ZIP 94612 as of 2026-09 there were 17 active listings, up 13.3 percent from the prior month and down 29.2 percent from a year earlier. That month saw 8 new that month and 3 pending. Median days on market was 58."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94612?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $530,669, the monthly carry is around $5,581, and rent runs $3,158. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $530,669, the monthly carry is around $172,734, and rent runs $3,158. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

@@ -207,9 +207,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "Place",
           "name": "Oakland, Oakland, CA"
@@ -240,7 +240,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 7190,
+        "value": 231033,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -275,7 +275,7 @@
         "name": "Is Oakland expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Oakland, yes. Oakland ranks null of null neighborhoods by typical value, and at $710,647 it sits 0 percent above the citywide typical value of $710,647. The monthly number is the one I would focus on: owning the typical home here runs about $7,190 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,706. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Oakland, yes. Oakland ranks null of null neighborhoods by typical value, and at $710,647 it sits 0 percent above the citywide typical value of $710,647. The monthly number is the one I would focus on: owning the typical home here runs about $231,033 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,706. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -331,7 +331,7 @@
         "name": "What is rent like in Oakland?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The Zillow Observed Rent Index for Oakland is $2,706 as of 2026-09-30, n/a over the year. I use that figure in the cost of waiting section to show what renting while you decide actually costs over two and five years, because that is the real comparison and it usually goes unmade."
+          "text": "The Zillow Observed Rent Index for Oakland is $2,706 as of 2026-09-30. I use that figure in the cost of waiting section to show what renting while you decide actually costs over two and five years, because that is the real comparison and it usually goes unmade."
         }
       },
       {
@@ -339,7 +339,7 @@
         "name": "How many homes are for sale in Oakland?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Oakland as of 2026-09 there were 527 active listings, up 7.1 percent from the prior month and down 29.2 percent from a year earlier, with 316 new that month and 228 pending. Median days on market was 40."
+          "text": "In Oakland as of 2026-09 there were 527 active listings, up 7.1 percent from the prior month and down 29.2 percent from a year earlier. That month saw 316 new that month and 228 pending. Median days on market was 40."
         }
       },
       {
@@ -355,7 +355,7 @@
         "name": "What is it like living in Oakland?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $710,647, the monthly carry is around $7,190, and rent runs $2,706. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $710,647, the monthly carry is around $231,033, and rent runs $2,706. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

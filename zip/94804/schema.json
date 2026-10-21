@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94804",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 5712,
+        "value": 184143,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 94804 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Richmond, yes. 94804 ranks 36 of 39 neighborhoods by typical value, and at $566,473 it sits 6 percent below the citywide typical value of $600,691. The monthly number is the one I would focus on: owning the typical home here runs about $5,712 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,659. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Richmond, yes. 94804 ranks 36 of 39 neighborhoods by typical value, and at $566,473 it sits 6 percent below the citywide typical value of $600,691. The monthly number is the one I would focus on: owning the typical home here runs about $184,143 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,659. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 94804?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94804 as of 2026-09 there were 56 active listings, down 2.6 percent from the prior month and down 7.5 percent from a year earlier, with 28 new that month and 41 pending. Median days on market was 30."
+          "text": "In ZIP 94804 as of 2026-09 there were 56 active listings, down 2.6 percent from the prior month and down 7.5 percent from a year earlier. That month saw 28 new that month and 41 pending. Median days on market was 30."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94804?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $566,473, the monthly carry is around $5,712, and rent runs $2,659. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $566,473, the monthly carry is around $184,143, and rent runs $2,659. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

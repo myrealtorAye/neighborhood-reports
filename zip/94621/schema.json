@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94621",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 4819,
+        "value": 145121,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 94621 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Oakland, yes. 94621 ranks 47 of 47 neighborhoods by typical value, and at $445,423 it sits 37 percent below the citywide typical value of $710,647. The monthly number is the one I would focus on: owning the typical home here runs about $4,819 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,412. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Oakland, yes. 94621 ranks 47 of 47 neighborhoods by typical value, and at $445,423 it sits 37 percent below the citywide typical value of $710,647. The monthly number is the one I would focus on: owning the typical home here runs about $145,121 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,412. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 94621?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94621 as of 2026-09 there were 38 active listings, down 8.5 percent from the prior month and up 1.4 percent from a year earlier, with 16 new that month and 17 pending. Median days on market was 51."
+          "text": "In ZIP 94621 as of 2026-09 there were 38 active listings, down 8.5 percent from the prior month and up 1.4 percent from a year earlier. That month saw 16 new that month and 17 pending. Median days on market was 51."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94621?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $445,423, the monthly carry is around $4,819, and rent runs $2,412. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $445,423, the monthly carry is around $145,121, and rent runs $2,412. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

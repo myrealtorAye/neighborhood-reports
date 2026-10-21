@@ -206,9 +206,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 400,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
         "observationAbout": {
           "@type": "PostalCodeArea",
           "name": "ZIP 94563",
@@ -242,7 +242,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 17568,
+        "value": 629900,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -278,7 +278,7 @@
         "name": "Is 94563 expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Orinda, yes. 94563 ranks 4 of 39 neighborhoods by typical value, and at $1,944,002 it sits 0 percent above the citywide typical value of $1,942,797. The monthly number is the one I would focus on: owning the typical home here runs about $17,568 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $5,239. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Orinda, yes. 94563 ranks 4 of 39 neighborhoods by typical value, and at $1,944,002 it sits 0 percent above the citywide typical value of $1,942,797. The monthly number is the one I would focus on: owning the typical home here runs about $629,900 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $5,239. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -334,7 +334,7 @@
         "name": "What is rent like in 94563?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The Zillow Observed Rent Index for ZIP 94563 is $5,239 as of 2026-09-30, n/a over the year. I use that figure in the cost of waiting section to show what renting while you decide actually costs over two and five years, because that is the real comparison and it usually goes unmade."
+          "text": "The Zillow Observed Rent Index for ZIP 94563 is $5,239 as of 2026-09-30. I use that figure in the cost of waiting section to show what renting while you decide actually costs over two and five years, because that is the real comparison and it usually goes unmade."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in 94563?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94563 as of 2026-09 there were 33 active listings, down 5.7 percent from the prior month and down 32.6 percent from a year earlier, with 26 new that month and 20 pending. Median days on market was 23."
+          "text": "In ZIP 94563 as of 2026-09 there were 33 active listings, down 5.7 percent from the prior month and down 32.6 percent from a year earlier. That month saw 26 new that month and 20 pending. Median days on market was 23."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in 94563?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,944,002, the monthly carry is around $17,568, and rent runs $5,239. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,944,002, the monthly carry is around $629,900, and rent runs $5,239. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]
