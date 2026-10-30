@@ -4,8 +4,8 @@
     "@type": "Article",
     "headline": "San Lorenzo, CA Housing Market Report and Neighborhood Guide, October 2026",
     "description": "San Lorenzo, California housing market. Typical home value $798,728, up 0.25 percent month over month and down 1.4 percent year over year. Every neighborhood in San Lorenzo, plus current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-21",
-    "dateModified": "2026-10-21",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -207,9 +207,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 7.24,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "2026-10-29",
         "observationAbout": {
           "@type": "Place",
           "name": "San Lorenzo, San Lorenzo, CA"
@@ -240,7 +240,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 7784,
+        "value": 7701,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -275,7 +275,7 @@
         "name": "Is San Lorenzo expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of San Lorenzo, yes. San Lorenzo ranks null of null neighborhoods by typical value, and at $798,728 it sits 0 percent above the citywide typical value of $798,728. The monthly number is the one I would focus on: owning the typical home here runs about $7,784 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,875. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of San Lorenzo, yes. San Lorenzo ranks null of null neighborhoods by typical value, and at $798,728 it sits 0 percent above the citywide typical value of $798,728. The monthly number is the one I would focus on: owning the typical home here runs about $7,701 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,875. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -355,7 +355,7 @@
         "name": "What is it like living in San Lorenzo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $798,728, the monthly carry is around $7,784, and rent runs $2,875. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $798,728, the monthly carry is around $7,701, and rent runs $2,875. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

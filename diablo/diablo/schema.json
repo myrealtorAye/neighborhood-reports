@@ -4,8 +4,8 @@
     "@type": "Article",
     "headline": "Diablo, Diablo CA Market Report and Buyer Guide, October 2026",
     "description": "Diablo in Diablo, California. Typical home value $3,102,551, up 0.99 percent month over month and up 3.8 percent year over year. Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-21",
-    "dateModified": "2026-10-21",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -196,9 +196,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 7.24,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "2026-10-29",
         "observationAbout": {
           "@type": "Place",
           "name": "Diablo, Diablo, CA"
@@ -229,7 +229,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 27539,
+        "value": 27213,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -264,7 +264,7 @@
         "name": "Is Diablo expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Diablo, yes. Diablo ranks null of null neighborhoods by typical value, and at $3,102,551 it sits 0 percent above the citywide typical value of $3,102,551. The monthly number is the one I would focus on: owning the typical home here runs about $27,539 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Diablo, yes. Diablo ranks null of null neighborhoods by typical value, and at $3,102,551 it sits 0 percent above the citywide typical value of $3,102,551. The monthly number is the one I would focus on: owning the typical home here runs about $27,213 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -344,7 +344,7 @@
         "name": "What is it like living in Diablo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $3,102,551, the monthly carry is around $27,539. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $3,102,551, the monthly carry is around $27,213. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

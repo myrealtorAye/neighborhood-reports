@@ -4,8 +4,8 @@
     "@type": "Article",
     "headline": "Rodeo, Rodeo CA Market Report and Buyer Guide, October 2026",
     "description": "Rodeo in Rodeo, California. Typical home value $646,396, up 0.59 percent month over month and down 0.3 percent year over year. Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-21",
-    "dateModified": "2026-10-21",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -196,9 +196,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 7.24,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "2026-10-29",
         "observationAbout": {
           "@type": "Place",
           "name": "Rodeo, Rodeo, CA"
@@ -229,7 +229,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 6400,
+        "value": 6332,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -264,7 +264,7 @@
         "name": "Is Rodeo expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Rodeo, yes. Rodeo ranks null of null neighborhoods by typical value, and at $646,396 it sits 0 percent above the citywide typical value of $646,396. The monthly number is the one I would focus on: owning the typical home here runs about $6,400 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Rodeo, yes. Rodeo ranks null of null neighborhoods by typical value, and at $646,396 it sits 0 percent above the citywide typical value of $646,396. The monthly number is the one I would focus on: owning the typical home here runs about $6,332 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -344,7 +344,7 @@
         "name": "What is it like living in Rodeo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $646,396, the monthly carry is around $6,400. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $646,396, the monthly carry is around $6,332. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

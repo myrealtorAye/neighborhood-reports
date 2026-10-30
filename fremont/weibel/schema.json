@@ -4,8 +4,8 @@
     "@type": "Article",
     "headline": "Weibel, Fremont CA Market Report and Buyer Guide, October 2026",
     "description": "Weibel in Fremont, California. Typical home value $2,356,968, up 0.53 percent month over month and up 2.5 percent year over year. Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-21",
-    "dateModified": "2026-10-21",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -196,9 +196,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.4,
+        "value": 7.24,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-15",
+        "observationDate": "2026-10-29",
         "observationAbout": {
           "@type": "Place",
           "name": "Weibel, Fremont, CA"
@@ -229,7 +229,7 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 21338,
+        "value": 21091,
         "unitText": "USD",
         "observationDate": "2026-10",
         "observationAbout": {
@@ -264,7 +264,7 @@
         "name": "Is Weibel expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Fremont, yes. Weibel ranks 6 of 27 neighborhoods by typical value, and at $2,356,968 it sits 64 percent above the citywide typical value of $1,439,805. The monthly number is the one I would focus on: owning the typical home here runs about $21,338 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Fremont, yes. Weibel ranks 6 of 27 neighborhoods by typical value, and at $2,356,968 it sits 64 percent above the citywide typical value of $1,439,805. The monthly number is the one I would focus on: owning the typical home here runs about $21,091 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -344,7 +344,7 @@
         "name": "What is it like living in Weibel?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $2,356,968, the monthly carry is around $21,338. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $2,356,968, the monthly carry is around $21,091. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
         }
       }
     ]
