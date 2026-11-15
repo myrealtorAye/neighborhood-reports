@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Oakley, CA Housing Market Report and Neighborhood Guide, October 2026",
+    "headline": "Oakley, CA Housing Market Report and Neighborhood Guide, November 2026",
     "description": "Oakley, California housing market. Typical home value $653,563, up 0.18 percent month over month and down 0.5 percent year over year. Every neighborhood in Oakley, plus current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Oakley, Oakley CA housing data, 2026-10",
+    "name": "Oakley, Oakley CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Oakley, Oakley, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/oakley/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Oakley",
@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price",
-        "value": 719350,
+        "value": 700000,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Oakley, Oakley, CA"
@@ -163,9 +163,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 104,
+        "value": 95,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Oakley, Oakley, CA"
@@ -174,9 +174,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 44,
+        "value": 66,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Oakley, Oakley, CA"
@@ -185,9 +185,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price per square foot",
-        "value": 329,
+        "value": 322,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Oakley, Oakley, CA"
@@ -207,9 +207,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Oakley, Oakley, CA"
@@ -240,9 +240,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 6393,
+        "value": 6338,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Oakley, Oakley, CA"
@@ -259,7 +259,7 @@
         "name": "How much is a home in Oakley?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Oakley is $653,563 as of 2026-09-30, up 0.18 percent from the month before and down 0.5 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Oakley is $719,350. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Oakley is $653,563 as of 2026-09-30, up 0.18 percent from the month before and down 0.5 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Oakley is $700,000. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -275,7 +275,7 @@
         "name": "Is Oakley expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Oakley, yes. Oakley ranks null of null neighborhoods by typical value, and at $653,563 it sits 0 percent above the citywide typical value of $653,563. The monthly number is the one I would focus on: owning the typical home here runs about $6,393 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $3,294. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Oakley, yes. Oakley ranks null of null neighborhoods by typical value, and at $653,563 it sits 0 percent above the citywide typical value of $653,563. The monthly number is the one I would focus on: owning the typical home here runs about $6,338 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $3,294. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -323,7 +323,7 @@
         "name": "Is the Oakley housing market slowing down?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Oakley is up 0.18 percent month over month and down 0.5 percent year over year. Meanwhile in Oakley, the median asking price is down 0.8 percent year over year, price per square foot is up 1.8 percent, active listings are down 0.9 percent month over month, and median days on market is up 0.0 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
+          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Oakley is up 0.18 percent month over month and down 0.5 percent year over year. Meanwhile in Oakley, the median asking price is down 2.9 percent year over year, price per square foot is up 0.6 percent, active listings are down 8.6 percent month over month, and median days on market is up 50.0 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
         }
       },
       {
@@ -339,7 +339,7 @@
         "name": "How many homes are for sale in Oakley?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Oakley as of 2026-09 there were 104 active listings, down 0.9 percent from the prior month and up 5.1 percent from a year earlier. That month saw 32 new that month and 31 pending. Median days on market was 44."
+          "text": "In Oakley as of 2026-10 there were 95 active listings, down 8.6 percent from the prior month and down 2.1 percent from a year earlier. That month saw 28 new that month and 34 pending. Median days on market was 66."
         }
       },
       {
@@ -355,7 +355,7 @@
         "name": "What is it like living in Oakley?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $653,563, the monthly carry is around $6,393, and rent runs $3,294. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $653,563, the monthly carry is around $6,338, and rent runs $3,294. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

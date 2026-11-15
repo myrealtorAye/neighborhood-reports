@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Lakeshore, Oakland CA 94610 Market Report and Buyer Guide, October 2026",
+    "headline": "Lakeshore, Oakland CA 94610 Market Report and Buyer Guide, November 2026",
     "description": "Lakeshore in Oakland, California. Typical home value $1,277,186, up 0.94 percent month over month and up 8.7 percent year over year. Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -92,13 +92,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Lakeshore, Oakland CA housing data, 2026-10",
+    "name": "Lakeshore, Oakland CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Lakeshore, Oakland, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/oakland/lakeshore/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Lakeshore",
@@ -155,9 +155,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price",
-        "value": 857000,
+        "value": 894000,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Lakeshore, Oakland, CA"
@@ -166,9 +166,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 39,
+        "value": 34,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Lakeshore, Oakland, CA"
@@ -177,9 +177,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 26,
+        "value": 30,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Lakeshore, Oakland, CA"
@@ -188,9 +188,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price per square foot",
-        "value": 518,
+        "value": 554,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Lakeshore, Oakland, CA"
@@ -210,9 +210,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Lakeshore, Oakland, CA"
@@ -243,9 +243,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 12121,
+        "value": 12012,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Lakeshore, Oakland, CA"
@@ -262,7 +262,7 @@
         "name": "How much is a home in Lakeshore?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Lakeshore is $1,277,186 as of 2026-09-30, up 0.94 percent from the month before and up 8.7 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in ZIP 94610 is $857,000. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Lakeshore is $1,277,186 as of 2026-09-30, up 0.94 percent from the month before and up 8.7 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in ZIP 94610 is $894,000. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -278,7 +278,7 @@
         "name": "Is Lakeshore expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Oakland, yes. Lakeshore ranks 17 of 121 neighborhoods by typical value, and at $1,277,186 it sits 80 percent above the citywide typical value of $710,647. The monthly number is the one I would focus on: owning the typical home here runs about $12,121 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,344. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Oakland, yes. Lakeshore ranks 17 of 121 neighborhoods by typical value, and at $1,277,186 it sits 80 percent above the citywide typical value of $710,647. The monthly number is the one I would focus on: owning the typical home here runs about $12,012 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,344. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -326,7 +326,7 @@
         "name": "Is the Oakland housing market slowing down?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Lakeshore is up 0.94 percent month over month and up 8.7 percent year over year. Meanwhile in ZIP 94610, the median asking price is up 30.6 percent year over year, price per square foot is down 5.1 percent, active listings are up 25.8 percent month over month, and median days on market is down 29.0 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
+          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Lakeshore is up 0.94 percent month over month and up 8.7 percent year over year. Meanwhile in ZIP 94610, the median asking price is up 44.1 percent year over year, price per square foot is up 0.8 percent, active listings are down 12.8 percent month over month, and median days on market is up 14.3 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in Lakeshore?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94610 as of 2026-09 there were 39 active listings, up 25.8 percent from the prior month and down 39.5 percent from a year earlier. That month saw 32 new that month and 19 pending. Median days on market was 26."
+          "text": "In ZIP 94610 as of 2026-10 there were 34 active listings, down 12.8 percent from the prior month and down 34.0 percent from a year earlier. That month saw 24 new that month and 25 pending. Median days on market was 30."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in Lakeshore?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,277,186, the monthly carry is around $12,121, and rent runs $2,344. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,277,186, the monthly carry is around $12,012, and rent runs $2,344. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

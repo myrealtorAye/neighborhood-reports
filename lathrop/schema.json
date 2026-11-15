@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Lathrop, CA Housing Market Report and Neighborhood Guide, October 2026",
+    "headline": "Lathrop, CA Housing Market Report and Neighborhood Guide, November 2026",
     "description": "Lathrop, California housing market. Typical home value $620,627, down 0.39 percent month over month and down 3.8 percent year over year. Every neighborhood in Lathrop, plus current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Lathrop, Lathrop CA housing data, 2026-10",
+    "name": "Lathrop, Lathrop CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Lathrop, Lathrop, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/lathrop/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Lathrop",
@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price",
-        "value": 679975,
+        "value": 675000,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Lathrop, Lathrop, CA"
@@ -163,9 +163,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 127,
+        "value": 116,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Lathrop, Lathrop, CA"
@@ -174,9 +174,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 61,
+        "value": 70,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Lathrop, Lathrop, CA"
@@ -187,7 +187,7 @@
         "measuredProperty": "Median listing price per square foot",
         "value": 295,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Lathrop, Lathrop, CA"
@@ -207,9 +207,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Lathrop, Lathrop, CA"
@@ -240,9 +240,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 6325,
+        "value": 6273,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Lathrop, Lathrop, CA"
@@ -259,7 +259,7 @@
         "name": "How much is a home in Lathrop?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Lathrop is $620,627 as of 2026-09-30, down 0.39 percent from the month before and down 3.8 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Lathrop is $679,975. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Lathrop is $620,627 as of 2026-09-30, down 0.39 percent from the month before and down 3.8 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Lathrop is $675,000. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -275,7 +275,7 @@
         "name": "Is Lathrop expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Lathrop, yes. Lathrop ranks null of null neighborhoods by typical value, and at $620,627 it sits 0 percent above the citywide typical value of $620,627. The monthly number is the one I would focus on: owning the typical home here runs about $6,325 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $3,056. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Lathrop, yes. Lathrop ranks null of null neighborhoods by typical value, and at $620,627 it sits 0 percent above the citywide typical value of $620,627. The monthly number is the one I would focus on: owning the typical home here runs about $6,273 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $3,056. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -323,7 +323,7 @@
         "name": "Is the Lathrop housing market slowing down?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Lathrop is down 0.39 percent month over month and down 3.8 percent year over year. Meanwhile in Lathrop, the median asking price is down 6.7 percent year over year, price per square foot is down 5.6 percent, active listings are down 0.8 percent month over month, and median days on market is up 21.0 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
+          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Lathrop is down 0.39 percent month over month and down 3.8 percent year over year. Meanwhile in Lathrop, the median asking price is down 7.3 percent year over year, price per square foot is down 5.4 percent, active listings are down 8.7 percent month over month, and median days on market is up 14.9 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
         }
       },
       {
@@ -339,7 +339,7 @@
         "name": "How many homes are for sale in Lathrop?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Lathrop as of 2026-09 there were 127 active listings, down 0.8 percent from the prior month and up 14.9 percent from a year earlier. That month saw 36 new that month and 54 pending. Median days on market was 61."
+          "text": "In Lathrop as of 2026-10 there were 116 active listings, down 8.7 percent from the prior month and up 2.2 percent from a year earlier. That month saw 28 new that month and 51 pending. Median days on market was 70."
         }
       },
       {
@@ -355,7 +355,7 @@
         "name": "What is it like living in Lathrop?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $620,627, the monthly carry is around $6,325, and rent runs $3,056. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $620,627, the monthly carry is around $6,273, and rent runs $3,056. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

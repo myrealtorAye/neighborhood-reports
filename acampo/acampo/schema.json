@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Acampo, Acampo CA Market Report and Buyer Guide, October 2026",
+    "headline": "Acampo, Acampo CA Market Report and Buyer Guide, November 2026",
     "description": "Acampo in Acampo, California. Typical home value $774,585, up 0.16 percent month over month and up 0.5 percent year over year. Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Acampo, Acampo CA housing data, 2026-10",
+    "name": "Acampo, Acampo CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Acampo, Acampo, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/acampo/acampo/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Acampo",
@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price",
-        "value": 925000,
+        "value": 889500,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Acampo, Acampo, CA"
@@ -163,9 +163,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 16,
+        "value": 14,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Acampo, Acampo, CA"
@@ -174,9 +174,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 45,
+        "value": 48,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Acampo, Acampo, CA"
@@ -185,9 +185,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price per square foot",
-        "value": 485,
+        "value": 453,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Acampo, Acampo, CA"
@@ -196,9 +196,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Acampo, Acampo, CA"
@@ -229,9 +229,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 7370,
+        "value": 7305,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Acampo, Acampo, CA"
@@ -248,7 +248,7 @@
         "name": "How much is a home in Acampo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Acampo is $774,585 as of 2026-09-30, up 0.16 percent from the month before and up 0.5 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Acampo is $925,000. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Acampo is $774,585 as of 2026-09-30, up 0.16 percent from the month before and up 0.5 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Acampo is $889,500. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -264,7 +264,7 @@
         "name": "Is Acampo expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Acampo, yes. Acampo ranks null of null neighborhoods by typical value, and at $774,585 it sits 0 percent above the citywide typical value of $774,585. The monthly number is the one I would focus on: owning the typical home here runs about $7,370 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Acampo, yes. Acampo ranks null of null neighborhoods by typical value, and at $774,585 it sits 0 percent above the citywide typical value of $774,585. The monthly number is the one I would focus on: owning the typical home here runs about $7,305 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -328,7 +328,7 @@
         "name": "How many homes are for sale in Acampo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Acampo as of 2026-09 there were 16 active listings. That month saw 6 new that month and 9 pending. Median days on market was 45."
+          "text": "In Acampo as of 2026-10 there were 14 active listings. That month saw 8 new that month and 9 pending. Median days on market was 48."
         }
       },
       {
@@ -344,7 +344,7 @@
         "name": "What is it like living in Acampo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $774,585, the monthly carry is around $7,370. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $774,585, the monthly carry is around $7,305. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

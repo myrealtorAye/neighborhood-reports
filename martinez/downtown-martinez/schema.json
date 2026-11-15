@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Downtown Martinez, Martinez CA Market Report and Buyer Guide, October 2026",
+    "headline": "Downtown Martinez, Martinez CA Market Report and Buyer Guide, November 2026",
     "description": "Downtown Martinez in Martinez, California. Typical home value $749,729, up 0.25 percent month over month and down 1.3 percent year over year. Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Downtown Martinez, Martinez CA housing data, 2026-10",
+    "name": "Downtown Martinez, Martinez CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Downtown Martinez, Martinez, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/martinez/downtown-martinez/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Downtown Martinez",
@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price",
-        "value": 783250,
+        "value": 797000,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Downtown Martinez, Martinez, CA"
@@ -163,9 +163,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 78,
+        "value": 69,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Downtown Martinez, Martinez, CA"
@@ -174,9 +174,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 38,
+        "value": 43,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Downtown Martinez, Martinez, CA"
@@ -185,9 +185,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price per square foot",
-        "value": 490,
+        "value": 491,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Downtown Martinez, Martinez, CA"
@@ -196,9 +196,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Downtown Martinez, Martinez, CA"
@@ -229,9 +229,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 7211,
+        "value": 7147,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Downtown Martinez, Martinez, CA"
@@ -248,7 +248,7 @@
         "name": "How much is a home in Downtown Martinez?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Downtown Martinez is $749,729 as of 2026-09-30, up 0.25 percent from the month before and down 1.3 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Martinez is $783,250. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Downtown Martinez is $749,729 as of 2026-09-30, up 0.25 percent from the month before and down 1.3 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Martinez is $797,000. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -264,7 +264,7 @@
         "name": "Is Downtown Martinez expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Martinez, yes. Downtown Martinez ranks null of null neighborhoods by typical value, and at $749,729 it sits 0 percent above the citywide typical value of $749,729. The monthly number is the one I would focus on: owning the typical home here runs about $7,211 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Martinez, yes. Downtown Martinez ranks null of null neighborhoods by typical value, and at $749,729 it sits 0 percent above the citywide typical value of $749,729. The monthly number is the one I would focus on: owning the typical home here runs about $7,147 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -328,7 +328,7 @@
         "name": "How many homes are for sale in Downtown Martinez?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Martinez as of 2026-09 there were 78 active listings. That month saw 34 new that month and 37 pending. Median days on market was 38."
+          "text": "In Martinez as of 2026-10 there were 69 active listings. That month saw 32 new that month and 29 pending. Median days on market was 43."
         }
       },
       {
@@ -344,7 +344,7 @@
         "name": "What is it like living in Downtown Martinez?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $749,729, the monthly carry is around $7,211. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $749,729, the monthly carry is around $7,147. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

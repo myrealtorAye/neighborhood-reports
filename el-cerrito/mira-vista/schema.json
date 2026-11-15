@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Mira Vista, El Cerrito CA Market Report and Buyer Guide, October 2026",
+    "headline": "Mira Vista, El Cerrito CA Market Report and Buyer Guide, November 2026",
     "description": "Mira Vista in El Cerrito, California. Typical home value $1,122,098, up 0.76 percent month over month and up 3.4 percent year over year. Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Mira Vista, El Cerrito CA housing data, 2026-10",
+    "name": "Mira Vista, El Cerrito CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Mira Vista, El Cerrito, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/el-cerrito/mira-vista/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Mira Vista",
@@ -154,7 +154,7 @@
         "measuredProperty": "Median listing price",
         "value": 899000,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Mira Vista, El Cerrito, CA"
@@ -163,9 +163,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 27,
+        "value": 23,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Mira Vista, El Cerrito, CA"
@@ -174,9 +174,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 23,
+        "value": 26,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Mira Vista, El Cerrito, CA"
@@ -185,9 +185,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price per square foot",
-        "value": 635,
+        "value": 648,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Mira Vista, El Cerrito, CA"
@@ -196,9 +196,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Mira Vista, El Cerrito, CA"
@@ -229,9 +229,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 10376,
+        "value": 10281,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Mira Vista, El Cerrito, CA"
@@ -264,7 +264,7 @@
         "name": "Is Mira Vista expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of El Cerrito, yes. Mira Vista ranks null of null neighborhoods by typical value, and at $1,122,098 it sits 0 percent above the citywide typical value of $1,122,098. The monthly number is the one I would focus on: owning the typical home here runs about $10,376 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of El Cerrito, yes. Mira Vista ranks null of null neighborhoods by typical value, and at $1,122,098 it sits 0 percent above the citywide typical value of $1,122,098. The monthly number is the one I would focus on: owning the typical home here runs about $10,281 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -328,7 +328,7 @@
         "name": "How many homes are for sale in Mira Vista?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In El Cerrito as of 2026-09 there were 27 active listings. That month saw 22 new that month and 11 pending. Median days on market was 23."
+          "text": "In El Cerrito as of 2026-10 there were 23 active listings. That month saw 20 new that month and 13 pending. Median days on market was 26."
         }
       },
       {
@@ -344,7 +344,7 @@
         "name": "What is it like living in Mira Vista?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,122,098, the monthly carry is around $10,376. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,122,098, the monthly carry is around $10,281. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

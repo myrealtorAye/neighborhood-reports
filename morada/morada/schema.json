@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Morada, Morada CA Market Report and Buyer Guide, October 2026",
+    "headline": "Morada, Morada CA Market Report and Buyer Guide, November 2026",
     "description": "Morada in Morada, California. Typical home value $736,571, up 0.36 percent month over month and up 1.5 percent year over year. Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Morada, Morada CA housing data, 2026-10",
+    "name": "Morada, Morada CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Morada, Morada, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/morada/morada/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Morada",
@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Morada, Morada, CA"
@@ -185,9 +185,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 7050,
+        "value": 6987,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Morada, Morada, CA"
@@ -220,7 +220,7 @@
         "name": "Is Morada expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Morada, yes. Morada ranks null of null neighborhoods by typical value, and at $736,571 it sits 0 percent above the citywide typical value of $736,571. The monthly number is the one I would focus on: owning the typical home here runs about $7,050 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Morada, yes. Morada ranks null of null neighborhoods by typical value, and at $736,571 it sits 0 percent above the citywide typical value of $736,571. The monthly number is the one I would focus on: owning the typical home here runs about $6,987 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -300,7 +300,7 @@
         "name": "What is it like living in Morada?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $736,571, the monthly carry is around $7,050. I rebuild this report every month, so the figures are current to 2026-09-30 for value and null for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $736,571, the monthly carry is around $6,987. I rebuild this report every month, so the figures are current to 2026-09-30 for value and null for listing activity, not whenever the page happened to be written."
         }
       }
     ]

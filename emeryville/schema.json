@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Emeryville, CA Housing Market Report and Neighborhood Guide, October 2026",
+    "headline": "Emeryville, CA Housing Market Report and Neighborhood Guide, November 2026",
     "description": "Emeryville, California housing market. Typical home value $429,369, up 0.03 percent month over month and down 6.3 percent year over year. Every neighborhood in Emeryville, plus current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Emeryville, Emeryville CA housing data, 2026-10",
+    "name": "Emeryville, Emeryville CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Emeryville, Emeryville, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/emeryville/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Emeryville",
@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price",
-        "value": 585194,
+        "value": 598000,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Emeryville, Emeryville, CA"
@@ -163,9 +163,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 70,
+        "value": 61,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Emeryville, Emeryville, CA"
@@ -174,9 +174,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 36,
+        "value": 50,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Emeryville, Emeryville, CA"
@@ -185,9 +185,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price per square foot",
-        "value": 530,
+        "value": 524,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Emeryville, Emeryville, CA"
@@ -207,9 +207,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Emeryville, Emeryville, CA"
@@ -240,9 +240,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 4527,
+        "value": 4490,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Emeryville, Emeryville, CA"
@@ -259,7 +259,7 @@
         "name": "How much is a home in Emeryville?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Emeryville is $429,369 as of 2026-09-30, up 0.03 percent from the month before and down 6.3 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Emeryville is $585,194. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Emeryville is $429,369 as of 2026-09-30, up 0.03 percent from the month before and down 6.3 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Emeryville is $598,000. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -275,7 +275,7 @@
         "name": "Is Emeryville expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Emeryville, yes. Emeryville ranks null of null neighborhoods by typical value, and at $429,369 it sits 0 percent above the citywide typical value of $429,369. The monthly number is the one I would focus on: owning the typical home here runs about $4,527 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,945. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Emeryville, yes. Emeryville ranks null of null neighborhoods by typical value, and at $429,369 it sits 0 percent above the citywide typical value of $429,369. The monthly number is the one I would focus on: owning the typical home here runs about $4,490 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,945. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -323,7 +323,7 @@
         "name": "Is the Emeryville housing market slowing down?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Emeryville is up 0.03 percent month over month and down 6.3 percent year over year. Meanwhile in Emeryville, the median asking price is down 2.9 percent year over year, price per square foot is down 3.1 percent, active listings are up 26.4 percent month over month, and median days on market is down 25.3 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
+          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Emeryville is up 0.03 percent month over month and down 6.3 percent year over year. Meanwhile in Emeryville, the median asking price is down 2.6 percent year over year, price per square foot is down 3.8 percent, active listings are down 12.2 percent month over month, and median days on market is up 37.9 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
         }
       },
       {
@@ -339,7 +339,7 @@
         "name": "How many homes are for sale in Emeryville?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Emeryville as of 2026-09 there were 70 active listings, up 26.4 percent from the prior month and down 24.9 percent from a year earlier. That month saw 38 new that month and 18 pending. Median days on market was 36."
+          "text": "In Emeryville as of 2026-10 there were 61 active listings, down 12.2 percent from the prior month and down 34.1 percent from a year earlier. That month saw 20 new that month and 26 pending. Median days on market was 50."
         }
       },
       {
@@ -355,7 +355,7 @@
         "name": "What is it like living in Emeryville?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $429,369, the monthly carry is around $4,527, and rent runs $2,945. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $429,369, the monthly carry is around $4,490, and rent runs $2,945. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

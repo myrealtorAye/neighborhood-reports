@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Hayward, CA Housing Market Report and Neighborhood Guide, October 2026",
+    "headline": "Hayward, CA Housing Market Report and Neighborhood Guide, November 2026",
     "description": "Hayward, California housing market. Typical home value $816,424, up 0.13 percent month over month and down 2.4 percent year over year. Every neighborhood in Hayward, plus current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Hayward, Hayward CA housing data, 2026-10",
+    "name": "Hayward, Hayward CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Hayward, Hayward, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/hayward/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Hayward",
@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price",
-        "value": 829716,
+        "value": 866250,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Hayward, Hayward, CA"
@@ -163,9 +163,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 194,
+        "value": 184,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Hayward, Hayward, CA"
@@ -174,9 +174,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 41.5,
+        "value": 39.5,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Hayward, Hayward, CA"
@@ -185,9 +185,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price per square foot",
-        "value": 552.5,
+        "value": 541.5,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Hayward, Hayward, CA"
@@ -207,9 +207,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Hayward, Hayward, CA"
@@ -240,9 +240,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 7853,
+        "value": 7783,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Hayward, Hayward, CA"
@@ -259,7 +259,7 @@
         "name": "How much is a home in Hayward?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Hayward is $816,424 as of 2026-09-30, up 0.13 percent from the month before and down 2.4 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Hayward is $829,716. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Hayward is $816,424 as of 2026-09-30, up 0.13 percent from the month before and down 2.4 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Hayward is $866,250. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -275,7 +275,7 @@
         "name": "Is Hayward expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Hayward, yes. Hayward ranks null of null neighborhoods by typical value, and at $816,424 it sits 0 percent above the citywide typical value of $816,424. The monthly number is the one I would focus on: owning the typical home here runs about $7,853 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,668. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Hayward, yes. Hayward ranks null of null neighborhoods by typical value, and at $816,424 it sits 0 percent above the citywide typical value of $816,424. The monthly number is the one I would focus on: owning the typical home here runs about $7,783 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,668. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -323,7 +323,7 @@
         "name": "Is the Hayward housing market slowing down?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Hayward is up 0.13 percent month over month and down 2.4 percent year over year. Meanwhile in Hayward, the median asking price is up 2.3 percent year over year, price per square foot is down 2.8 percent, active listings are down 3.7 percent month over month, and median days on market is up 12.2 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
+          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Hayward is up 0.13 percent month over month and down 2.4 percent year over year. Meanwhile in Hayward, the median asking price is up 6.9 percent year over year, price per square foot is down 3.9 percent, active listings are down 5.4 percent month over month, and median days on market is down 11.3 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
         }
       },
       {
@@ -339,7 +339,7 @@
         "name": "How many homes are for sale in Hayward?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Hayward as of 2026-09 there were 194 active listings, down 3.7 percent from the prior month and up 5.0 percent from a year earlier. That month saw 96 new that month and 78 pending. Median days on market was 42."
+          "text": "In Hayward as of 2026-10 there were 184 active listings, down 5.4 percent from the prior month and down 1.9 percent from a year earlier. That month saw 76 new that month and 78 pending. Median days on market was 40."
         }
       },
       {
@@ -355,7 +355,7 @@
         "name": "What is it like living in Hayward?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $816,424, the monthly carry is around $7,853, and rent runs $2,668. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $816,424, the monthly carry is around $7,783, and rent runs $2,668. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

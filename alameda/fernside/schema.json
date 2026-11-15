@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Fernside, Alameda CA Market Report and Buyer Guide, October 2026",
+    "headline": "Fernside, Alameda CA Market Report and Buyer Guide, November 2026",
     "description": "Fernside in Alameda, California. Typical home value $1,474,580, up 1.05 percent month over month and up 7.8 percent year over year. Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Fernside, Alameda CA housing data, 2026-10",
+    "name": "Fernside, Alameda CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Fernside, Alameda, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/alameda/fernside/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Fernside",
@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price",
-        "value": 972000,
+        "value": 995000,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Fernside, Alameda, CA"
@@ -163,9 +163,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 71,
+        "value": 78,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Fernside, Alameda, CA"
@@ -174,9 +174,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 34,
+        "value": 27.5,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Fernside, Alameda, CA"
@@ -185,9 +185,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price per square foot",
-        "value": 617,
+        "value": 576.5,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Fernside, Alameda, CA"
@@ -196,9 +196,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Fernside, Alameda, CA"
@@ -229,9 +229,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 13508,
+        "value": 13383,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Fernside, Alameda, CA"
@@ -248,7 +248,7 @@
         "name": "How much is a home in Fernside?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Fernside is $1,474,580 as of 2026-09-30, up 1.05 percent from the month before and up 7.8 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Alameda is $972,000. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Fernside is $1,474,580 as of 2026-09-30, up 1.05 percent from the month before and up 7.8 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Alameda is $995,000. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -264,7 +264,7 @@
         "name": "Is Fernside expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Alameda, yes. Fernside ranks 3 of 13 neighborhoods by typical value, and at $1,474,580 it sits 29 percent above the citywide typical value of $1,145,869. The monthly number is the one I would focus on: owning the typical home here runs about $13,508 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Alameda, yes. Fernside ranks 3 of 13 neighborhoods by typical value, and at $1,474,580 it sits 29 percent above the citywide typical value of $1,145,869. The monthly number is the one I would focus on: owning the typical home here runs about $13,383 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -328,7 +328,7 @@
         "name": "How many homes are for sale in Fernside?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Alameda as of 2026-09 there were 71 active listings. That month saw 42 new that month and 29 pending. Median days on market was 34."
+          "text": "In Alameda as of 2026-10 there were 78 active listings. That month saw 36 new that month and 30 pending. Median days on market was 28."
         }
       },
       {
@@ -344,7 +344,7 @@
         "name": "What is it like living in Fernside?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,474,580, the monthly carry is around $13,508. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,474,580, the monthly carry is around $13,383. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

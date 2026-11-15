@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Stonebridge, Lathrop CA Market Report and Buyer Guide, October 2026",
+    "headline": "Stonebridge, Lathrop CA Market Report and Buyer Guide, November 2026",
     "description": "Stonebridge in Lathrop, California. Typical home value $620,627, down 0.39 percent month over month and down 3.8 percent year over year. Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Stonebridge, Lathrop CA housing data, 2026-10",
+    "name": "Stonebridge, Lathrop CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Stonebridge, Lathrop, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/lathrop/stonebridge/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Stonebridge",
@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price",
-        "value": 679975,
+        "value": 675000,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Stonebridge, Lathrop, CA"
@@ -163,9 +163,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 127,
+        "value": 116,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Stonebridge, Lathrop, CA"
@@ -174,9 +174,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 61,
+        "value": 70,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Stonebridge, Lathrop, CA"
@@ -187,7 +187,7 @@
         "measuredProperty": "Median listing price per square foot",
         "value": 295,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Stonebridge, Lathrop, CA"
@@ -196,9 +196,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Stonebridge, Lathrop, CA"
@@ -229,9 +229,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 6325,
+        "value": 6273,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Stonebridge, Lathrop, CA"
@@ -248,7 +248,7 @@
         "name": "How much is a home in Stonebridge?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Stonebridge is $620,627 as of 2026-09-30, down 0.39 percent from the month before and down 3.8 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Lathrop is $679,975. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Stonebridge is $620,627 as of 2026-09-30, down 0.39 percent from the month before and down 3.8 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Lathrop is $675,000. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -264,7 +264,7 @@
         "name": "Is Stonebridge expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Lathrop, yes. Stonebridge ranks null of null neighborhoods by typical value, and at $620,627 it sits 0 percent above the citywide typical value of $620,627. The monthly number is the one I would focus on: owning the typical home here runs about $6,325 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Lathrop, yes. Stonebridge ranks null of null neighborhoods by typical value, and at $620,627 it sits 0 percent above the citywide typical value of $620,627. The monthly number is the one I would focus on: owning the typical home here runs about $6,273 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -328,7 +328,7 @@
         "name": "How many homes are for sale in Stonebridge?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Lathrop as of 2026-09 there were 127 active listings. That month saw 36 new that month and 54 pending. Median days on market was 61."
+          "text": "In Lathrop as of 2026-10 there were 116 active listings. That month saw 28 new that month and 51 pending. Median days on market was 70."
         }
       },
       {
@@ -344,7 +344,7 @@
         "name": "What is it like living in Stonebridge?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $620,627, the monthly carry is around $6,325. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $620,627, the monthly carry is around $6,273. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

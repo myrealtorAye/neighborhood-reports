@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Alameda, CA Housing Market Report and Neighborhood Guide, October 2026",
+    "headline": "Alameda, CA Housing Market Report and Neighborhood Guide, November 2026",
     "description": "Alameda, California housing market. Typical home value $1,145,869, up 0.59 percent month over month and up 2.1 percent year over year. Every neighborhood in Alameda, plus current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Alameda, Alameda CA housing data, 2026-10",
+    "name": "Alameda, Alameda CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Alameda, Alameda, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/alameda/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Alameda",
@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price",
-        "value": 972000,
+        "value": 995000,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Alameda, Alameda, CA"
@@ -163,9 +163,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 71,
+        "value": 78,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Alameda, Alameda, CA"
@@ -174,9 +174,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 34,
+        "value": 27.5,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Alameda, Alameda, CA"
@@ -185,9 +185,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price per square foot",
-        "value": 617,
+        "value": 576.5,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Alameda, Alameda, CA"
@@ -207,9 +207,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Alameda, Alameda, CA"
@@ -240,9 +240,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 10684,
+        "value": 10586,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Alameda, Alameda, CA"
@@ -259,7 +259,7 @@
         "name": "How much is a home in Alameda?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Alameda is $1,145,869 as of 2026-09-30, up 0.59 percent from the month before and up 2.1 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Alameda is $972,000. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Alameda is $1,145,869 as of 2026-09-30, up 0.59 percent from the month before and up 2.1 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Alameda is $995,000. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -275,7 +275,7 @@
         "name": "Is Alameda expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Alameda, yes. Alameda ranks null of null neighborhoods by typical value, and at $1,145,869 it sits 0 percent above the citywide typical value of $1,145,869. The monthly number is the one I would focus on: owning the typical home here runs about $10,684 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $4,181. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Alameda, yes. Alameda ranks null of null neighborhoods by typical value, and at $1,145,869 it sits 0 percent above the citywide typical value of $1,145,869. The monthly number is the one I would focus on: owning the typical home here runs about $10,586 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $4,181. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -323,7 +323,7 @@
         "name": "Is the Alameda housing market slowing down?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Alameda is up 0.59 percent month over month and up 2.1 percent year over year. Meanwhile in Alameda, the median asking price is up 5.0 percent year over year, price per square foot is down 0.3 percent, active listings are down 9.3 percent month over month, and median days on market is down 2.7 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
+          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Alameda is up 0.59 percent month over month and up 2.1 percent year over year. Meanwhile in Alameda, the median asking price is up 9.8 percent year over year, price per square foot is down 1.4 percent, active listings are up 44.0 percent month over month, and median days on market is down 18.6 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
         }
       },
       {
@@ -339,7 +339,7 @@
         "name": "How many homes are for sale in Alameda?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Alameda as of 2026-09 there were 71 active listings, down 9.3 percent from the prior month and down 39.1 percent from a year earlier. That month saw 42 new that month and 29 pending. Median days on market was 34."
+          "text": "In Alameda as of 2026-10 there were 78 active listings, up 44.0 percent from the prior month and down 29.4 percent from a year earlier. That month saw 36 new that month and 30 pending. Median days on market was 28."
         }
       },
       {
@@ -355,7 +355,7 @@
         "name": "What is it like living in Alameda?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,145,869, the monthly carry is around $10,684, and rent runs $4,181. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,145,869, the monthly carry is around $10,586, and rent runs $4,181. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

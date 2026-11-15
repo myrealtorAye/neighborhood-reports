@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "South Livermore, Livermore CA Market Report and Buyer Guide, October 2026",
+    "headline": "South Livermore, Livermore CA Market Report and Buyer Guide, November 2026",
     "description": "South Livermore in Livermore, California. Typical home value $1,071,869, up 0.03 percent month over month and down 2.3 percent year over year. Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "South Livermore, Livermore CA housing data, 2026-10",
+    "name": "South Livermore, Livermore CA housing data, 2026-11",
     "description": "Monthly housing market measurements for South Livermore, Livermore, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/livermore/south-livermore/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "South Livermore",
@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price",
-        "value": 1061694.5,
+        "value": 1035000,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "South Livermore, Livermore, CA"
@@ -163,9 +163,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 159,
+        "value": 161,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "South Livermore, Livermore, CA"
@@ -174,9 +174,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 33,
+        "value": 41,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "South Livermore, Livermore, CA"
@@ -185,9 +185,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price per square foot",
-        "value": 648.5,
+        "value": 642,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "South Livermore, Livermore, CA"
@@ -196,9 +196,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "South Livermore, Livermore, CA"
@@ -229,9 +229,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 10048,
+        "value": 9957,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "South Livermore, Livermore, CA"
@@ -248,7 +248,7 @@
         "name": "How much is a home in South Livermore?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in South Livermore is $1,071,869 as of 2026-09-30, up 0.03 percent from the month before and down 2.3 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Livermore is $1,061,695. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in South Livermore is $1,071,869 as of 2026-09-30, up 0.03 percent from the month before and down 2.3 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Livermore is $1,035,000. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -264,7 +264,7 @@
         "name": "Is South Livermore expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Livermore, yes. South Livermore ranks null of null neighborhoods by typical value, and at $1,071,869 it sits 0 percent above the citywide typical value of $1,071,869. The monthly number is the one I would focus on: owning the typical home here runs about $10,048 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Livermore, yes. South Livermore ranks null of null neighborhoods by typical value, and at $1,071,869 it sits 0 percent above the citywide typical value of $1,071,869. The monthly number is the one I would focus on: owning the typical home here runs about $9,957 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -328,7 +328,7 @@
         "name": "How many homes are for sale in South Livermore?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Livermore as of 2026-09 there were 159 active listings. That month saw 80 new that month and 57 pending. Median days on market was 33."
+          "text": "In Livermore as of 2026-10 there were 161 active listings. That month saw 56 new that month and 55 pending. Median days on market was 41."
         }
       },
       {
@@ -344,7 +344,7 @@
         "name": "What is it like living in South Livermore?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,071,869, the monthly carry is around $10,048. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,071,869, the monthly carry is around $9,957. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

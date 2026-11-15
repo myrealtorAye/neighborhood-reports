@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Pinole, CA Housing Market Report and Neighborhood Guide, October 2026",
+    "headline": "Pinole, CA Housing Market Report and Neighborhood Guide, November 2026",
     "description": "Pinole, California housing market. Typical home value $716,435, up 0.52 percent month over month and up 0.1 percent year over year. Every neighborhood in Pinole, plus current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Pinole, Pinole CA housing data, 2026-10",
+    "name": "Pinole, Pinole CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Pinole, Pinole, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/pinole/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Pinole",
@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price",
-        "value": 710750,
+        "value": 649000,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Pinole, Pinole, CA"
@@ -163,9 +163,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 26,
+        "value": 27,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Pinole, Pinole, CA"
@@ -174,9 +174,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 45,
+        "value": 43,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Pinole, Pinole, CA"
@@ -185,9 +185,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price per square foot",
-        "value": 438,
+        "value": 421,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Pinole, Pinole, CA"
@@ -207,9 +207,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Pinole, Pinole, CA"
@@ -240,9 +240,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 6928,
+        "value": 6867,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Pinole, Pinole, CA"
@@ -259,7 +259,7 @@
         "name": "How much is a home in Pinole?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Pinole is $716,435 as of 2026-09-30, up 0.52 percent from the month before and up 0.1 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Pinole is $710,750. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Pinole is $716,435 as of 2026-09-30, up 0.52 percent from the month before and up 0.1 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Pinole is $649,000. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -275,7 +275,7 @@
         "name": "Is Pinole expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Pinole, yes. Pinole ranks null of null neighborhoods by typical value, and at $716,435 it sits 0 percent above the citywide typical value of $716,435. The monthly number is the one I would focus on: owning the typical home here runs about $6,928 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,800. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Pinole, yes. Pinole ranks null of null neighborhoods by typical value, and at $716,435 it sits 0 percent above the citywide typical value of $716,435. The monthly number is the one I would focus on: owning the typical home here runs about $6,867 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,800. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -323,7 +323,7 @@
         "name": "Is the Pinole housing market slowing down?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Pinole is up 0.52 percent month over month and up 0.1 percent year over year. Meanwhile in Pinole, the median asking price is down 4.9 percent year over year, price per square foot is down 4.6 percent, active listings are up 4.0 percent month over month, and median days on market is down 10.5 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
+          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Pinole is up 0.52 percent month over month and up 0.1 percent year over year. Meanwhile in Pinole, the median asking price is down 17.3 percent year over year, price per square foot is down 5.4 percent, active listings are up 3.9 percent month over month, and median days on market is down 3.9 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
         }
       },
       {
@@ -339,7 +339,7 @@
         "name": "How many homes are for sale in Pinole?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Pinole as of 2026-09 there were 26 active listings, up 4.0 percent from the prior month and up 15.6 percent from a year earlier. That month saw 8 new that month and 10 pending. Median days on market was 45."
+          "text": "In Pinole as of 2026-10 there were 27 active listings, up 3.9 percent from the prior month and up 14.9 percent from a year earlier. That month saw 12 new that month and 13 pending. Median days on market was 43."
         }
       },
       {
@@ -355,7 +355,7 @@
         "name": "What is it like living in Pinole?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $716,435, the monthly carry is around $6,928, and rent runs $2,800. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $716,435, the monthly carry is around $6,867, and rent runs $2,800. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

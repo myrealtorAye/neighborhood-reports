@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Upper Rockridge, Oakland CA 94618 Market Report and Buyer Guide, October 2026",
+    "headline": "Upper Rockridge, Oakland CA 94618 Market Report and Buyer Guide, November 2026",
     "description": "Upper Rockridge in Oakland, California. Typical home value $1,887,410, up 1.18 percent month over month and up 7.3 percent year over year. Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -92,13 +92,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Upper Rockridge, Oakland CA housing data, 2026-10",
+    "name": "Upper Rockridge, Oakland CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Upper Rockridge, Oakland, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/oakland/upper-rockridge/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Upper Rockridge",
@@ -155,9 +155,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price",
-        "value": 1179250,
+        "value": 1185000,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Upper Rockridge, Oakland, CA"
@@ -166,9 +166,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 21,
+        "value": 23,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Upper Rockridge, Oakland, CA"
@@ -177,9 +177,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 19,
+        "value": 23,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Upper Rockridge, Oakland, CA"
@@ -188,9 +188,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price per square foot",
-        "value": 634,
+        "value": 663,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Upper Rockridge, Oakland, CA"
@@ -210,9 +210,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Upper Rockridge, Oakland, CA"
@@ -243,9 +243,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 17512,
+        "value": 17352,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Upper Rockridge, Oakland, CA"
@@ -262,7 +262,7 @@
         "name": "How much is a home in Upper Rockridge?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Upper Rockridge is $1,887,410 as of 2026-09-30, up 1.18 percent from the month before and up 7.3 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in ZIP 94618 is $1,179,250. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Upper Rockridge is $1,887,410 as of 2026-09-30, up 1.18 percent from the month before and up 7.3 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in ZIP 94618 is $1,185,000. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -278,7 +278,7 @@
         "name": "Is Upper Rockridge expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Oakland, yes. Upper Rockridge ranks 1 of 121 neighborhoods by typical value, and at $1,887,410 it sits 166 percent above the citywide typical value of $710,647. The monthly number is the one I would focus on: owning the typical home here runs about $17,512 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,987. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Oakland, yes. Upper Rockridge ranks 1 of 121 neighborhoods by typical value, and at $1,887,410 it sits 166 percent above the citywide typical value of $710,647. The monthly number is the one I would focus on: owning the typical home here runs about $17,352 a month once you include the loan, property tax, insurance, utilities and a maintenance budget, against a typical area rent of $2,987. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -326,7 +326,7 @@
         "name": "Is the Oakland housing market slowing down?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Upper Rockridge is up 1.18 percent month over month and up 7.3 percent year over year. Meanwhile in ZIP 94618, the median asking price is down 12.3 percent year over year, price per square foot is down 10.9 percent, active listings are up 90.9 percent month over month, and median days on market is up 18.8 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
+          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Upper Rockridge is up 1.18 percent month over month and up 7.3 percent year over year. Meanwhile in ZIP 94618, the median asking price is down 6.9 percent year over year, price per square foot is down 4.5 percent, active listings are up 9.5 percent month over month, and median days on market is up 21.1 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
         }
       },
       {
@@ -342,7 +342,7 @@
         "name": "How many homes are for sale in Upper Rockridge?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In ZIP 94618 as of 2026-09 there were 21 active listings, up 90.9 percent from the prior month and down 40.8 percent from a year earlier. That month saw 18 new that month and 5 pending. Median days on market was 19."
+          "text": "In ZIP 94618 as of 2026-10 there were 23 active listings, up 9.5 percent from the prior month and down 34.3 percent from a year earlier. That month saw 20 new that month and 11 pending. Median days on market was 23."
         }
       },
       {
@@ -358,7 +358,7 @@
         "name": "What is it like living in Upper Rockridge?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,887,410, the monthly carry is around $17,512, and rent runs $2,987. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,887,410, the monthly carry is around $17,352, and rent runs $2,987. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

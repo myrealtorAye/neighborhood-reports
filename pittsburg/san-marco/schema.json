@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "San Marco, Pittsburg CA Market Report and Buyer Guide, October 2026",
+    "headline": "San Marco, Pittsburg CA Market Report and Buyer Guide, November 2026",
     "description": "San Marco in Pittsburg, California. Typical home value $558,908, up 0.14 percent month over month and down 0.8 percent year over year. Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "San Marco, Pittsburg CA housing data, 2026-10",
+    "name": "San Marco, Pittsburg CA housing data, 2026-11",
     "description": "Monthly housing market measurements for San Marco, Pittsburg, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/pittsburg/san-marco/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "San Marco",
@@ -154,7 +154,7 @@
         "measuredProperty": "Median listing price",
         "value": 570000,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "San Marco, Pittsburg, CA"
@@ -163,9 +163,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 106,
+        "value": 103,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "San Marco, Pittsburg, CA"
@@ -174,9 +174,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 47,
+        "value": 48,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "San Marco, Pittsburg, CA"
@@ -185,9 +185,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price per square foot",
-        "value": 368,
+        "value": 354,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "San Marco, Pittsburg, CA"
@@ -196,9 +196,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "San Marco, Pittsburg, CA"
@@ -229,9 +229,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 5589,
+        "value": 5541,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "San Marco, Pittsburg, CA"
@@ -264,7 +264,7 @@
         "name": "Is San Marco expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Pittsburg, yes. San Marco ranks null of 2 neighborhoods by typical value, and at $558,908 it sits 0 percent above the citywide typical value of $558,908. The monthly number is the one I would focus on: owning the typical home here runs about $5,589 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Pittsburg, yes. San Marco ranks null of 2 neighborhoods by typical value, and at $558,908 it sits 0 percent above the citywide typical value of $558,908. The monthly number is the one I would focus on: owning the typical home here runs about $5,541 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -328,7 +328,7 @@
         "name": "How many homes are for sale in San Marco?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Pittsburg as of 2026-09 there were 106 active listings. That month saw 48 new that month and 52 pending. Median days on market was 47."
+          "text": "In Pittsburg as of 2026-10 there were 103 active listings. That month saw 56 new that month and 55 pending. Median days on market was 48."
         }
       },
       {
@@ -344,7 +344,7 @@
         "name": "What is it like living in San Marco?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $558,908, the monthly carry is around $5,589. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $558,908, the monthly carry is around $5,541. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

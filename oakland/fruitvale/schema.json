@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Fruitvale, Oakland CA Market Report and Buyer Guide, October 2026",
+    "headline": "Fruitvale, Oakland CA Market Report and Buyer Guide, November 2026",
     "description": "Fruitvale in Oakland, California. Typical home value $710,647, up 0.56 percent month over month and up 0.6 percent year over year. Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Fruitvale, Oakland CA housing data, 2026-10",
+    "name": "Fruitvale, Oakland CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Fruitvale, Oakland, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/oakland/fruitvale/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Fruitvale",
@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price",
-        "value": 674250,
+        "value": 711500,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Fruitvale, Oakland, CA"
@@ -163,9 +163,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 527,
+        "value": 519,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Fruitvale, Oakland, CA"
@@ -174,9 +174,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 40,
+        "value": 43,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Fruitvale, Oakland, CA"
@@ -185,9 +185,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price per square foot",
-        "value": 494,
+        "value": 492,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Fruitvale, Oakland, CA"
@@ -196,9 +196,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Fruitvale, Oakland, CA"
@@ -229,9 +229,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 7115,
+        "value": 7055,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Fruitvale, Oakland, CA"
@@ -248,7 +248,7 @@
         "name": "How much is a home in Fruitvale?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Fruitvale is $710,647 as of 2026-09-30, up 0.56 percent from the month before and up 0.6 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Oakland is $674,250. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Fruitvale is $710,647 as of 2026-09-30, up 0.56 percent from the month before and up 0.6 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Oakland is $711,500. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -264,7 +264,7 @@
         "name": "Is Fruitvale expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Oakland, yes. Fruitvale ranks null of 121 neighborhoods by typical value, and at $710,647 it sits 0 percent above the citywide typical value of $710,647. The monthly number is the one I would focus on: owning the typical home here runs about $7,115 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Oakland, yes. Fruitvale ranks null of 121 neighborhoods by typical value, and at $710,647 it sits 0 percent above the citywide typical value of $710,647. The monthly number is the one I would focus on: owning the typical home here runs about $7,055 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -328,7 +328,7 @@
         "name": "How many homes are for sale in Fruitvale?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Oakland as of 2026-09 there were 527 active listings. That month saw 316 new that month and 228 pending. Median days on market was 40."
+          "text": "In Oakland as of 2026-10 there were 519 active listings. That month saw 260 new that month and 228 pending. Median days on market was 43."
         }
       },
       {
@@ -344,7 +344,7 @@
         "name": "What is it like living in Fruitvale?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $710,647, the monthly carry is around $7,115. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $710,647, the monthly carry is around $7,055. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

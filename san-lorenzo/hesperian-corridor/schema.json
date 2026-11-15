@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Hesperian corridor, San Lorenzo CA Market Report and Buyer Guide, October 2026",
+    "headline": "Hesperian corridor, San Lorenzo CA Market Report and Buyer Guide, November 2026",
     "description": "Hesperian corridor in San Lorenzo, California. Typical home value $798,728, up 0.25 percent month over month and down 1.4 percent year over year. Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Hesperian corridor, San Lorenzo CA housing data, 2026-10",
+    "name": "Hesperian corridor, San Lorenzo CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Hesperian corridor, San Lorenzo, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/san-lorenzo/hesperian-corridor/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Hesperian corridor",
@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price",
-        "value": 797750,
+        "value": 788000,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Hesperian corridor, San Lorenzo, CA"
@@ -165,7 +165,7 @@
         "measuredProperty": "Active listings",
         "value": 12,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Hesperian corridor, San Lorenzo, CA"
@@ -174,9 +174,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 24,
+        "value": 39,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Hesperian corridor, San Lorenzo, CA"
@@ -185,9 +185,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price per square foot",
-        "value": 592,
+        "value": 637,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Hesperian corridor, San Lorenzo, CA"
@@ -196,9 +196,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Hesperian corridor, San Lorenzo, CA"
@@ -229,9 +229,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 7701,
+        "value": 7633,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Hesperian corridor, San Lorenzo, CA"
@@ -248,7 +248,7 @@
         "name": "How much is a home in Hesperian corridor?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Hesperian corridor is $798,728 as of 2026-09-30, up 0.25 percent from the month before and down 1.4 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in San Lorenzo is $797,750. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Hesperian corridor is $798,728 as of 2026-09-30, up 0.25 percent from the month before and down 1.4 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in San Lorenzo is $788,000. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -264,7 +264,7 @@
         "name": "Is Hesperian corridor expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of San Lorenzo, yes. Hesperian corridor ranks null of null neighborhoods by typical value, and at $798,728 it sits 0 percent above the citywide typical value of $798,728. The monthly number is the one I would focus on: owning the typical home here runs about $7,701 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of San Lorenzo, yes. Hesperian corridor ranks null of null neighborhoods by typical value, and at $798,728 it sits 0 percent above the citywide typical value of $798,728. The monthly number is the one I would focus on: owning the typical home here runs about $7,633 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -328,7 +328,7 @@
         "name": "How many homes are for sale in Hesperian corridor?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In San Lorenzo as of 2026-09 there were 12 active listings. That month saw 8 new that month and 8 pending. Median days on market was 24."
+          "text": "In San Lorenzo as of 2026-10 there were 12 active listings. That month saw 8 new that month and 8 pending. Median days on market was 39."
         }
       },
       {
@@ -344,7 +344,7 @@
         "name": "What is it like living in Hesperian corridor?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $798,728, the monthly carry is around $7,701. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $798,728, the monthly carry is around $7,633. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

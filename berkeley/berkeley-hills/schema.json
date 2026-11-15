@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Berkeley Hills, Berkeley CA Market Report and Buyer Guide, October 2026",
+    "headline": "Berkeley Hills, Berkeley CA Market Report and Buyer Guide, November 2026",
     "description": "Berkeley Hills in Berkeley, California. Typical home value $1,709,669, up 0.78 percent month over month and up 6.5 percent year over year. Current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Berkeley Hills, Berkeley CA housing data, 2026-10",
+    "name": "Berkeley Hills, Berkeley CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Berkeley Hills, Berkeley, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/berkeley/berkeley-hills/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Berkeley Hills",
@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price",
-        "value": 1065625,
+        "value": 1062500,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Berkeley Hills, Berkeley, CA"
@@ -163,9 +163,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 97,
+        "value": 101,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Berkeley Hills, Berkeley, CA"
@@ -174,9 +174,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 28.5,
+        "value": 23.5,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Berkeley Hills, Berkeley, CA"
@@ -185,9 +185,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price per square foot",
-        "value": 724.5,
+        "value": 735.5,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Berkeley Hills, Berkeley, CA"
@@ -196,9 +196,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Berkeley Hills, Berkeley, CA"
@@ -229,9 +229,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 15528,
+        "value": 15383,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Berkeley Hills, Berkeley, CA"
@@ -248,7 +248,7 @@
         "name": "How much is a home in Berkeley Hills?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Berkeley Hills is $1,709,669 as of 2026-09-30, up 0.78 percent from the month before and up 6.5 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Berkeley is $1,065,625. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Berkeley Hills is $1,709,669 as of 2026-09-30, up 0.78 percent from the month before and up 6.5 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Berkeley is $1,062,500. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -264,7 +264,7 @@
         "name": "Is Berkeley Hills expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Berkeley, yes. Berkeley Hills ranks 3 of 14 neighborhoods by typical value, and at $1,709,669 it sits 19 percent above the citywide typical value of $1,442,475. The monthly number is the one I would focus on: owning the typical home here runs about $15,528 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Berkeley, yes. Berkeley Hills ranks 3 of 14 neighborhoods by typical value, and at $1,709,669 it sits 19 percent above the citywide typical value of $1,442,475. The monthly number is the one I would focus on: owning the typical home here runs about $15,383 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -328,7 +328,7 @@
         "name": "How many homes are for sale in Berkeley Hills?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Berkeley as of 2026-09 there were 97 active listings. That month saw 92 new that month and 45 pending. Median days on market was 29."
+          "text": "In Berkeley as of 2026-10 there were 101 active listings. That month saw 60 new that month and 49 pending. Median days on market was 24."
         }
       },
       {
@@ -344,7 +344,7 @@
         "name": "What is it like living in Berkeley Hills?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,709,669, the monthly carry is around $15,528. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $1,709,669, the monthly carry is around $15,383. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]

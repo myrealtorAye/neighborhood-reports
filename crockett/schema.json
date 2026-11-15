@@ -2,10 +2,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Crockett, CA Housing Market Report and Neighborhood Guide, October 2026",
+    "headline": "Crockett, CA Housing Market Report and Neighborhood Guide, November 2026",
     "description": "Crockett, California housing market. Typical home value $659,046, up 0.31 percent month over month and down 1.2 percent year over year. Every neighborhood in Crockett, plus current mortgage rates, loan limits, property tax math, cost of waiting and cost of holding, first-time buyer programs, ADU rules, and the questions people actually search.",
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-10-30",
+    "datePublished": "2026-11-15",
+    "dateModified": "2026-11-15",
     "inLanguage": "en-US",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -90,13 +90,13 @@
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "name": "Crockett, Crockett CA housing data, 2026-10",
+    "name": "Crockett, Crockett CA housing data, 2026-11",
     "description": "Monthly housing market measurements for Crockett, Crockett, California.",
     "url": "https://myrealtoraye.github.io/neighborhood-reports/crockett/",
     "creator": {
       "@id": "https://myrealtoraye.github.io/neighborhood-reports/about/#agent"
     },
-    "temporalCoverage": "2026-10",
+    "temporalCoverage": "2026-11",
     "spatialCoverage": {
       "@type": "Place",
       "name": "Crockett",
@@ -152,9 +152,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price",
-        "value": 775950,
+        "value": 709950,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Crockett, Crockett, CA"
@@ -163,9 +163,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Active listings",
-        "value": 7,
+        "value": 5,
         "unitText": "count",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Crockett, Crockett, CA"
@@ -174,9 +174,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median days on market",
-        "value": 34,
+        "value": 43,
         "unitText": "days",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Crockett, Crockett, CA"
@@ -185,9 +185,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Median listing price per square foot",
-        "value": 428,
+        "value": 397,
         "unitText": "USD",
-        "observationDate": "2026-09",
+        "observationDate": "2026-10",
         "observationAbout": {
           "@type": "Place",
           "name": "Crockett, Crockett, CA"
@@ -196,9 +196,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "30 year fixed mortgage rate average",
-        "value": 7.24,
+        "value": 7.11,
         "unitText": "PERCENT",
-        "observationDate": "2026-10-29",
+        "observationDate": "2026-11-12",
         "observationAbout": {
           "@type": "Place",
           "name": "Crockett, Crockett, CA"
@@ -229,9 +229,9 @@
       {
         "@type": "Observation",
         "measuredProperty": "Monthly cost of owning the typical home",
-        "value": 6440,
+        "value": 6384,
         "unitText": "USD",
-        "observationDate": "2026-10",
+        "observationDate": "2026-11",
         "observationAbout": {
           "@type": "Place",
           "name": "Crockett, Crockett, CA"
@@ -248,7 +248,7 @@
         "name": "How much is a home in Crockett?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The typical home value in Crockett is $659,046 as of 2026-09-30, up 0.31 percent from the month before and down 1.2 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Crockett is $775,950. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
+          "text": "The typical home value in Crockett is $659,046 as of 2026-09-30, up 0.31 percent from the month before and down 1.2 percent over the year. That is the Zillow Home Value Index. It estimates the typical value of every home in the area, listed or not. The median asking price of what is actually on the market in Crockett is $709,950. Those two numbers measure different populations and they do not have to agree. For one specific house instead of the typical one, that is a comparable sales analysis, and it is a different exercise than reading an index."
         }
       },
       {
@@ -264,7 +264,7 @@
         "name": "Is Crockett expensive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Against the rest of Crockett, yes. Crockett ranks null of null neighborhoods by typical value, and at $659,046 it sits 0 percent above the citywide typical value of $659,046. The monthly number is the one I would focus on: owning the typical home here runs about $6,440 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
+          "text": "Against the rest of Crockett, yes. Crockett ranks null of null neighborhoods by typical value, and at $659,046 it sits 0 percent above the citywide typical value of $659,046. The monthly number is the one I would focus on: owning the typical home here runs about $6,384 a month once you include the loan, property tax, insurance, utilities and a maintenance budget. The full breakdown is in the cost of holding section above."
         }
       },
       {
@@ -312,7 +312,7 @@
         "name": "Is the Crockett housing market slowing down?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Crockett is up 0.31 percent month over month and down 1.2 percent year over year. Meanwhile in Crockett, the median asking price is up 3.7 percent year over year, price per square foot is down 4.5 percent, active listings are up 16.7 percent month over month, and median days on market is down 8.8 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
+          "text": "I would rather give you the two numbers that disagree than a verdict. Typical home value in Crockett is up 0.31 percent month over month and down 1.2 percent year over year. Meanwhile in Crockett, the median asking price is down 4.8 percent year over year, price per square foot is down 18.3 percent, active listings are down 28.6 percent month over month, and median days on market is up 27.4 percent. More supply and a slower pace sitting alongside a higher typical value is a composition effect, not a contradiction. Anyone giving you a one-word answer about a market this specific is not looking at it closely."
         }
       },
       {
@@ -328,7 +328,7 @@
         "name": "How many homes are for sale in Crockett?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Crockett as of 2026-09 there were 7 active listings, up 16.7 percent from the prior month and down 22.2 percent from a year earlier. That month saw 4 new that month and 2 pending. Median days on market was 34."
+          "text": "In Crockett as of 2026-10 there were 5 active listings, down 28.6 percent from the prior month and down 23.1 percent from a year earlier. That month saw 0 new that month and 3 pending. Median days on market was 43."
         }
       },
       {
@@ -344,7 +344,7 @@
         "name": "What is it like living in Crockett?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $659,046, the monthly carry is around $6,440. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-09 for listing activity, not whenever the page happened to be written."
+          "text": "The section near the top of this report covers what is actually here: the streets, the transit, the commercial strip and the housing stock. On the money side, typical value is $659,046, the monthly carry is around $6,384. I rebuild this report every month, so the figures are current to 2026-09-30 for value and 2026-10 for listing activity, not whenever the page happened to be written."
         }
       }
     ]
